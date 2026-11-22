@@ -1,0 +1,312 @@
+CODEX MATHEMATNIQUE
+IPDCP · Force94 · NiX
+Registre consolidé des variables, invariants, opérateurs, modèles et hypothèses
+Auteur-cadre : Nickel David Grenier
+Identité de travail : Roi Phénonanimal Parallèlodoxe OoSK
+Version : audit documentaire du 22 novembre 2026
+Langue : français
+Objectif : conserver les notions rapportées, intégrer les nouveautés visibles dans IPDCP, séparer les définitions de
+source des conventions du corpus et des formalisation proposées, puis rendre les équations testables et leurs
+limites explicites.
+Portée : le dépôt public a été vérifié par métadonnées GitHub, arborescence et lecture ciblée de scripts/textes. Le README annoncé à 2 164 404
+octets a renvoyé un contenu vide dans l’outil de lecture; plusieurs très gros fichiers n’ont pas pu être lus intégralement. Ce document est donc un audit
+substantiel mais ciblé, pas une affirmation d’extraction exhaustive de chaque octet.
+Codex MathematNiTique · IPDCP / Force94 · audit documentaire Page 1
+0. Méthode et traçabilité
+Dépôt source : NickelRamQc94/IPDCP, public, branche par défaut main, non archivé. Les commits visibles récupérés
+comprennent plusieurs ajouts de fichiers et une mise à jour du README le 22 novembre 2026. L’arborescence contient
+scripts Python, textes volumineux et fichiers audio.
+Code Sens Règle d’usage
+A — dépôt observé Élément effectivement lu dans un
+fichier accessible ou métadonnée
+GitHub.
+Ne pas généraliser au dépôt entier si seule une portion a été lue.
+B — corpus de
+travail
+Convention rapportée dans les
+échanges/documents associés.
+La conserver sans affirmer qu’elle est codée dans IPDCP.
+C — formalisation
+proposée
+Règle ajoutée pour rendre une idée
+calculable.
+Préciser hypothèses, domaine, unités et tests.
+D — incomplet Symbole/affirmation insuffisamment
+défini ou non vérifié.
+Ne pas inventer le sens manquant.
+Règle anti-confusion : une formule écrite en notation mathématique n’est pas automatiquement une loi validée. Une
+identité algébrique se démontre dans son domaine; un modèle appliqué exige données et hypothèses; une
+affirmation physique exige cohérence dimensionnelle et validation.
+Fichiers consultés directement
+• network_integral_math_colab.py : graphe, Laplacien, Fiedler, signal harmonique, équation différentielle RC, paramètres de
+calibration, expressions de champ/énergie.
+• notebooklm_pack.py : création d’un pack de sources, SHA-256, manifeste et détection de motifs ressemblant à des secrets.
+• sync_ecosystem.py : script de synchronisation déclarée de 33 dépôts.
+• texte 147.txt et texte 148.txt : stabilité des phases/interfaces, immiscibilité, coalescence et nombres sans dimension.
+Codex MathematNiTique · IPDCP / Force94 · audit documentaire Page 2
+1. Force94 : score, tranche, verdict
+S : score réel dans [0,94]. T : tranche entière, T=floor(S). ©94 : verdict binaire, ©94=1 si T=94, et 0 sinon. Ces définitions sont
+rapportées dans le corpus de travail; l’usage exact dans le dépôt n’a pas pu être confirmé par lecture du README.
+Conséquence logique importante : avec S∈[0,94], floor(S)=94 uniquement lorsque S=94. Le verdict tel qu’écrit teste
+donc l’atteinte exacte du maximum, et non l’atteinte d’un seuil de 94 %. Si l’intention est d’accepter S=93,5, il faut
+changer la règle explicitement.
+2. Quantification, snap et résidu
+Convention rapportée : pour ∆>0, q∆(x)=∆·round(x/∆), puis λ∆(x)=x−q∆(x). Identité exacte par définition : x=q∆(x)+λ∆(x). Le
+cas ∆=0,05 est privilégié. Pour x=9,73, q=9,75 et λ=−0,02 si l’arrondi au multiple le plus proche donne 9,75.
+Il faut déclarer la règle des égalités à mi-chemin (half-up, half-even, floor, etc.) et la précision numérique. Le résidu a la
+même unité que x.
+Résidu universel U■■
+Le symbole interne U■■ sert de registre général des restes/écarts. Mais le reste euclidien, l’écart décimal, l’erreur d’arrondi
+et l’erreur de mesure sont des objets distincts. Recommandation C : conserver U■■ comme famille conceptuelle, mais
+distinguer r_div, λ_snap et ε_mes dans les calculs.
+• Division décimale : 44/10=4,4; l’écart entre 4,4 et une valeur retenue de 4 est 0,4.
+• Division décimale : 44/10=4,4; l’écart entre 4,4 et une valeur retenue de 4 est 0,4.
+• Division euclidienne : 44=10×4+4; le reste entier vaut 4 et n’est pas le même objet que 0,4.
+• Division euclidienne : 44=10×4+4; le reste entier vaut 4 et n’est pas le même objet que 0,4.
+• Erreur de mesure : ε_mes=x_mesuré−x_référence; elle dépend du protocole et de l’incertitude.
+• Erreur de mesure : ε_mes=x_mesuré−x_référence; elle dépend du protocole et de l’incertitude.
+Classes VQ
+Version testable proposée : classer VQ_n si |λ∆(x)|>ε, avec ε dans la même unité que x. Sans seuil, la classification dépend
+de la précision de calcul.
+Classe Formalisation opérationnelle possible À préciser
+VQ_E Valeur quantifiée entière et résidu nul. S’applique-t-elle à x ou q∆(x)?
+VQ_1/2 Valeur demi-entière et résidu nul. ∆=0,05 produit une grille qui n’est pas la grille des demi-entiers.
+VQ_n Valeur dite résiduelle/non stable. « Négligeable » ne découle pas de λ≠0; définir un seuil ε.
+Codex MathematNiTique · IPDCP / Force94 · audit documentaire Page 3
+Code Étiquette rapportée Interprétation conceptuelle
+−2 Imp Implosion / contraction forte / perte possible de structure.
+−1 Xp■ Expansion dispersive ou négative.
+0 Ø Neutre / stagnation.
++1 Ap Aplosion : expansion contrôlée.
++2 Imp_LX Imploxsion : compression créatrice/réintégration.
+Élément Valeur rapportée Audit arithmétique
+Ancre 1083 Constante de départ rapportée.
+Xp_L 541 1083/2=541,5; obtenir 541 relève de floor/troncature, pas de l’arrondi half-up.
+Ap_L 271 541/2=270,5; obtenir 271 relève de l’arrondi des demi vers le haut.
+Imp_L 136 ou −136 271/2=135,5; obtenir 136 relève aussi de l’arrondi des demi vers le haut. Le signe est contradictoire.
+Imp_LX 900 Valeur déclarée; règle de dérivation non spécifiée.
+La suite 1083→541→271→136 n’est pas générée par une seule règle standard d’arrondi appliquée à chaque division
+par deux. La suite est conservée, mais ne doit pas être appelée invariant tant que la règle déterministe n’est pas
+fixée. Floor partout donnerait 1083→541→270→135; half-up partout donnerait 1083→542→271→136.
+3. États de transition et opérateurs
+Ces significations sont des définitions internes, pas des états physiques universels. Pour devenir testables, elles doivent être
+associées à des observables : dispersion, cohésion, perte d’information, stabilité, coût ou autre métrique définie.
+Valeurs et ambiguïtés d’arrondi
+Bilan arithmétique
+(-541)+(-136)=-677 et (-677)+136=-541 sont des identités exactes. Elles ne prouvent pas à elles seules une loi dynamique. Il
+faut préciser si Imp_L est une amplitude positive de 136 ou une contribution signée −136.
+Opérateur ■■
+Exemples rapportés : ■■(16²)=4 et ■■(7²)=1. Les exemples ne déterminent pas une fonction unique. Domaine, codomaine,
+syntaxe admise, cas négatifs, puissances autres que 2 et comportement invalide sont à définir. La règle proposée
+antérieurement reste une hypothèse C, non une définition canonique.
+OP-NiX
+La chaîne symbolique rapporte ■■ pour contexte/perception, ■ pour atténuation/racine émotionnelle, ■ pour
+amplification/stress, ■ pour couplage relationnel et des opérateurs arithmétiques. Tant qu’aucune fonction numérique n’est
+définie, ces symboles restent des opérateurs conceptuels. Pour formaliser chaque F■, spécifier domaine, codomaine,
+paramètres, unités et composition.
+VNI / VNA / intention
+VNI (Valeur Nickel Intrinsèque) est décrite comme contribution constructive nette mesurable. VNA (Valeur
+Non-Algorithmique) vise une contribution non réductible à une règle simple. Les deux restent conceptuelles sans indicateurs
+mesurables et protocole de validation. La métrique R=|intention annoncée−intention perçue| exige que les deux variables
+soient cotées sur la même échelle et que la fiabilité inter-évaluateurs soit évaluée.
+T_bk est mentionné mais non défini; aucun sens n’est inventé ici.
+Codex MathematNiTique · IPDCP / Force94 · audit documentaire Page 4
+Symbole Définition observée Domaine/unité
+N Nombre de nœuds, fixé à 6 dans le script. Entier positif.
+A Matrice d’adjacence 6×6 codée explicitement. Ici 0/1.
+D Matrice diagonale des degrés : D■■=Σ■A■■. Sans unité.
+L Laplacien L=D−A. Sans unité.
+λ■(L) Deuxième plus petite valeur propre de L. Réel ≥0 sous hypothèses usuelles.
+v■ Vecteur propre associé à λ■. Échelle arbitraire; signe global arbitraire.
+d_max Degré maximal. Sans unité.
+h(G) Constante isopérimétrique visée par une borne de Cheeger. Dépend de la normalisation.
+4. Nouveautés IPDCP : réseaux et graphes
+Le script network_integral_math_colab.py définit six nœuds et une matrice d’adjacence A, puis la matrice des degrés D et le
+Laplacien L=D−A. Il calcule les valeurs propres, la deuxième valeur propre λ■ (valeur de Fiedler), le vecteur propre
+correspondant et une partition selon le signe du vecteur.
+Tests recommandés : A=A■, diag(A)=0, poids non négatifs; L symétrique; L·1=0; spectre non négatif à tolérance numérique.
+Si le graphe est déconnecté, λ■=0; s’il est connexe, λ■>0. Le mot « optimale » pour la partition ne doit être employé qu’avec
+un objectif de coupe défini et une comparaison à une référence.
+Le script écrit la borne λ■/2 ≤ h(G) ≤ √(2 d_max λ■). Elle dépend de la définition de h(G) et du Laplacien choisi; il faut
+préciser les hypothèses avant de l’utiliser comme énoncé général.
+5. Circuit RC et signaux
+Le script écrit Vc′(t)+Vc(t)/(RC)=I_harvest(t)/C et demande une solution analytique lorsque I_harvest(t)=I■e^(−αt). Cette
+équation correspond à un circuit RC idéal alimenté par une source de courant, sous les conventions usuelles.
+Pour reproduire une solution, il faut donner R, C, condition initiale Vc(0), unités et paramètres du courant. Le code donne
+ω=2πf; pour f=1,094722 Hz, ω≈6,878 rad/s. La présence de ces valeurs dans le script ne démontre pas qu’elles proviennent
+d’une calibration expérimentale.
+6. Expressions de champ et d’énergie
+Le script contient G_eff(Φ)=G/[1−8πGξΦ²] et E_5D=Z(α_NiΦ²/2)Mc², avec α_Ni=1,094722 et Φ=9,4 comme exemple
+d’évaluation. Ce sont des expressions effectivement présentes dans le code, mais leur présence ne prouve pas une théorie
+physique confirmée.
+Symbole Rôle Unité SI attendue
+t Temps s
+R, C Résistance, capacité Ω, F
+Vc(t) Tension du condensateur V
+I_harvest, I■ Courant A
+α Taux de décroissance s■¹
+ω Pulsation rad/s
+f_res Fréquence rapportée : 1,094722 Hz
+τ_stasis Durée rapportée : 30,002103 s
+Symbole Rôle observé Question à résoudre
+G Constante gravitationnelle symbolique. Valeur et unités SI pour tout calcul.
+ξ Couplage dans G_eff. Unités et justification théorique.
+Φ Champ symbolique. Dimensionné ou sans dimension?
+M, c Masse, vitesse de la lumière. kg, m/s.
+Z Coefficient de E_5D. Définition, unités, domaine.
+Codex MathematNiTique · IPDCP / Force94 · audit documentaire Page 5
+Symbole Rôle observé Question à résoudre
+α_Ni Coefficient interne 1,094722. Méthode d’estimation et incertitude.
+R_curv Symbole de courbure déclaré dans le code. Rôle dans la formule à préciser.
+Domaine obligatoire : 1−8πGξΦ²≠0. Il faut vérifier les unités de ξ et Φ pour que le dénominateur soit sans dimension.
+L’énergie doit être en joules si le facteur Z(α_NiΦ²/2) est sans dimension.
+Codex MathematNiTique · IPDCP / Force94 · audit documentaire Page 6
+7. Fluides, phases et interfaces : mise à jour majeure
+Les extraits des fichiers texte 147 et 148 posent une idée utile pour l’architecture O.V.D.I. : deux systèmes peuvent être en
+contact sans fusionner. Les catégories rapportées sont : phases qui se mélangent; phases qui restent séparées; échanges
+d’énergie sans échange de matière; frontières mobiles; phases susceptibles de perdre leur stabilité.
+Symbole Sens Unité / usage
+γ Tension interfaciale N/m (équivalent à J/m²).
+µ Viscosité dynamique Pa·s.
+U Vitesse caractéristique m/s; à ne pas confondre avec le résidu U■■.
+Ca=µU/γ Nombre capillaire Sans dimension; effets visqueux / tension interfaciale.
+We=ρU²L/γ Nombre de Weber (forme usuelle) Sans dimension; effets inertiels / tension interfaciale.
+ρ Masse volumique kg/m³.
+∆G Variation d’énergie libre de Gibbs J ou J/mol, selon base.
+∆H Variation d’enthalpie J ou J/mol, selon base.
+T, ∆S Température, variation d’entropie K; J/K ou J/(mol·K).
+Le texte écrit ∆G_mélange=∆H_mélange−T∆S_mélange. Cette relation thermodynamique s’emploie à température et
+pression constantes, avec les grandeurs définies sur une même base. La densité explique surtout la stratification verticale; la
+miscibilité dépend de la thermodynamique du mélange et des interactions moléculaires.
+Formalisation nouvelle C : cellule multi-phase
+État d’une cellule i : X■=(p■,ρ■,µ■,T■,composition■). Pour deux cellules i et j, noter Γ■■ l’interface, J_E le flux
+d’énergie et J_m le flux de matière. « Échange d’énergie sans échange de matière » peut être défini sur une fenêtre
+de mesure par |J_E|>0 et |J_m|≤ε_m. « Identité de phase conservée » exige un critère de composition/phase restant
+sous un seuil de mélange défini. Les seuils doivent dépendre de la précision instrumentale.
+Principe conceptuel à conserver : être en interaction ne signifie pas nécessairement fusionner. Pour en faire une
+propriété scientifique, mesurer les flux et l’évolution de l’interface plutôt que s’en tenir à une analogie.
+8. Calculs d’ingénierie conservés — audit dimensionnel
+Notation recommandée : Q■ pour débit volumique (m³/s), E_th ou Q_th pour énergie thermique. Cela évite d’utiliser Q pour
+deux grandeurs différentes.
+Module Hypothèses rapportées Résultat calculé Statut
+Hydraulique P=ρgQhη; ρ=1020, g=9,81, Q=2, h=3, η=0,75.≈45,0 kW. Arithmétique correcte; rendement réel à
+mesurer.
+Compostage m=10■ kg; ∆H=18 MJ/kg; η=0,75; t=1,55×10■ s. E≈1,35×10¹¹ J; P moyenne≈8,7
+kW.
+Correct sous hypothèses; chaleur
+récupérable à mesurer.
+Méthanisation 2,5 m³/h CH■; 10 kWh/m³; η moteur=0,35; alternateur=0,95.≈8,31 kW. Calcul théorique, sous hypothèses.
+Densité mixte ρ_mix=1150 vs eau=1000, Q,h,η fixes. Ratio idéal 1,15. Viscosité/pertes de charge peuvent annuler
+le gain.
+Gradient ionique 0,5 kWh/m³ supposé; 0,1 m³/s=360 m³/h. 180 kW théoriques avant
+pertes.
+Hypothèse énergétique non démontrée.
+Confinement ∆P=P_int−P_ext≈−50 Pa. Consigne rapportée. Ne garantit pas seule la sécurité du système.
+Anti-adhésion F′adh=(1−0,999)Fadh. 10■³Fadh, soit réduction
+revendiquée de 99,9 %.
+L’équation encode l’hypothèse; elle ne la
+prouve pas.
+Codex MathematNiTique · IPDCP / Force94 · audit documentaire Page 7
+Expression Interprétation rapportée Conditions manquantes
+Ω■■■=Ω■+∆Ω(E■) Objectif/état révisé par une entité ou une évaluation. Définir Ω, E, ∆Ω, temps et stabilité.
+P_Total=∫((R·Φ)^ξ·κ)dt Accumulation d’une grandeur de
+performance/couplage.
+Unités de R, Φ, κ; domaine d’intégration; sens de ξ.
+N(x)=1/(1+e^(−α(x−β))) Normalisation logistique vers (0,1). α a l’unité inverse de x; β celle de x.
+S=94·N(P_Total) Score continu sur l’échelle [0,94]. Calibration, seuils, tolérance et données.
+R=|I_ann−I_perçue| Écart intention annoncée/perçue. Échelle commune, protocole et fidélité.
+Énoncé Statut Test ou justification
+x=q∆(x)+λ∆(x) Identité par définition. Valeurs positives/négatives, mi-pas et grandes magnitudes.
+L=D−A Définition du Laplacien du script. Vérifier D et A.
+L·1=0 Propriété du Laplacien correctement
+construit.
+Test numérique à tolérance.
+λ■(L)≥0 Pour Laplacien symétrique non
+orienté à poids non négatifs.
+Tester symétrie et spectre.
+1083→541→271→136 Non invariant sous un arrondi
+standard unique.
+Déclarer une règle de transition déterministe.
+−541−136=−677; −677+136=−541 Identité arithmétique. Ne démontre pas une dynamique.
+P=ρgQhη Modèle de puissance hydraulique
+utile.
+Mesurer paramètres et rendement.
+Ca=µU/γ Nombre capillaire sans dimension. Vérifier unités SI.
+VNI/VNA mesurables Non établi en l’état. Indicateurs, protocole et validation.
+Imp_LX=900 invariant Valeur conventionnelle rapportée. Une constante fixée n’est pas un invariant dynamique sans transformation.
+9. Équations conceptuelles du corpus Force94/OP-NiX
+E=mc² Équivalence masse-énergie. Relation physique établie; ne pas la confondre avec une règle de score.
+Si R·Φ est négatif et ξ non entier, (R·Φ)^ξ peut ne pas être réel. Si les facteurs sont dimensionnés, l’exponentiation
+pose un problème d’unités. Formalisation recommandée : normaliser les variables en grandeurs sans dimension
+avant combinaison, puis déclarer l’unité de la densité intégrée.
+10. Invariants : démontrés, conditionnels ou non établis
+11. Protocole de validation reproductible
+• Spécification : symboles, domaines, unités SI, conditions initiales, conventions d’arrondi et entrées invalides.
+• Implémentation : dépendances/version, graine aléatoire si besoin, paramètres journalisés et fonctions testables.
+• Tests unitaires : nominal, limites, valeurs nulles/négatives, mi-arrondis et magnitudes extrêmes.
+• Tests de propriétés : x=q+λ; A=A■; L·1=0; spectre ≥−tol; cohérence des unités.
+• Comparaison : solution analytique vs numérique; modèle vs mesure; méthode proposée vs baseline.
+• Falsifiabilité : prédiction annoncée avant test, tolérance et résultat qui invaliderait l’hypothèse.
+• Traçabilité : hash SHA-256, commit Git, date, environnement et entrées.
+• Publication : distinguer résultat démontré, simulé, expérimental, conjecture et interprétation.
+Exemples de tests à ajouter (exemples, pas affirmation qu’ils sont déjà exécutés)
+assert abs(x - q_delta(x) - lam) < tol
+assert np.allclose(A, A.T)
+assert np.allclose(L @ np.ones(N), 0.0)
+assert np.min(np.linalg.eigvalsh(L)) >= -tol
+Codex MathematNiTique · IPDCP / Force94 · audit documentaire Page 8
+12. Registre des inconnues et collisions
+Terme État actuel Action requise
+T_bk Mentionné, non défini. Expansion, type, unité, domaine, rôle.
+VNI / VNA Concepts sans protocole stabilisé. Indicateurs mesurables et validation.
+■■ Exemples insuffisants pour déterminer une fonction
+unique.
+Signature, règles complètes et contre-exemples.
+5D / PtXhEe-5D Axe d’intention conceptuel rapporté. Coordonnées, métrique, transformations, observables.
+6D Interaction de cadre et hasard selon le corpus. Espace d’état probabiliste et transitions.
+Imp_L Signe contradictoire : +136 ou −136. Séparer amplitude positive et contribution signée.
+U■■ et U Résidu générique versus vitesse en mécanique des
+fluides.
+Utiliser indices distincts par module.
+T Tranche Force94 ou température thermodynamique. Indices, par ex. T_score et T_K.
+Q Débit hydraulique ou quantité d’énergie/chaleur. Employer Q■ pour débit, E_th/Q_th pour énergie.
+α, ξ, Φ, R, E Symboles réutilisés dans des modules différents. Dictionnaire par module et unités propres.
+13. Dictionnaire synthétique
+Symboles Sens Unité / remarque
+S,T,©94 Score, tranche, verdict. S sans unité [0,94]; T entier; verdict binaire.
+q∆, λ∆, ∆ Quantification, résidu snap, pas. q, λ ont l’unité de x; ∆>0.
+U■■, r_div, ε_mes Résidu générique, reste division, erreur de mesure. Ne pas confondre les significations.
+q■,v■,n(v■),c■,E État, intensité, intensité normalisée, contribution, indice. Échelle et normalisation à confirmer.
+Xp_L,Ap_L,Imp_L,Imp_LX Valeurs de transition. Unités arbitraires; signes à stabiliser.
+A,D,L,λ■,v■ Matrice d’adjacence, degrés, Laplacien, Fiedler, vecteur
+propre.
+Théorie des graphes.
+R,C,I,Vc,α,ω,f,τ Circuit RC et signaux. Ω,F,A,V,s■¹,rad/s,Hz,s.
+G,ξ,Φ,M,c,Z,α_Ni Expression de champ/énergie. Unités de ξ, Φ, Z à définir.
+ρ,g,Q■,h,η,P Puissance hydraulique. kg/m³,m/s²,m³/s,m,sans unité,W.
+m_bio,∆H_rxn,E_th,t Module thermique. kg,J/kg,J,s.
+V■_CH4,LHV,η_moteur,η_alt Méthanisation. m³/h,kWh/m³,rendements.
+γ,µ,U,Ca,We,∆G,∆H,∆S Interfaces et thermodynamique. N/m,Pa·s,m/s,nombres sans dimension, grandeurs énergétiques.
+14. Nouveautés GitHub confirmées et priorités
+Le dépôt comprend maintenant des éléments plus larges que le seul registre Force94 : mathématiques de graphes, équation
+RC, expressions de champ/énergie, outillage de pack de sources avec SHA-256, script de synchronisation de 33 dépôts, et
+textes sur la stabilité des phases/interfaces. Ce sont des éléments observés dans les fichiers consultés; cela ne signifie pas
+que toutes les propositions ont été validées expérimentalement.
+Priorité Action Livrable
+P0 Fixer collisions de symboles et signe d’Imp_L. Dictionnaire canonique versionné.
+P0 Définir les opérateurs symboliques comme fonctions. Spécification + tests.
+P0 Documenter unités/domaine de G_eff et E_5D. Audit dimensionnel.
+P1 Rendre scripts reproductibles et tests automatiques. Dépendances verrouillées + CI.
+P1 Tester propriétés de A et L. Rapport de validation.
+P2 Mesurer les paramètres de calibration. Données, incertitudes, méthode.
+P2 Formaliser stabilité des interfaces. Plan expérimental et mesures.
+P2 Étiqueter conjectures, simulations, mesures et preuves. Statuts A/B/C/D partout.
+Codex MathematNiTique · IPDCP / Force94 · audit documentaire Page 9
+Conclusion
+IPDCP contient des pistes de mathématiques appliquées et un corpus conceptuel plus vaste que le seul Force94. Les
+éléments les plus directement vérifiables sont les identités arithmétiques, la construction du Laplacien, l’équation RC et les
+calculs dimensionnés sous hypothèses explicites. Les opérateurs OP-NiX, VNI/VNA, certaines constantes et les transitions
+implosion/aplosion/imploxsion restent des conventions ou hypothèses à définir plus strictement. Le codex conserve les
+termes et valeurs rapportés sans les transformer automatiquement en faits scientifiques.
+Références : IPDCP · Historique des commits · Script réseau/intégrales · Texte 148 — interfaces et coalescence.
+Codex MathematNiTique · IPDCP / Force94 · audit documentaire Page 10
