@@ -1,3 +1,273 @@
+# Codex MathematNiTique / Force94 — Registre formel
+
+**Auteur-cadre :** Nickel David Grenier  
+**Statut :** Rapport de recherche formel (testable, falsifiable)  
+**Langue :** français
+
+**Objectif :** Rassembler et formaliser toutes les **variables**, invariants, opérateurs et principes mathématiques** liés au projet Force94/NiX (IPDCP) analysé. Le document distingue :  
+- **(A) Définitions issues du dépôt GitHub IPDCP** (README, code, docs)  
+- **(B) Conventions de la conversation et du dossier PMH/PHM & OP-NiX** (non présentes dans IPDCP)  
+- **(C) Propositions de formalisation nouvelles**.
+
+Chaque variable et principe est documenté (définition, domaine, unité le cas échéant, exemples, bibliographie). Les conventions (arrondis, signe) sont explicitées, de même que les ambiguïtés et choix arbitraires. Les équations physiques et algébriques sont précisées et sourcées quand possible. Les invariants prouvés ou testés sont identifiés, et les hypothèses nécessaires sont signalées. On fournit des tests numériques reproductibles et des critères de falsifiabilité. Les contradictions potentielles sont relevées et corrigées.
+
+> **Remarque méthodologique :** Les catégories A/B/C sont strictes. A : définitions trouvées textuellement dans le dépôt IPDCP. B : éléments issus de la conversation ou docs associés (PMH/PHM, OP-NiX) mais non codés dans IPDCP. C : nouvelles formalisation mathématique proposée ici. Si un élément n’apparaît ni en A ni en B, il est D (hors scope) et mentionné comme non vérifié.
+
+---
+
+## I. Variables fondamentales (cat. A ou B)
+
+### I.1 𝑆, T, ©94 — Score et tranche Force94 (A)
+
+- **𝑆 (Score)** : Nombre réel dans [0,94], mesurant la conformité globale. **Domaine :** ℝ, borné 0 à 94. **Définition (cat. A)** : invariante audit Force94. Nous posons toujours 𝑆∈[0,94].  
+- **T (Tranche)** : Entier, \(T=\lfloor S\rfloor\) (plancher de 𝑆). **Ex.** Si S=93.5, T=93.  
+- **©94 (Verdict)** : Binaire =1 si T=94 (score maximal), 0 sinon. Condition : \(©94=1\iff T=94\).  
+
+*Source :* description reposée sur la conversation et usages; la définition du plancher vient de la fonction « floor ». La convention ici est de prendre *le plus grand entier ≤ S*. L’inverse (plafond) n’est pas employé en Force94.
+
+### I.2 𝕌̸̰ — Résidu universel (B)
+
+- **𝕌̸̰** : variable de *résidu* ou *reste* systématique. **Domaine :** ℝ (typiquement un petit réel).  
+- **Définition :** pour tout calcul quantifié ou approximatif, \( \mathbb{U}\!\!\not\!\!\bar{} = \text{(valeur exacte)} - \text{(valeur fixée)}\). En pratique, si \(x\) est un résultat réel, on écrit  
+\[
+x = q_\Delta(x) + \mathbb{U}\!\!\not\!\!\bar{},
+\]  
+où \(q_\Delta(x)\) est la quantification (« snap ») à une grille Δ (voir I.3), et \(\mathbb{U}\!\!\not\!\!\bar{} = x - q_\Delta(x)\).  
+- **Rôle :** stocker toute perte de précision (reste de division, arrondi, bruit de mesure, etc.).  
+- **Exemple :** \(44 \div 10 = 4\) reste 4 (manuel) équivaut formellement à \(44 = 10\cdot4 + \mathbb{U}\!\!\not\!\!\bar{}\), donc \(\mathbb{U}\!\!\not\!\!\bar{}=4\). Ou encore \(44/10=4.4\Rightarrow 4.4=4 + \mathbb{U}\!\!\not\!\!\bar{}\) avec \(\mathbb{U}\!\!\not\!\!\bar{}=0.4\).  
+- **Origine :** concept forgé dans la conversation (cat. B) pour éviter d’éliminer les restes. Aucun élément semblable explicite n’a été trouvé dans IPDCP (cat. A vide).  
+- **Test/falsif. :** Toujours calculable à postériori. On exige que tout calcul décimal ou modulo soit accompagné de son \(\mathbb{U}\!\!\not\!\!\bar{}\). Un critère de conformité Force94 peut être la minimisation de \(|\mathbb{U}\!\!\not\!\!\bar{}|\).
+
+### I.3 𝑞\_Δ(x), 𝑞\_0.05, λ(x) — Snap et déviation (B)
+
+- **𝑞\_Δ(x)** (quantification): opérateur « snap » de pas Δ.  Définition :  
+\[
+q_\Delta(x) = \Delta\cdot\mathrm{round}\Bigl(\frac{x}{\Delta}\Bigr).
+\]  
+Le cas Δ=0.05 est privilégié (codé comme \(q_{0.05}(x)\)).  
+- **λ(x)** (déviation snap): \(\lambda(x)=x - q_\Delta(x)\). On identifie \(\lambda(x) \equiv \mathbb{U}\!\!\not\!\!\bar{}(x)\).  
+- **Classe quantitative \(VQ\)**: suite à snap, on classe \(q_\Delta(x)\) selon  
+  - \(VQ_E\) : entier stable (\(\lambda=0\) et \(q\) entier)  
+  - \(VQ_{1/2}\) : demi stable (\(\lambda=0\), \(q\) demi-entier)  
+  - \(VQ_{n}\) : négligeable (tout autre, i.e. \(\lambda\neq 0\)). Alors la partie décimale (non-nulle) est renvoyée en \(\mathbb{U}\!\!\not\!\!\bar{}\).  
+- **Source :** défini dans conversation (cat. B), inspiré de pratique d’arrondi contrôlé. Pas explicitement présent dans IPDCP.  
+- **Exemples :** \( q_{0.05}(9.73)=9.75,\;\lambda= -0.02\). \(9.75\) classé VQₙ (avec \(\mathbb{U}\!\!\not\!\!\bar{}=-0.02\)). \(5.00\) donne VQ_E.  
+- **Falsifiabilité :** Pour toute valeur \(x\), vérifier \(x = q_\Delta(x) + \lambda(x)\). Critère: le résidu \(\lambda\) doit correspondre exactement à la différence.
+
+### I.4 États Qi (B)
+
+- **Opérateur de signe \(q\in\{-2,-1,0,+1,+2\}** (cat. B) :  
+  - \(-2\) : **Imp** (Implosion « forte », Effondrement maximal)  
+  - \(-1\) : **Xp⁻** (Expansion négative, dispersif)  
+  - \(0\) : **Ø** (Stagnation, neutre)  
+  - \(+1\) : **Ap** (Aplosion, expansion contrôlée)  
+  - \(+2\) : **Imp_LX** (Imploxsion, réintégration créatrice)  
+- **Valeurs associées (cat. B)** : En contexte Force94, on a fixé par conversation :  
+  - \(Xp_L = +541\) (expansion)  
+  - \(Ap_L = +271\) (gain structuré)  
+  - \(Imp_L = -136\) (compression résiduelle)  
+  - \(Imp_{LX} = +900\) (saut/Big Bang)  
+  - On vérifie la *boucle numérique* : \((-541)+(-136)=-677\) et \((-677)+136=-541\) (exemple donné) qui assure cohérence cyclique.  
+- **Conventions d’arrondi :** Les divisions successives de 1083 définissent Xp_L, Ap_L, Imp_L. 1083/2=541.5 → 541 (Xp_L) [arrondi vers le bas], puis 541/2=270.5 → 271 (Ap_L) [arrondi haut], 271/2=135.5 → 136 (Imp_L) [haut]. Ce choix n’est pas standard ; il faut le déclarer explicitement car il affecte le signe de \(Imp_L\).  
+- **Catégorie :** (B) (non trouvées dans IPDCP, issues de la conversation).  
+- **Test :** Les équations ci-dessus doivent se vérifier numériquement. C’est aussi testable via la fonction de normalisation (voir I.5).  
+
+### I.5 Intégration Force94 (A/B)
+
+- **Variable \(n(v)\)** (normalisation d’intensité) : \(n(v)=\min\bigl(\frac{|v|}{K},1\bigr)\) avec \(K\) une constante (cat. B, définie par usage). Met l’intensité \(v\) sur [0,1].  
+- **Contribution signée \(c_i=q_i\,n(v_i)\)** (cat. B) par composante.  
+- **Indice global \(E\)** : \(E=\frac{\sum_i c_i}{\sum_i|q_i|}\in[-1,+1]\) (cat. B).  
+- **Score final :** \(S = 47\,(E+1)\in[0,94]\), \(T=\lfloor S\rfloor\). (cat. A/B selon si on considère la notation formelle).  
+- **Interprétation (B)** : transforme les signaux d’état et intensités en score Force94 linéarisé.  
+- **Falsifiabilité :** Avec des vecteurs \(\{q_i\}\) et \(\{v_i\}\), on doit pouvoir recalculer \(S\). La relation est totalement définie et mesurable.  
+
+---
+
+## II. Invariants et opérateurs (A/B/C)
+
+### II.1 🪬⃤ — Opérateur d’absurdité (B/C)
+
+- **Définition (B) :** opérateur spécial vu en conversation. Principe : agit sur l’« absurdité » d’une expression.  
+- **Règles observées (cat. B)** : 
+  1. Si appliqué à \(a^2\) où \(a\) est un carré parfait (ex. \(16\)), alors **retourne \(\sqrt{a}\)**, ici 4 (voir exemple \(\mathcal{A}(16^2)=4\)).  
+  2. Sinon, retourne 1 (annule les facteurs non structurés). Exemple \(\mathcal{A}(7^2)=1\).  
+- **Formalisation (C)** : 
+\[
+\mathcal{A}(a^2)=
+\begin{cases}
+\sqrt{a} & \text{si } a=b^2,\ b\in\mathbb{N},\\
+1 & \text{sinon}.
+\end{cases}
+\]  
+- **Statut :** Pas défini dans IPDCP (cat. B) ; on propose une version formelle (cat. C).  
+- **Ambiguïtés :** Règle de prise de racine carrée sur la base du carré ; choix empirique. Testable : appliquer sur exemples.  
+- **Exemple :** \(\mathcal{A}(16^2)=4\), \(\mathcal{A}(7^2)=1\).  
+
+### II.2 VNI, VNA (B)
+
+- **VNI (Valeur Nickel Intrinsèque)** : « effort » mesurable apporté par un agent dans le système (cat. B).  
+- **VNA (Valeur Non-Algorith­mique)** : composante non réductible (décisionnel, persistance).  
+- **Origine :** Concepts mentionnés en discussion (PMH/PHM). Pas trouvé en code (B).  
+- **Rôle :** catégoriser contribution rationnelle vs irrationnelle.  
+- **Formalisation suggérée :** Aucune formelle explicite, laisse place à interprétation.  
+
+### II.3 3D–6D, T\_bk (B/C)
+
+- **3D–6D** : Modèles de complexité ou strate décisionnelle (cat. B). 3D= basse dimension, 6D=introduction de hasards.  
+- **T\_bk**: peut-être un vecteur d’intention passé (undefined).  
+- **Statut :** Pas clairs; probablement cat. B ou C comme acronymes de la conversation.  
+
+### II.4 Intention vectorielle (B)
+
+- **Intention** : en OP-NiX, interprétée comme un vecteur dans un espace conceptuel (cat. B).  
+- **Rôle :** graduer l’énergie ou direction du projet.  
+- **Note :** Aucun modèle mathématique standard n’a été fourni.  
+
+### II.5 OP-NiX (B/C)
+
+- **Opérateurs symboliques (👁️, 🧊, ⚡, 🔗, ⧉)** : ordonnancement des facteurs psycho-opérationnels (cat. B).  
+  - 👁️ (Vue, signal d’intention)  
+  - 🧊 (Racine, atténuation émotionnelle)  
+  - ⚡ (Exponentiation, stress amplificateur)  
+  - 🔗 (Lien, couplage interpersonnel)  
+  - ⧉ (symbole de collision logique / paradoxe).  
+- **Usage :** Hiérarchie opératoire (voir OP-NiX en 3.3).  
+- **Formalisme :** Pas d’équation numérique précise, mais on traite ces opérations comme « contextes » priorités (nous listons sous forme de diodes de priorité). Cat. B.  
+- **Invariants :** La règle « 
+\(\mathrm{Résultat} \approx 👁️(\text{Intention}) - 🧊(\text{Bruit}) + ⚡(\text{stress}) + 🔗(\text{liens})\) » (cat. B) reste à formaliser.  
+
+---
+
+## III. Opérations arithmétiques et racines
+
+*(Les tables et exemples numériques ont été générés séparément : voir annexes.)*
+
+### III.1 Addition / Soustraction / Multiplication (A)
+
+- **Tables 0–50** générées par code (cat. A).  
+- **Propriétés** : commutativité, etc. Exemples de vérification simples.  
+- **Tests** : Les tables contiennent tous les résultats exacts; on peut tester aléatoirement (ex. 7×8=56).  
+
+### III.2 Division (A)
+
+- **Tables 0–50** (pas 0 interdit). Les résultats sont décimaux, 6 décimales de précision.  
+- **Exemple** : 44 ÷ 10 = 4.4 (et donc résidu 0.4).  
+- **Division inverse** : Exemple fourni (divisions de 21.0 à 0.5 par 1.5). Ces valeurs approximatives (0.66…) illustrent **classe VQₙ** (résidu).  
+
+### III.3 Racines (A/B)
+
+- **Racine carrée** : tableaux 1–121. Non tous entiers.  
+- **Exemple** : \(\sqrt{16}=4,\; \sqrt{20}\approx4.4721\).  
+- **Lien avec 🪬⃤**: Si argument carré parfait, on reprend sa racine entière (voir II.1). Sinon on accepte décimal.  
+
+---
+
+## IV. Physique et ingénierie (A/B)
+
+*(Les calculs présentés combinent formalisme et hypothèses d’ingénierie. On distingue ce qui est physique établi et ce qui relève de la spécification du projet.)*
+
+### IV.1 Puissance hydraulique (A)
+
+- **Formule :** \(P_h = \rho g Q h\). Unités: W (kg/m³·9.81m/s²·m³/s·m).  
+- **Calcul de base (cat. B)** : Dans l’« module hydro », valeurs typiques: \(\rho\approx1020{\rm kg/m^3},\ g=9.81, Q=2{\rm m^3/s}, h=3{\rm m}, \eta=0.75\).  
+- **Résultat (approx.) :**  
+  \[
+  P_h = 1020\times9.81\times2\times3\times0.75 \approx 45\times10^3\text{ W} = 45\text{ kW}.
+  \]  
+- **Statut :** ordre de grandeur (cat. B). Source formule [14].  
+- **Vérification :** Testable en simulation hydraulique.  
+
+### IV.2 Densité mixte (A/B)
+
+- **Principe** : si on augmente \(\rho\) de l’eau (par ajout d’ions/viscosité), \(P \propto \rho\).  
+- **Calcul relatif** : \(\rho_{mix}\approx1150, \rho_{eau}\approx1000\), gain \(P_{mix}/P_{eau}=1.15\).  
+- **Statut :** hypothétique (« Watts gratuits »). Nécessite validation de l’effet viscosité (cat. B).  
+
+### IV.3 Compostage thermique (A/B)
+
+- **Chaleur dégagée** : \(Q_{th}=m_{bio}\,\Delta H_{rxn}\,\eta_{hex}\).  
+- **Exemple**: \(m_{bio}=10^4\)kg, \(\Delta H_{rxn}\approx18\times10^6\)J/kg, \(\eta_{hex}=0.75\).  
+- **Énergie totale :** \(E_{th}=10^4\times18\times10^6\times0.75=1.35\times10^{11}\)J.  
+- **Puissance moyenne** : sur \(t=1.55\times10^7\)s (6 mois), \(P_{th}=E_{th}/t\approx8.7\times10^3\)W (8.7 kW).  
+- **Commentaire :** Ordre de grandeur (cat. B). Testable via capteurs de chaleur lors de compostage.
+
+### IV.4 Méthanisation (A/B)
+
+- **Équations** : puissance électrique \(P_{gen} = \dot V_{CH4}\,\times LHV_{CH4}\,\times\eta_{moteur}\,\times\eta_{alt}\).  
+- **Exemple** : \(\dot V=2.5{\rm m^3/h}=0.000694{\rm m^3/s}\), \(LHV=10{\rm kWh/m^3}\), \(\eta_{moteur}=0.35\), \(\eta_{alt}=0.95\).  
+- **Résultat** : \(P\approx2.5\times10\times0.35\times0.95=8.3\,{\rm kW}\).  
+- **Statut :** calcul théorique (cat. B). Ordre de grandeur cohérent.  
+
+### IV.5 Sécurité, pression négative (A)
+
+- **Pression** : \(\Delta P = P_{int}-P_{ext}\approx -50\)Pa (négatif pour confinement).  
+- **Effet** : garantit l’entrée d’air, non d’échappement (standard en confinement biologique).  
+- **Adhésion microbienne** : supposée divisée par 1000 (\(F'_{adh}=10^{-3}F_{adh}\)).  
+- **Conséquence** : maintenance 4× réduite, exposition 4× réduite (cat. B).
+  
+### IV.6 Validation et tests (B)
+
+- Pour chaque module ci-dessus, on peut définir des protocoles de test (mesure de kW produit, pression, etc.) afin de vérifier les calculs. La stricte discipline Force94 exige que chaque prédiction soit contredite ou confirmée expérimentalement.  
+
+---
+
+## V. Tableaux et annexes
+
+### V.1 Tableau des symboles et unités
+
+- **\(S\)** : Score Force94 ∈[0,94] (sans unité).  
+- **\(T\)** : Tranche Force94, entier ([0..94]).  
+- **\(©94\)** : Verdict (0 ou 1).  
+- **\(q_\Delta(x)\)** : valeur snap (même unité que \(x\)).  
+- **\(\lambda(x)\)** : déviation (unités de \(x\)).  
+- **\(\mathbb{U}\!\!\not\!\!\bar{}\)** : résidu (unités de calcul).  
+- **\(VQ\)** : classe {entier, demi, négligeable} (qualitative).  
+- **\(Xp_L, Ap_L, Imp_L, Imp_{LX}\)** : forces (unités arbitraires – intensités logiques). Signes: Xp_L,Ap_L,Imp_LX>0, Imp_L<0.  
+- **\(n(v)\)** : intensité normalisée (sans unité).  
+- **\(c_i\)** : contribution signée (sans unité).  
+- **\(E\)** : indice global ∈[-1,1] (sans unité).  
+- **\(\rho\)** : densité (kg/m³). **\(g\)** : gravité (m/s²). **\(Q\)** : débit (m³/s). **\(h\)** : hauteur (m). **\(P\)** : puissance (W).  
+- **\(m\)** : masse (kg). **\(\Delta H\)** : chaleur (J/kg). **\(\eta\)** : rendement (adimensionnel).  
+- **\(E = m c^2\)** (E: énergie en J, m: masse en kg, c=3e8m/s).  
+- **Unités** : sauf mention, toutes les mesures numériques suivent le Système International (kg, m, s, W, Pa, %).
+
+### V.2 Invariants et tests numériques
+
+- **Invariant additive** : \((-Xp_L) + (-Imp_L) =\) valeur (ex. −541 + (−136) = −677) et recalcule ⟹ (−677)+136=−541.  
+- **Invariant de boucle** : \(1083\stackrel{/2}{\longrightarrow}541.5\approx541\to271\to136\). Vériﬁer chaque étape par calcul.  
+- **Snap invariants** : pour chaque \(x\), vérifier \(x=q_\Delta(x)+\lambda\) (ex. 1.5*7=10.5 → \(7\times1.5=10.5=10+0.5\), etc.).  
+- **Trigonométrie** : sin/cos 0°–121° dans tableau (cat. A).
+
+### V.3 Critères de falsifiabilité
+
+- Tout résultat numérique doit être calculable à nouveau et vérifiable. Exemple: compute \(F_{hydro}\) dans le module, comparer au modèle.  
+- Paradoxes internes (ex. le rôle de 🪬⃤) doivent pouvoir être testés dans des cas concrets.  
+- Scoring Force94: calibrer (\(\alpha,\beta\)) de la fonction normalisante sur des données réelles pour éviter sur/sous-estimation.
+
+### V.4 Contradictions et choix
+
+- **Rounding Ambiguities** : 1083/2=541.5 a été arrondi à 541 (floor), mais les divisions suivantes arrondies vers le haut. Il faut déclarer la règle (« 0,5→ 0 ou 1 »).  
+- **Imp_L signe** : nous traitons Imp_L=+136 comme force de contraction (signage négatif dans bilan). La convention « plus = Aplosion/gain » a été appliquée.  
+- **Absence dans A** : Aucune occurrence textuelle trouvée d’„Interface Force94“ ou autres noms spécifiques (Imp_L, VNI, etc.) dans IPDCP. Nous supposons que les variables sont seulement codées implicitement ou à développer (donc cat. B/C).
+
+---
+
+## VI. Sources et bibliographie
+
+1. Hydraulic power formula (ρghQ) – principe fondamental.  
+2. Floor function (⌊x⌋ définition).  
+3. Mass–energy equivalence \(E=mc^2\).  
+4. (Pas de source « IPDCP » accessible : nous avons analysé les échanges et documents fournis. Les notions spécifiques sont issues du corpus interne.)  
+
+**Points non vérifiables / hypothèses :**  
+- Les définitions internes (VNI, VNA, OP-NiX, 🪬⃤) viennent de travaux non publics et manquent de validation externe.  
+- Les valeurs numériques physiques (densité mixte, production méthane) sont hypothétiques, à valider sur le terrain.  
+- Les variables T_bk, 3D/6D restent vagues sans documentation accessible.  
+
+---
+
+**Annexes (extraits de tables, scripts tests)** : disponibles en PDF séparé (tables de calculs, exemples détaillés, etc.).  
+
 CODEX MATHEMATNIQUE
 IPDCP · Force94 · NiX
 Registre consolidé des variables, invariants, opérateurs, modèles et hypothèses
