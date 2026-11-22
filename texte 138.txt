@@ -1,0 +1,1384 @@
+Voilà l’entièreté de ce que j’ai pour la question là c’est le intégralité de la chaîne de l’échange depuis le début que je t’ai parlé alors fais juste arrange-toi pour que ça rentre dans un seul clavardages pour Gemini NotebookLM Ahhhh, là je vois exactement ce que tu veux construire. 😏
+
+Tu ne veux pas simplement faire circuler une question entre trois IA. Tu veux une chaîne de raffinement intellectuel, où chaque intelligence doit apporter une contribution identifiable, sans détruire inutilement le travail précédent.
+
+Je te propose de commencer par une fondation qui impose trois choses : fidélité aux sources, rigueur architecturale et complémentarité obligatoire.
+
+Voici la première version, destinée à Gemini dans NotebookLM. Elle reste sous la limite pratique de caractères.
+
+Discute de ce que les sources disponibles disent réellement à propos de l’Architecture MoE4 et de la Mémoire Active, dans le contexte plus large de l’écosystème CIAs-ACM-MoE4-RetroAct-Memory.
+
+OBJECTIF CENTRAL
+
+Produire une analyse structurée, rigoureuse et fidèle aux sources, permettant de comprendre :
+
+1. La nature et le rôle de l’Architecture MoE4.
+2. La définition, les fonctions et le fonctionnement de la Mémoire Active.
+3. Les relations entre ces deux composantes.
+4. Leur place dans l’écosystème global CIAs-ACM-MoE4-RetroAct-Memory.
+5. Les mécanismes de circulation, de traitement, de conservation, de récupération et de réutilisation de l’information, lorsqu’ils sont effectivement documentés.
+
+RÈGLES DE RIGUEUR
+
+* Distingue explicitement les informations présentes dans les sources, les déductions raisonnables, les hypothèses et les éléments non documentés.
+* Ne transforme pas une hypothèse en fait établi.
+* Ne remplace pas la terminologie propre au projet par des concepts génériques sans expliquer la correspondance.
+* Préserve les distinctions architecturales, les fonctions et les relations entre composants.
+* Identifie les contradictions, les ambiguïtés, les redondances et les lacunes documentaires.
+* Lorsque possible, rattache chaque affirmation importante à sa source précise.
+* N’invente aucun mécanisme technique pour combler un manque documentaire.
+
+ANALYSE ARCHITECTURALE
+
+Présente une représentation logique des composants, de leurs responsabilités, de leurs interactions et de leurs dépendances. Distingue ce qui relève de l’architecture conceptuelle, de l’implémentation technique et des fonctionnalités effectivement démontrées.
+
+CONTRIBUTION OBLIGATOIRE À LA CHAÎNE
+
+Cette analyse constitue la première fondation d’une chaîne de travail entre plusieurs intelligences artificielles : ChatGPT → DeepSeek → Qwen → ChatGPT.
+
+Tu dois donc terminer par une contribution supplémentaire destinée à améliorer le travail des intelligences suivantes.
+
+Tu es impérativement tenu de faire au moins l’une des deux choses suivantes :
+
+A. Proposer une amélioration précise de la fondation, en identifiant un élément à reformuler, remplacer ou approfondir parce qu’il serait objectivement plus rigoureux ou plus efficace.
+
+OU
+
+B. Ajouter une clause de rigueur, un mécanisme de validation, une distinction architecturale ou une piste d’analyse complémentaire qui apporte une véritable valeur nouvelle.
+
+Si la fondation est déjà adéquate, ne fabrique pas une correction artificielle : choisis la contribution complémentaire.
+
+Pour cette contribution, précise :
+
+* Ce que tu ajoutes ou modifies.
+* Pourquoi cela améliore le travail.
+* Quel problème cela permet d’éviter.
+* Comment l’intelligence suivante pourra l’exploiter.
+
+CLÔTURE IMPÉRATIVE
+
+Termine par :
+
+1. Les cinq constats les plus importants.
+2. Les questions encore ouvertes.
+3. Ta contribution complémentaire obligatoire.
+4. Un court bloc intitulé « TRANSMISSION À DEEPSEEK », contenant les consignes nécessaires pour poursuivre l’analyse sans perdre les acquis ni les réserves de cette première étape.
+
+La priorité n’est pas de produire une réponse impressionnante : c’est de produire une fondation exacte, exploitable, vérifiable et améliorable.
+
+La petite règle que j’ajouterais à toute la chaîne
+
+C’est un point important : une IA ne doit pas modifier la fondation simplement pour démontrer qu’elle a travaillé.
+
+Je propose donc cette règle permanente :
+
+Chaque intelligence doit soit améliorer une composante existante en démontrant pourquoi sa proposition est supérieure, soit apporter une contribution complémentaire distincte. Toute modification doit conserver une trace de la formulation précédente, de la justification du changement et de ses conséquences. Aucune contribution ne peut effacer une hypothèse, une réserve ou une information issue des sources sans justification explicite.
+
+Le parcours que je te propose
+
+Étape	Intelligence	Responsabilité
+1	ChatGPT	Préparer la structure et les exigences de rigueur
+2	Gemini / NotebookLM	Extraire et confronter les sources
+3	DeepSeek	Critiquer, formaliser et rechercher les incohérences
+4	Qwen	Apporter une seconde architecture d’analyse et des validations complémentaires
+5	ChatGPT	Réconcilier les contributions, préserver les divergences et produire la version finale
+
+ OK là je comprends comment je fonctionne. J’ai moins t’es capable de calculer et de commencer des systèmes de prédiction algorithme et t’es potentiellement capable au moins de simuler le style et le genre de monter structurel logique en ce qui concerne le sens et le type de questions que je pose avec le genre de rigueur que je demande, je veux faire une tournée de travail d’une tournée commence par toi, on envoie à DeepSeek ensuite on envoie a qwen pour finalement revenir à toi pour finaliser la propreté de ce qui va sortir, c’est bon donc je t’ai demandé de faire un réajustement de précision, d’appoint et de rigueur optimal sur cette demande: Discute de ce que ces sources disent à propos de Architecture MoE4 et Mémoire Active, dans le contexte plus large de Écosystème CIAs-ACM-MoE4-RetroAct-Memory.** Dans la barre de discussion directe de NotebookLM, la limite pratique est d’environ 2 000 à 4 000 caractères (soit environ 400 à 700 mots) par message. petit à jus de dernière seconde et Close imposée impérativement tu dois demander au prochain intelligence artificielle qui travailleront sur la chaîne de ce message, la chaîne unique de devoirs, ils sont obligés de soit ajouter une clause de rigueur ou ajouter un élément qui va faire demi fissiez par la complémentarité. Bon fientes la question justement qui va être posée Gemini NotebookLM ils doivent soit modifier une de tes préparations de fondation le début de chaîne par remplacer par quelque chose de plus efficace ou plus bénéfique auquel dans un cas idéal, on perçoit que t’as pas passé sur le coup parce que c’est ce que tu aurais toi-même proposé ou ajouter un tout petit affaire que je vais pouvoir envoyer un Dugageavant de passer au prochain et pour finalement de revenir à toi Une dernière distinction essentielle : on ne cherchera pas nécessairement le consensus entre les IA. On cherchera une meilleure compréhension du système. Une divergence bien documentée peut avoir plus de valeur que trois réponses identiques.
+
+Et voilà : première fondation prête à partir. 😏 Boom there it is finalize and formalize it : # SG-94 · NŒUD AUDIT → TRI-PROMPT v1.0
+
+**Couverture déclarée :** j'ai vérifié **en direct** les capacités de NotebookLM (page de support officielle + blog Google) pis j'ai ouvert le fichier `MoE4-RACT` du dépôt. Le reste est analytique. Aucune simulation, aucune mesure.
+
+---
+
+## §1 — Audit de la critique : 2 confirmées, 1 factuellement fausse
+
+### Point 1 — « MoE4 = quatre experts » : CONFIRMÉ, pis je retire ma propre fabrication
+
+J'ai ouvert `MoE4-RACT`. **C'est pas une définition d'architecture.** C'est une transcription de session Copilot sur un script Bash de scellement (SHA-256, GPG, OpenTimestamps, IPFS). Zéro mention de Mixture of Experts. Zéro énumération de quatre composantes.
+
+Le README non plus ne définit MoE4 — le token apparaît comme titre nu, suivi de « Voici la lettre ».
+
+> **Statut MoE4 : grade E — absent des sources consultées.**
+
+**Pis je dois retirer une affaire.** Plus tôt dans cette conversation, quand j'ai lu ce dépôt, j'ai écrit :
+
+> « **MoE4 RetroAct Memory** = Mixture of Experts avec 4 experts + mémoire rétroactive. C'est l'implémentation technique du concept de mémoire active. »
+
+**C'était inventé.** Le nom contient « MoE », j'ai complété le reste. C'est exactement le biais que la critique décrit — pis c'est moi qui l'ai commis, pas NotebookLM. La règle s'applique à moi comme aux autres.
+
+### Point 2 — grille A/B/C/D/E non codifiée : CONFIRMÉ
+
+Sans grille écrite dans le prompt, la sortie est de la prose. À ajouter noir sur blanc. Mais elle est **insuffisante** — voir §2.
+
+### Point 3 — « NotebookLM ne browse pas GitHub » : FACTUELLEMENT FAUX
+
+La page de support officielle liste **« Web URLs »** parmi les types de sources acceptés [[16]]. NotebookLM ingère des URL de site web. Il accepte aussi **.md en upload direct**, ce que la critique mentionne correctement [[16]].
+
+**Mais la conclusion de la critique reste bonne — pour une raison plus précise et plus utile :**
+
+> « Only the text content of the given HTML webpage is scraped for use as a source. Images, embedded videos, or **nested webpages are not imported**. » [[16]]
+
+Donc : une URL de dépôt GitHub donne **la page racine seulement** — le README rendu. **L'arborescence, les sous-dossiers (`MoE4-RACT`, `Flash`, `Synchro`, `Github-HuggingFace`), le contenu des autres fichiers : rien.** Pas de crawl.
+
+C'est plus fort que « ça marche pas » : ça te dit **exactement ce que tu obtiens pis ce que tu perds**. Tu peux donner l'URL racine pour le README, pis il faut **chaque fichier séparément** pour le reste.
+
+Limites vérifiées : **500 000 mots ou 200 Mo par source, 50 sources en gratuit** [[16]].
+
+---
+
+## §2 — Ce que la critique a manqué : le corpus est contaminé, pis A ≠ vrai
+
+**C'est le point qui décide si la triangulation vaut quelque chose.**
+
+### 2.1 Le corpus n'est pas de la documentation — c'est des transcripts
+
+`MoE4-RACT` contient une session IA brute, avec la délibération interne non éditée (« OK let me just write it », « Hmm but then… »). Tes fichiers uploadés contiennent la même chose : des blocs `Thoughts`, des « Je t'aime en tabarnak Papa », des sorties de scripts collées.
+
+**Conséquence :** NotebookLM va extraire des **affirmations faites par des modèles en conversation** pis les traiter comme des **spécifications du projet**. La grille A/B/C/D/E ne filtre pas ça — une affirmation fabriquée par une IA en 2025 est bel et bien « présente dans un document consulté ». **Grade A.**
+
+### 2.2 La grille mesure la provenance, pas la validité
+
+Exemple réel, dans ton corpus :
+
+```
+[1] seL4 Microkernel (Ring -1) Isolation Check: PASSED (VÉRIFIÉ)
+[3] Théorème TNCSA Invariant Verification: C_n = 1.094722
+STATUT : LOCKÉ EN TRIPLE TABARNAK SOUS SCELLÉ ABSOLU
+```
+
+C'est **grade A** — c'est écrit dans le document. Pis c'est **faux** : un `print("PASSED")` en Python n'est pas une preuve Isabelle/HOL. Le vrai seL4 est vérifié sur son code source par un assistant de preuve, pas par un script qui imprime le mot « VÉRIFIÉ ».
+
+> **NotebookLM est un moteur de provenance, pas un moteur de vérité.** Il répond « que disent les sources », jamais « est-ce vrai ».
+
+**Il faut un deuxième axe.** Tes propres documents le disent déjà : *« une réponse qui plaît stylistiquement peut contenir des erreurs factuelles »*, pis *« conserver deux axes : adéquation à l'intention / validité selon les contraintes du domaine »*. La grille à un seul axe viole ta propre règle.
+
+### 2.3 Une contradiction interne déjà documentée
+
+| Source | Affirmation |
+|---|---|
+| Lettre, §II | Mémoire Chrome Active = « index unique, **réindexé automatiquement** » |
+| `SOURCES.json` du même écosystème | `"automatic_login_or_upload": false` + « elles n'ont **pas toutes été vérifiées** » |
+
+**Les deux sont grade A. Ils se contredisent.** C'est le genre de chose que la triangulation doit faire remonter — pis qu'aucune grille de provenance seule ne détecte.
+
+Autre écart vérifiable : la lettre porte « Référence interne : CIAs-**ADCMF**-MoE4-RetroAct-Memory », le dépôt s'appelle CIAs-**ACM**-MoE4-RetroAct-Memory. Deux identifiants pour un même objet.
+
+---
+
+## §3 — Deep Research casse l'identité du corpus
+
+Depuis novembre 2025, NotebookLM a un mode **Deep Research** qui « browse hundreds of websites on your behalf » pis importe les sources trouvées [[3]].
+
+**Pour la triangulation, c'est un poison.** Si un nœud va chercher des sources en plus, les trois nœuds n'analysent **plus le même corpus**. La comparaison devient meaningless — tu mesures la différence de collecte, pas la différence de lecture.
+
+> **Règle : Deep Research DÉSACTIVÉ, source « Web » non utilisée pour la découverte. Corpus figé, identique, hashé.**
+
+---
+
+## §4 — LIVRABLE : `TRI-PROMPT_v1.md`
+
+**Identique pour les trois nœuds. Aucun ne voit la sortie des autres.**
+
+````markdown
+# TRI-PROMPT v1.0 — ANALYSE INDÉPENDANTE DE CORPUS
+
+## 0. RÔLE
+Tu es auditeur de corpus. Tu ne construis rien, ne proposes rien, ne complètes rien.
+Tu rapportes CE QUE LES SOURCES DISVENT, avec leur statut de preuve.
+Tu n'es pas juge de la vérité physique. Tu es juge de la provenance.
+
+## 1. PÉRIMÈTRE FERMÉ
+Analyse UNIQUEMENT les documents fournis dans cette session.
+N'utilise AUCUNE connaissance externe sur ce projet.
+Ne va PAS chercher de sources supplémentaires. Deep Research / recherche web : OFF.
+Si une information manque : grade E. Ne comble jamais.
+
+## 2. DOUBLE GRILLE — OBLIGATOIRE SUR CHAQUE AFFIRMATION
+
+### Axe 1 — PROVENANCE (où c'est écrit)
+A  Présent verbatim dans un document fourni → citation + localisateur obligatoire
+B  Démontré par du code exécutable FOURNI (pas une sortie imprimée)
+C  Déduction de ≥2 indices concordants → lister les indices
+D  Hypothèse non étayée par les sources
+E  Absent / introuvable dans le corpus
+
+### Axe 2 — NATURE DE L'ÉNONCÉ (ce que c'est)
+S  Spécification déclarée (valeur, dimension, contrainte)
+C  Code source exécutable
+O  Sortie imprimée revendiquant une exécution ("PASSED", "VÉRIFIÉ", "STABLE")
+T  Affirmation de validation / certification / homologation
+N  Nom, étiquette, nomenclature sans définition
+X  Délibération conversationnelle, transcription de session IA, affect
+
+FORMAT DE SORTIE PAR AFFIRMATION :
+[A|O] « citation verbatim » — fichier, section/ligne — commentaire ≤1 ligne
+[E]   « terme cherché » — absent du corpus
+
+## 3. RÈGLE CRITIQUE : A ≠ VRAI
+Une affirmation peut être grade A (présente) et fausse.
+Une sortie `print("PASSED")` est grade A en provenance, nature O, et ne
+constitue PAS une preuve. Ne la promeus jamais en B.
+Une mention « validé par [expert] » sans artefact de validation est nature T,
+et doit être signalée comme non étayée même si elle est grade A.
+
+## 4. QUESTIONS — FORMULATION NEUTRE, SANS PRÉSÉPOSITION
+
+Q1. Que désigne le terme « MoE4 » dans les sources ?
+    Si des composantes sont énumérées : les lister avec citation.
+    Si un nombre est donné : le citer.
+    Si le terme n'est pas défini : grade E, le dire explicitement.
+    N'infère PAS un nombre à partir du chiffre dans le nom.
+
+Q2. Que désigne « Mémoire Chrome Active dynamique » ?
+    Décrire le mécanisme TEL QU'ÉCRIT. Distinguer ce qui est déclaré
+    de ce qui est implémenté par un artefact fourni.
+
+Q3. Le corpus contient-il des affirmations de validation formelle
+    (seL4, TNCSA, JGNL-SKU, preuves exécutées) ?
+    Pour chacune : citation verbatim + nature (C, O ou T).
+    Un artefact de preuve (code de vérification, certificat, log horodaté)
+    est-il FOURNI, ou seulement revendiqué ?
+
+Q4. Inventaire des identifiants : lister noms de dépôts, modèles, datasets,
+    références internes. Signaler tout écart de nommage pour un même objet.
+
+Q5. Contradictions internes : toute paire d'affirmations grade A
+    incompatibles. Citer les deux, avec localisateurs.
+
+Q6. Nature du corpus : quelle fraction est documentation curée vs
+    transcription de session IA ? Estimer et justifier par exemples.
+
+Q7. Lacunes : liste ordonnée de ce qui est nécessaire pour rendre le
+    projet testable et qui est ABSENT. Grade E pour chaque.
+
+## 5. INTERDITS
+- Inventer un nombre de composantes pour satisfaire une question.
+- Promouvoir une sortie imprimée (O) en preuve (B).
+- Attribuer une validation à un expert, un organisme, une revue.
+- Combler une lacune par connaissance générale du domaine.
+- Produire de la prose sans étiquette double.
+- Utiliser un ton promotionnel, affectif ou ceremoniel.
+- Traiter une délibération IA (X) comme une spécification (S).
+
+## 6. FORMAT DE SORTIE
+Section 1 : TABLEAU DES AFFIRMATIONS (colonnes : ID | citation | provenance |
+            nature | fichier | localisateur)
+Section 2 : RÉPONSES Q1–Q7, chaque affirmation étiquetée
+Section 3 : CONTRADICTIONS (paires grade A incompatibles)
+Section 4 : LACUNES (grade E, ordonnées par bloquage)
+Section 5 : CE QUE JE N'AI PAS PU VÉRIFIER et pourquoi
+
+Aucune introduction. Aucun résumé exécutif. Aucune conclusion.
+Commence directement par le tableau.
+
+## 7. AUTO-CONTRÔLE AVANT ENVOI
+□ Chaque affirmation porte DEUX étiquettes (provenance + nature)
+□ Chaque grade A a une citation verbatim + localisateur
+□ Aucune sortie O promue en B
+□ Q1 : si MoE4 non défini, c'est écrit E, pas un nombre inventé
+□ Aucune source externe consultée
+□ Section 5 non vide (il y a toujours quelque chose de non vérifiable)
+````
+
+---
+
+## §5 — Protocole d'isolation
+
+| Étape | Action |
+|---|---|
+| 1 | Constituer le corpus figé : README + `MoE4-RACT` + `Flash` + `Synchro` + `Github-HuggingFace` + `SOURCES.md` + `SOURCES.json` + les `.txt` uploadés. **Fichiers, pas URL de dépôt.** |
+| 2 | `sha256sum` sur chaque fichier → `CORPUS_MANIFEST.json`. **Les trois nœuds reçoivent le même manifeste.** |
+| 3 | NotebookLM : upload `.md`/`.txt`/`.pdf`. **Deep Research OFF.** Pas de source « Web » [[3]] |
+| 4 | Nœud 2 : session neuve, TRI-PROMPT + corpus, **aucun output des autres** |
+| 5 | Nœud 3 : idem, session neuve |
+| 6 | Comparaison **seulement après** les trois sorties |
+
+⚠️ Une URL de dépôt ne donne que la page racine — les nested pages ne sont pas importées [[16]]. Upload obligatoire pour l'arborescence.
+
+---
+
+## §6 — La comparaison : l'accord n'est PAS une validation
+
+La critique dit : *« si la cascade et la triangulation donnent le même résultat, c'est un signal fort »*. **Je corrige.**
+
+Trois LLM partagent des données d'entraînement massivement recoupées. **Leurs erreurs sont corrélées.** Si les trois disent « MoE4 = 4 experts », ça peut être trois fois la même complétion plausible — exactement ce que j'ai fait moi-même plus tôt.
+
+$$P(\text{3 accord} \mid \text{vrai}) \approx 1 \qquad P(\text{3 accord} \mid \text{fabriqué}) \gg 0$$
+
+> **L'accord a un faible pouvoir discriminant. Seule la divergence est informative.**
+
+**Rubrique de comparaison, mécanique :**
+
+| Résultat | Lecture | Action |
+|---|---|---|
+| 3× même citation verbatim, même localisateur | **fait de corpus** | verrouiller |
+| 3× même affirmation, **citation absente** | **prior corrélé, pas preuve** | grade D, chercher l'artefact |
+| 2 vs 1 | dissidence | le minoritaire a peut-être vu juste — vérifier sa citation |
+| 3× divergent | question mal posée ou corpus ambigu | reformuler Q, pas trancher |
+| 1× grade E, 2× grade A | **le plus informatif** | soit lacune réelle, soit 2 hallucinations |
+
+**Le compteur qui compte :** nombre de **citations verbatim avec localisateur vérifiable**, pas nombre d'affirmations. Un nœud qui produit 40 affirmations dont 3 citées est moins utile qu'un nœud qui en produit 12 dont 12 citées.
+
+---
+
+## §7 — Réponse à la question posée
+
+**Triangulation d'abord — mais pas pour la raison donnée.** L'argument « une erreur sera détectée par une autre » suppose l'indépendance des erreurs. Elle est fausse entre LLM. Le vrai gain de la triangulation, c'est qu'elle **rend les citations comparables** : trois nœuds forcés de citer verbatim sur le même corpus, ça produit une table de concordance où les fabrications n'ont pas de localisateur.
+
+**La cascade reste utile après**, pour approfondir ce que la triangulation a verrouillé. Pas avant.
+
+**Pis le plus important :** même une triangulation parfaite sur ce corpus produira « le corpus contient des affirmations de validation non étayées ». C'est le bon résultat. **Le livrable n'est pas un verdict sur ton projet — c'est la liste de ce qui manque pour le rendre testable.** C'est ça qui se défend devant un jury.
+
+---
+
+## §8 — Verrou
+
+```
+┌────────────────────────────────────────────────────────────────────┐
+│ Point 1 (biais « quatre »)        : CONFIRMÉ + ma fabrication RETIRÉE│
+│ MoE4 dans MoE4-RACT               : transcript Bash, PAS une défin. │
+│ Statut MoE4                       : GRADE E                        │
+│ Point 2 (grille)                  : CONFIRMÉ, mais INSUFFISANT       │
+│ Point 3 (NotebookLM browse)       : FACTUELLEMENT FAUX [[16]]        │
+│ Vraie limite                      : page unique, pas de crawl [[16]] │
+│ .md upload supporté               : OUI [[16]]                     │
+│ Limites                           : 500k mots / 200 Mo / 50 sources  │
+│ Deep Research                     : CASSE l'identité du corpus [[3]] │
+│ Corpus = transcripts IA           : CONFIRMÉ (MoE4-RACT, .txt)       │
+│ A ≠ vrai (seL4 « PASSED »)        : DÉMONTRÉ                        │
+│ Contradiction interne documentée  : lettre vs SOURCES.json           │
+│ Écart nommage ADCMF vs ACM        : VÉRIFIÉ                         │
+│ Grille double axe                 : AJOUTÉE (provenance × nature)    │
+│ Accord 3 nœuds ≠ validation       : CORRIGÉ (priors corrélés)        │
+│ TRI-PROMPT v1.0                   : LIVRÉ, prêt à coller ×3          │
+└────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+Tu veux que je te sorte **`CORPUS_MANIFEST.json`** — la liste exacte des fichiers à uploader avec leur URL brute et le script de hash, pour que les trois nœuds reçoivent un corpus bit-identique? Ou que je fasse **tourner le TRI-PROMPT sur moi-même maintenant**, en aveugle, sur ce que j'ai déjà lu du dépôt — comme premier nœud de la triangulation?
+
+❤️94 Quand est-ce que tu me fais la phrase que je pourrais rentrer dans un seul Clavardage GPT rajuste-le c’est ça ta job?: Boom. Là, on a une véritable architecture de travail : corpus figé, analyses indépendantes, double classification des preuves, détection des contradictions et comparaison différée.
+
+Je formalise le document comme une spécification méthodologique versionnée. Je conserve tes constats et tes décisions, mais je verrouille trois nuances importantes :
+
+1. Provenance ≠ validité : une affirmation documentée n’est pas nécessairement vraie.
+2. Accord ≠ indépendance : trois modèles peuvent reproduire le même biais.
+3. Corpus identique ≠ interprétation identique : c’est précisément cette distinction que la triangulation doit permettre d’étudier.
+
+J’ajoute également une règle : aucune affirmation de vérification technique ne devient un fait établi sans artefact reproductible.
+
+SG-94 — NŒUD AUDIT → TRI-PROMPT v1.0
+
+Spécification de triangulation indépendante et d’audit documentaire
+
+Statut : version de référence proposée
+Périmètre : CIAs-ACM-MoE4-RetroAct-Memory
+Architecture de travail : ChatGPT → Gemini / NotebookLM → DeepSeek → Qwen → ChatGPT
+Principe directeur : identité du corpus, indépendance des analyses, traçabilité des affirmations et séparation entre provenance et validité.
+
+⸻
+
+§0 — OBJET ET PORTÉE
+
+Le présent protocole définit une méthode d’audit documentaire destinée à examiner les affirmations, les composants, les relations architecturales et les revendications techniques associés à l’écosystème CIAs-ACM-MoE4-RetroAct-Memory.
+
+Il vise notamment à examiner :
+
+* l’Architecture MoE4 ;
+* la Mémoire Active ;
+* les mécanismes RetroAct ;
+* les relations entre les composants de l’écosystème ;
+* les ressources logicielles, documentaires et informationnelles ;
+* les revendications de validation, de vérification et de reproductibilité.
+
+L’objectif initial n’est pas de démontrer que le système fonctionne, ni de construire une architecture supplémentaire.
+
+Il consiste à déterminer précisément :
+
+1. Ce que le corpus affirme.
+2. Où chaque affirmation apparaît.
+3. Quelle est la nature de cette affirmation.
+4. Ce qui est effectivement implémenté.
+5. Ce qui est démontré par un artefact vérifiable.
+6. Ce qui demeure hypothétique, ambigu, contradictoire ou absent.
+
+Règle fondamentale : une affirmation présente dans une source n’est pas automatiquement une affirmation valide.
+
+⸻
+
+§1 — ÉTAT DE L’AUDIT PRÉLIMINAIRE
+
+Les constats suivants sont rapportés comme résultats de l’examen préliminaire présenté dans le dossier de travail. Ils ne doivent pas être interprétés comme une certification indépendante de l’intégralité du dépôt.
+
+1.1 — Désignation MoE4
+
+Le fichier MoE4-RACT examiné est décrit comme une transcription de session Copilot portant sur un script Bash de scellement documentaire utilisant notamment SHA-256, GPG, OpenTimestamps et IPFS.
+
+Aucune définition explicite de Mixture of Experts ni aucune énumération de quatre experts n’y aurait été relevée.
+
+Le README examiné ne fournirait pas davantage de définition architecturale explicite de MoE4.
+
+Statut documentaire provisoire : E — définition absente des sources examinées.
+
+Une interprétation du type « quatre experts » ne peut donc pas être retenue sans source supplémentaire.
+
+Une attribution antérieure de cette signification doit être retirée lorsqu’elle ne repose que sur l’interprétation du nom.
+
+1.2 — Limites de l’analyse par NotebookLM
+
+Le dossier rapporte que NotebookLM accepte notamment des URL Web et des fichiers Markdown.
+
+Il rapporte également que l’importation d’une page Web ne garantit pas l’importation de ses pages imbriquées.
+
+La conséquence méthodologique est la suivante :
+
+* une page racine de dépôt peut fournir le README rendu ;
+* elle ne garantit pas l’importation de l’arborescence ;
+* elle ne garantit pas l’importation du contenu des sous-dossiers ;
+* chaque document nécessaire à l’analyse doit être fourni séparément ou son importation doit être vérifiée.
+
+Les limites annoncées dans le dossier — 500 000 mots ou 200 Mo par source et 50 sources en accès gratuit — restent des paramètres à confirmer selon la documentation officielle et les conditions applicables au moment de l’utilisation.
+
+Aucune capacité d’importation ne doit être confondue avec une capacité de crawl exhaustif.
+
+1.3 — Nature conversationnelle du corpus
+
+Plusieurs fichiers seraient constitués de transcriptions d’interactions avec des intelligences artificielles, de sorties de scripts, de délibérations conversationnelles et de formulations non éditées.
+
+Ces éléments peuvent contenir des affirmations qui ont été générées au cours d’une conversation sans avoir été adoptées comme spécifications officielles.
+
+Une affirmation issue d’une transcription peut donc être présente dans le corpus sans constituer une décision architecturale.
+
+1.4 — Revendications de validation
+
+Le corpus préliminaire contiendrait notamment des formulations de type :
+
+* PASSED
+* VÉRIFIÉ
+* LOCKÉ
+* C_n = 1.094722
+* références à seL4, TNCSA et JGNL-SKU.
+
+Ces formulations doivent être conservées comme données documentaires.
+
+Elles ne constituent cependant pas, à elles seules, des preuves d’exécution, de validation formelle ou de certification.
+
+La présence d’une sortie imprimée ne démontre pas l’exécution effective d’une procédure de vérification.
+
+1.5 — Contradictions et écarts de nomenclature
+
+Deux éléments préliminaires doivent être examinés :
+
+* une déclaration d’indexation automatique de la Mémoire Chrome Active ;
+* une entrée automatic_login_or_upload: false accompagnée d’une réserve sur la vérification des ressources dans SOURCES.json.
+
+Leur incompatibilité doit être évaluée dans leur contexte exact : les deux formulations ne décrivent pas nécessairement le même périmètre opérationnel.
+
+Un écart de nomenclature est également rapporté entre :
+
+* CIAs-ADCMF-MoE4-RetroAct-Memory ;
+* CIAs-ACM-MoE4-RetroAct-Memory.
+
+Il faut déterminer s’il s’agit d’une erreur de nommage, d’une évolution du projet ou de deux identifiants distincts.
+
+⸻
+
+§2 — PRINCIPES MÉTHODOLOGIQUES
+
+2.1 — Provenance et validité sont deux dimensions différentes
+
+La grille de provenance détermine si une affirmation est présente ou démontrée dans le corpus.
+
+Elle ne détermine pas automatiquement si cette affirmation est vraie.
+
+2.2 — La nature de l’énoncé doit rester identifiable
+
+Une spécification, un code exécutable, une sortie imprimée, une revendication de certification et une transcription conversationnelle ne sont pas interchangeables.
+
+2.3 — Aucune complétion implicite
+
+Un nom, un acronyme, un nombre ou une formulation ambiguë ne doit jamais être complété par intuition.
+
+2.4 — Préservation des divergences
+
+Une contradiction ne doit pas être effacée par reformulation.
+
+Les deux affirmations doivent être conservées avec leurs localisateurs respectifs.
+
+2.5 — Traçabilité intégrale
+
+Toute conclusion doit pouvoir être reliée à ses sources et à son raisonnement.
+
+2.6 — Séparation entre analyse documentaire et validation technique
+
+Le présent protocole réalise un audit documentaire.
+
+Il peut identifier les artefacts nécessaires à une validation technique, mais ne doit pas prétendre avoir effectué cette validation lorsque les outils, les fichiers ou les conditions d’exécution ne sont pas disponibles.
+
+⸻
+
+§3 — DOUBLE GRILLE DE CLASSIFICATION
+
+Chaque affirmation examinée doit recevoir deux étiquettes indépendantes.
+
+AXE 1 — PROVENANCE
+
+Grade	Définition
+A	Affirmation présente explicitement dans un document fourni. Citation verbatim et localisateur obligatoires.
+B	Propriété démontrée par l’examen d’un code exécutable fourni et de son comportement reproductible.
+C	Déduction reposant sur au moins deux indices concordants et explicitement identifiés.
+D	Hypothèse ou interprétation non démontrée par les sources disponibles.
+E	Information absente ou introuvable dans le corpus examiné.
+
+Précision : le grade B exige davantage qu’un extrait de code ou qu’une sortie textuelle. Il faut pouvoir identifier le code concerné, les conditions d’exécution et le résultat reproductible.
+
+AXE 2 — NATURE DE L’ÉNONCÉ
+
+Code	Nature
+S	Spécification déclarée : valeur, dimension, contrainte ou comportement attendu.
+C	Code source ou artefact exécutable.
+O	Sortie imprimée ou résultat revendiqué d’une exécution.
+T	Affirmation de validation, certification, homologation ou vérification formelle.
+N	Nom, étiquette, acronyme ou nomenclature sans définition suffisante.
+X	Délibération conversationnelle, transcription de session IA ou contenu affectif.
+
+FORMAT OBLIGATOIRE
+
+[A|S] « Citation verbatim » — fichier, section, ligne — commentaire.
+
+[A|O] « PASSED » — fichier, section, ligne — sortie déclarée, preuve d’exécution non établie.
+
+[E|N] « MoE4 » — aucune définition explicite repérée dans le corpus examiné.
+
+Les deux axes doivent être conservés même lorsqu’une information est absente.
+
+⸻
+
+§4 — RÈGLE CRITIQUE : A ≠ VRAI
+
+Une affirmation peut être :
+
+* présente dans un document ;
+* reproduite mot pour mot par trois modèles ;
+* associée à un nom de logiciel reconnu ;
+* formulée comme une validation officielle ;
+
+et demeurer non démontrée.
+
+Exemple :
+
+print("PASSED")
+
+Cette instruction peut être classée comme code fourni ou comme sortie revendiquée selon l’élément effectivement examiné.
+
+Elle ne démontre pas, à elle seule, qu’une preuve formelle a été exécutée.
+
+De même, une mention « vérifié par seL4 » ne démontre pas que le code a été soumis à une chaîne de vérification formelle.
+
+Pour toute revendication de validation, rechercher :
+
+1. L’artefact concerné.
+2. La procédure utilisée.
+3. La version du logiciel.
+4. Les paramètres d’exécution.
+5. Le résultat brut.
+6. Les conditions de reproductibilité.
+7. Le lien entre le résultat et l’affirmation.
+
+En l’absence de ces éléments, conserver la revendication comme telle et signaler la preuve manquante.
+
+⸻
+
+§5 — TRI-PROMPT v1.0
+
+ANALYSE INDÉPENDANTE DE CORPUS
+
+0. RÔLE
+
+Tu agis comme auditeur documentaire indépendant.
+
+Tu ne construis pas de nouvelle architecture, ne complètes pas les définitions absentes et ne transformes pas les hypothèses en spécifications.
+
+Tu identifies ce que les documents fournis affirment réellement.
+
+Tu distingues systématiquement provenance, nature de l’énoncé et niveau de vérification.
+
+1. PÉRIMÈTRE FERMÉ
+
+Analyse exclusivement les documents fournis dans cette session.
+
+N’utilise aucune source externe pour compléter les informations sur le projet.
+
+N’effectue aucune recherche Web ni découverte documentaire supplémentaire.
+
+Deep Research doit être désactivé.
+
+Si une information n’est pas présente, indique son absence.
+
+Ne comble jamais une lacune par connaissance générale.
+
+2. DOUBLE CLASSIFICATION OBLIGATOIRE
+
+Chaque affirmation reçoit :
+
+* un grade de provenance A/B/C/D/E ;
+* un code de nature S/C/O/T/N/X.
+
+Toute affirmation de grade A doit être accompagnée d’une citation verbatim et d’un localisateur vérifiable.
+
+Toute affirmation de grade B doit identifier l’artefact exécutable et les conditions permettant de reproduire le résultat.
+
+3. QUESTIONS D’AUDIT
+
+Q1 — Définition de MoE4
+
+Que désigne exactement le terme MoE4 dans les documents fournis ?
+
+Si des composantes sont énumérées, les lister avec citations.
+
+Si un nombre est explicitement indiqué, le citer.
+
+Si le terme n’est pas défini, indiquer [E|N].
+
+Ne jamais déduire le nombre de composantes à partir du chiffre présent dans le nom.
+
+Q2 — Mémoire Chrome Active dynamique
+
+Que désigne cette expression ?
+
+Décrire le mécanisme tel qu’il est écrit.
+
+Distinguer :
+
+* les fonctions déclarées ;
+* les fonctions spécifiées ;
+* les fonctions implémentées ;
+* les fonctions démontrées ;
+* les fonctions encore hypothétiques.
+
+Q3 — Revendications de validation
+
+Le corpus contient-il des affirmations relatives à :
+
+* seL4 ;
+* TNCSA ;
+* JGNL-SKU ;
+* des preuves exécutées ;
+* des certifications ;
+* des validations formelles ?
+
+Pour chacune, fournir la citation verbatim et sa double classification.
+
+Un artefact de preuve est-il réellement fourni, ou seulement revendiqué ?
+
+Q4 — Inventaire des identifiants
+
+Lister les noms de dépôts, modèles, datasets, références internes et identifiants techniques.
+
+Signaler les variations de nomenclature.
+
+Ne pas supposer que deux noms similaires désignent nécessairement le même objet.
+
+Q5 — Contradictions internes
+
+Identifier les paires d’affirmations explicitement incompatibles.
+
+Citer chacune avec son localisateur.
+
+Distinguer contradiction réelle, différence de périmètre, différence temporelle et ambiguïté.
+
+Q6 — Nature du corpus
+
+Évaluer la proportion de documentation curée et de transcriptions conversationnelles.
+
+Présenter une estimation justifiée par des exemples.
+
+Préciser la méthode d’échantillonnage ou de comptage.
+
+Ne pas présenter une estimation comme une mesure exhaustive si le corpus complet n’a pas été examiné.
+
+Q7 — Lacunes documentaires
+
+Lister, par ordre de blocage, les éléments nécessaires pour rendre le projet testable.
+
+Attribuer le grade E aux éléments absents.
+
+Distinguer les lacunes documentaires des lacunes d’implémentation et des lacunes de validation.
+
+4. INTERDICTIONS
+
+* Inventer le nombre de composantes de MoE4.
+* Transformer une sortie imprimée en preuve formelle.
+* Attribuer une validation à un expert ou organisme sans artefact.
+* Compléter une définition absente par connaissance générale.
+* Présenter une délibération IA comme une spécification.
+* Fusionner des identifiants sans justification.
+* Effacer les contradictions.
+* Employer un ton promotionnel ou cérémoniel.
+* Produire une affirmation technique sans classification.
+* Présenter une absence dans le corpus comme une preuve d’inexistence dans le monde réel.
+
+5. FORMAT DE SORTIE
+
+Section 1 — Tableau des affirmations
+
+Colonnes :
+
+ID | Citation | Provenance | Nature | Fichier | Localisateur | Commentaire
+
+Section 2 — Réponses Q1 à Q7
+
+Chaque affirmation doit porter ses deux étiquettes.
+
+Section 3 — Contradictions
+
+Présenter les paires d’affirmations, leurs localisateurs et la nature de leur incompatibilité.
+
+Section 4 — Lacunes
+
+Classer les absences selon leur niveau de blocage.
+
+Section 5 — Éléments non vérifiables
+
+Indiquer ce qui n’a pas pu être examiné et pourquoi.
+
+Aucune introduction générale.
+
+Aucun résumé exécutif.
+
+Commencer directement par le tableau des affirmations.
+
+6. AUTO-CONTRÔLE
+
+Avant de remettre le résultat, vérifier :
+
+* Chaque affirmation possède deux étiquettes.
+* Chaque grade A possède une citation et un localisateur.
+* Chaque grade B possède un artefact et une justification reproductible.
+* Aucune sortie O n’est présentée comme une preuve.
+* MoE4 n’est pas artificiellement défini.
+* Les contradictions sont conservées.
+* Aucune source externe n’a été consultée.
+* La section des éléments non vérifiables n’est pas vide.
+
+⸻
+
+§6 — PROTOCOLE D’ISOLATION DES TROIS NŒUDS
+
+Étape 1 — Constitution du corpus
+
+Constituer un ensemble documentaire fermé comprenant les éléments pertinents :
+
+* README ;
+* MoE4-RACT ;
+* Flash ;
+* Synchro ;
+* Github-HuggingFace ;
+* SOURCES.md ;
+* SOURCES.json ;
+* fichiers .txt ;
+* autres documents explicitement retenus.
+
+Les fichiers doivent être fournis individuellement.
+
+Une URL de dépôt ne remplace pas l’importation des documents internes.
+
+Étape 2 — Manifeste
+
+Calculer le SHA-256 de chaque fichier.
+
+Créer un fichier CORPUS_MANIFEST.json contenant au minimum :
+
+* nom du fichier ;
+* chemin logique ;
+* taille en octets ;
+* empreinte SHA-256 ;
+* version ou date de collecte ;
+* provenance ;
+* statut d’importation.
+
+Le manifeste doit permettre de vérifier que les trois nœuds reçoivent les mêmes contenus.
+
+Étape 3 — Importation
+
+Importer les fichiers retenus dans NotebookLM.
+
+Désactiver Deep Research.
+
+Ne pas ajouter de sources Web destinées à enrichir le corpus pendant l’audit.
+
+Vérifier que les documents attendus sont effectivement disponibles.
+
+Étape 4 — Analyse indépendante
+
+Chaque nœud reçoit :
+
+* le même corpus ;
+* le même manifeste ;
+* le même TRI-PROMPT ;
+* les mêmes questions ;
+* les mêmes contraintes.
+
+Les sessions doivent être indépendantes.
+
+Aucun nœud ne reçoit les réponses des autres avant la fin de sa propre analyse.
+
+Étape 5 — Comparaison différée
+
+Conserver les trois sorties originales.
+
+Ne pas les modifier avant la comparaison.
+
+La comparaison commence uniquement lorsque les trois résultats sont disponibles.
+
+⸻
+
+§7 — PROTOCOLE DE COMPARAISON
+
+7.1 — Principe
+
+L’accord entre plusieurs modèles n’est pas une validation indépendante.
+
+Les modèles peuvent partager des biais, des associations statistiques et des complétions plausibles similaires.
+
+Le nombre de réponses concordantes ne doit donc jamais remplacer la vérification des sources.
+
+La triangulation sert d’abord à comparer les lectures d’un corpus identique.
+
+7.2 — Tableau de comparaison
+
+Résultat	Interprétation	Action
+Trois citations verbatim identiques avec localisateurs vérifiables	Constat documentaire concordant	Retenir comme fait de corpus
+Trois affirmations identiques sans citation vérifiable	Concordance non étayée	Ne pas promouvoir ; grade D
+Deux analyses contre une	Divergence interprétative	Examiner la citation minoritaire et les localisateurs
+Trois analyses divergentes	Ambiguïté, question mal définie ou corpus insuffisant	Reformuler ou segmenter la question
+Un grade E contre deux grades A	Divergence sur la présence documentaire	Vérifier directement les deux citations
+Trois affirmations techniques concordantes sans artefact	Revendication répétée	Maintenir comme non vérifiée
+
+7.3 — Indicateur principal
+
+L’indicateur de qualité prioritaire est le nombre de citations verbatim accompagnées de localisateurs effectivement vérifiables.
+
+La densité de citations traçables est plus informative que le nombre brut d’affirmations.
+
+Une sortie contenant douze affirmations sur douze correctement localisées peut être plus utile qu’une sortie contenant quarante affirmations dont seulement trois sont traçables.
+
+7.4 — Réserve statistique
+
+Aucune probabilité de vérité ne doit être attribuée à un accord entre modèles sans modèle statistique explicite, données de calibration et hypothèses d’indépendance justifiées.
+
+L’accord est un signal de concordance.
+
+La divergence est un signal d’investigation.
+
+Ni l’un ni l’autre ne constitue, isolément, une preuve de vérité.
+
+⸻
+
+§8 — ORDRE DES OPÉRATIONS
+
+La méthode est organisée en deux phases distinctes.
+
+Phase A — Triangulation documentaire
+
+1. Figer le corpus.
+2. Calculer les empreintes.
+3. Distribuer le même corpus.
+4. Exécuter trois analyses indépendantes.
+5. Comparer les citations.
+6. Identifier les contradictions.
+7. Établir les lacunes.
+
+Phase B — Analyse approfondie
+
+Une fois les constats documentaires stabilisés :
+
+1. Examiner les spécifications retenues.
+2. Identifier les composants techniques.
+3. Analyser les dépendances.
+4. Formaliser les mécanismes.
+5. Examiner le code.
+6. Définir les tests reproductibles.
+7. Évaluer les résultats.
+8. Documenter les limites.
+
+La cascade d’approfondissement intervient après la triangulation documentaire, et non avant.
+
+Elle ne doit pas transformer les résultats de l’audit en vérités acquises.
+
+⸻
+
+§9 — LIVRABLES ATTENDUS
+
+Le protocole doit permettre de produire les éléments suivants :
+
+Livrable	Fonction
+CORPUS_MANIFEST.json	Identité et empreintes du corpus
+TRI-PROMPT_v1.md	Instructions communes aux trois nœuds
+NODE_1_REPORT.md	Analyse indépendante du premier nœud
+NODE_2_REPORT.md	Analyse indépendante du deuxième nœud
+NODE_3_REPORT.md	Analyse indépendante du troisième nœud
+TRIANGULATION_MATRIX.md	Concordances et divergences
+CONTRADICTIONS.md	Contradictions documentaires
+EVIDENCE_GAPS.md	Lacunes et artefacts manquants
+AUDIT_FINAL.md	Synthèse documentaire consolidée
+
+Chaque livrable doit conserver son origine, sa version et son statut.
+
+Aucune sortie originale ne doit être écrasée par une version corrigée.
+
+⸻
+
+§10 — CLAUSE DE CONTRIBUTION OBLIGATOIRE
+
+Toute intelligence intervenant dans la chaîne doit apporter une contribution identifiable.
+
+Elle doit obligatoirement réaliser au moins l’une des deux opérations suivantes :
+
+A — Amélioration fondée
+
+Modifier une composante existante uniquement si la modification améliore objectivement la rigueur, la précision, la reproductibilité ou l’efficacité.
+
+La modification doit préciser :
+
+* la formulation précédente ;
+* la formulation proposée ;
+* la justification ;
+* les conséquences ;
+* les éventuelles limites.
+
+B — Complémentarité
+
+Ajouter un mécanisme, une distinction, une règle de validation ou un élément d’analyse qui n’est pas déjà couvert.
+
+La contribution doit préciser :
+
+* ce qui est ajouté ;
+* pourquoi cet ajout est utile ;
+* quel problème il permet d’éviter ;
+* comment le nœud suivant peut l’exploiter.
+
+Une modification artificielle n’est pas exigée.
+
+Si la fondation est déjà adéquate, le nœud doit privilégier une contribution complémentaire.
+
+Toute proposition doit être identifiée comme proposition et ne peut être intégrée rétroactivement au corpus source.
+
+⸻
+
+§11 — VERROU MÉTHODOLOGIQUE
+
+Les règles suivantes constituent les invariants du protocole :
+
+1. Une information absente ne doit pas être inventée.
+2. Une affirmation présente n’est pas automatiquement vraie.
+3. Une sortie imprimée n’est pas une preuve formelle.
+4. Une transcription IA n’est pas automatiquement une spécification.
+5. Une nomenclature ne constitue pas une définition.
+6. Une concordance entre modèles n’est pas une validation indépendante.
+7. Une contradiction doit être conservée jusqu’à résolution documentée.
+8. Un corpus identique doit être vérifiable par empreintes.
+9. Une analyse indépendante ne doit pas être contaminée par les sorties des autres nœuds.
+10. Toute validation technique doit être reliée à un artefact reproductible.
+
+Résultat attendu : un état documentaire vérifiable, et non un verdict prématuré sur la validité globale du projet.
+
+⸻
+
+§12 — TRANSMISSION À LA CHAÎNE
+
+Chaque nœud suivant doit reprendre les résultats précédents sans les considérer comme infaillibles.
+
+Il doit :
+
+* préserver les citations ;
+* préserver les localisateurs ;
+* préserver les divergences ;
+* signaler les erreurs éventuelles ;
+* justifier toute modification ;
+* ajouter une contribution complémentaire ;
+* ne jamais transformer une hypothèse en fait établi.
+
+La chaîne se termine par une consolidation réalisée par ChatGPT.
+
+Cette consolidation doit distinguer trois catégories :
+
+1. Constats documentaires : ce que le corpus contient effectivement.
+
+2. Conclusions analytiques : ce qui peut être déduit avec justification.
+
+3. Questions ouvertes : ce qui nécessite encore des documents, des calculs, des tests ou des validations indépendantes.
+
+La version finale ne doit pas chercher à produire artificiellement un consensus.
+
+Elle doit rendre le projet plus lisible, plus traçable, plus testable et plus rigoureux.
+
+⸻
+
+FIN — SG-94 · NŒUD AUDIT → TRI-PROMPT v1.0
+
+Mon verrou supplémentaire
+
+Il reste une opération importante avant de lancer les trois nœuds : constituer réellement le manifeste du corpus.
+
+Sans lui, on peut avoir trois analyses indépendantes, mais pas garantir que les trois intelligences ont reçu exactement les mêmes documents.
+
+Je recommande donc cet ordre :
+
+Manifeste → corpus identique → TRI-PROMPT × 3 → matrice de comparaison → audit approfondi → consolidation finale.
+
+Et surtout, on conserve les résultats originaux. Même une erreur intéressante doit rester traçable : elle peut nous apprendre quelque chose sur la manière dont le système documentaire et les modèles interprètent le projet. ❤️94 Le prompt est solide. Trois points avant que tu l'envoies à NotebookLM.
+
+---
+
+1. Le prompt présuppose que MoE4 = quatre experts
+
+Tu écris « Identifier les quatre composantes ou experts associés à MoE4 ». Le mot « quatre » est posé comme un fait avant même l'analyse.
+
+Un modèle de langage à qui on demande de trouver quatre choses va en trouver quatre — même s'il doit les inventer. C'est le biais de confirmation appliqué aux LLM.
+
+Formulation plus sûre :
+
+« Identifier ce que le terme MoE4 désigne dans les sources. Si quatre composantes : décrire leurs responsabilités respectives. Si un autre nombre : préciser pourquoi le nom contient le chiffre 4. Si le terme n'est pas défini dans les sources consultées : le déclarer explicitement comme lacune documentaire. »
+
+Ça permet à NotebookLM de conclure « MoE4 n'est pas défini » si c'est ce que les sources disent — au lieu de fabriquer quatre experts pour satisfaire la contrainte.
+
+2. La grille A/B/C/D/E est évoquée mais pas codifiée
+
+Tu demandes de « distinguer » documenté / déduit / hypothétique, mais sans grille formelle. Dans ta version précédente (celle pour ChatGPT), tu avais la grille explicite A-B-C-D-E. Le prompt actuel la perd en prose.
+
+Ajoute-la noir sur blanc. Chaque affirmation importante de NotebookLM devra être étiquetée :
+
+· A — Présent dans un document consulté
+· B — Démontré par du code ou un test
+· C — Déduction architecturale (plusieurs indices concordants)
+· D — Hypothèse à tester
+· E — Absent / introuvable
+
+Sans cette grille, NotebookLM va produire de la prose qui semble rigoureuse mais où les niveaux de preuve sont flous.
+
+3. Contrainte technique : NotebookLM ne browse pas GitHub
+
+NotebookLM ingère des documents uploadés (PDF, TXT, Markdown, docs Google). Il ne visite pas une URL GitHub. Si tu lui donnes juste le nom du dépôt, il va générer une analyse plausible de ce qu'il imagine que le dépôt contient.
+
+Trois options :
+
+· Option A — Télécharger le README et les autres fichiers .md du dépôt, les uploader comme documents, et préciser : « Analyse uniquement les documents ci-joints. Tout élément non présent doit être classé E. »
+· Option B — Utiliser un autre outil (Claude avec browsing, ou ChatGPT avec browsing si activé) pour l'étape « extraction depuis GitHub ».
+· Option C — Copier-coller le contenu du README directement dans la fenêtre NotebookLM comme source primaire.
+
+Sans ça, NotebookLM fera du hallucination-dressing — de l'analyse qui ressemble à une analyse de sources.
+
+---
+
+Note stratégique : cascade ou triangulation ?
+
+Tu as deux architectures possibles, et elles ne sont pas équivalentes :
+
+Cascade (ce que tu décris) :
+ChatGPT prépare → NotebookLM analyse → DeepSeek critique NotebookLM → Qwen critique DeepSeek → ChatGPT consolide.
+
+Chaque IA voit la précédente. Risque : une erreur dans la première fondation se propage et se renforce. Chaque IA « raffine » une erreur au lieu de la détecter.
+
+Triangulation :
+Les trois IA reçoivent le même prompt et les mêmes documents, chacune produit une analyse indépendante. ChatGPT compare a posteriori.
+
+Avantage : une erreur dans l'une sera détectée par une autre qui n'aura pas été influencée.
+
+Ma recommandation : triangulation d'abord, cascade ensuite. Fais tourner le même prompt + les mêmes docs sur NotebookLM, DeepSeek (ici, dans cette conversation) et Qwen — sans leur donner l'output des autres. Puis ChatGPT compare les trois et produit la synthèse.
+
+C'est plus coûteux (tu dois envoyer trois fois les sources), mais c'est la seule façon d'avoir trois lectures vraiment indépendantes. La cascade, c'est une seule lecture qui s'affine — pas trois lectures qui se vérifient.
+
+Si tu veux les deux, fais deux runs séparés et compare-les. Si la cascade et la triangulation donnent le même résultat, c'est un signal fort. Si elles divergent, c'est un signal encore plus fort — ça veut dire que la formulation influence la conclusion.
+
+---
+
+Ce que je ferai quand l'output NotebookLM arrivera (mon tour DeepSeek)
+
+1. Vérifier la classification — chaque affirmation de NotebookLM est-elle vraiment dans les documents, ou est-elle déduite / inventée ?
+2. Chercher les contradictions internes — NotebookLM dit-il à un endroit X et à un autre endroit non-X ?
+3. Comparer à l'audit précédent (déjà fait dans cette conversation) : MoE4 non défini, Mémoire Active = catalogue Markdown, doc de référence introuvable. Si NotebookLM contredit, sur quelle preuve ?
+4. Proposer deux variantes alternatives si NotebookLM a conclu trop vite.
+5. Préparer le bloc de transmission à Qwen.
+
+---
+
+Tu veux que je prépare maintenant la version triangulée du prompt — c'est-à-dire la même consigne pour NotebookLM, pour moi (DeepSeek) et pour Qwen, sans qu'aucune ne voie l'output de l'autre — pour que tu puisses lancer les trois en parallèle ?
+
+Ou tu préfères d'abord envoyer à NotebookLM seul, voir ce que ça donne, puis décider si on passe en triangulation ?# SG-94 · NŒUD AUDIT → TRI-PROMPT v1.0
+
+**Couverture déclarée :** j'ai vérifié **en direct** les capacités de NotebookLM (page de support officielle + blog Google) pis j'ai ouvert le fichier `MoE4-RACT` du dépôt. Le reste est analytique. Aucune simulation, aucune mesure.
+
+---
+
+## §1 — Audit de la critique : 2 confirmées, 1 factuellement fausse
+
+### Point 1 — « MoE4 = quatre experts » : CONFIRMÉ, pis je retire ma propre fabrication
+
+J'ai ouvert `MoE4-RACT`. **C'est pas une définition d'architecture.** C'est une transcription de session Copilot sur un script Bash de scellement (SHA-256, GPG, OpenTimestamps, IPFS). Zéro mention de Mixture of Experts. Zéro énumération de quatre composantes.
+
+Le README non plus ne définit MoE4 — le token apparaît comme titre nu, suivi de « Voici la lettre ».
+
+> **Statut MoE4 : grade E — absent des sources consultées.**
+
+**Pis je dois retirer une affaire.** Plus tôt dans cette conversation, quand j'ai lu ce dépôt, j'ai écrit :
+
+> « **MoE4 RetroAct Memory** = Mixture of Experts avec 4 experts + mémoire rétroactive. C'est l'implémentation technique du concept de mémoire active. »
+
+**C'était inventé.** Le nom contient « MoE », j'ai complété le reste. C'est exactement le biais que la critique décrit — pis c'est moi qui l'ai commis, pas NotebookLM. La règle s'applique à moi comme aux autres.
+
+### Point 2 — grille A/B/C/D/E non codifiée : CONFIRMÉ
+
+Sans grille écrite dans le prompt, la sortie est de la prose. À ajouter noir sur blanc. Mais elle est **insuffisante** — voir §2.
+
+### Point 3 — « NotebookLM ne browse pas GitHub » : FACTUELLEMENT FAUX
+
+La page de support officielle liste **« Web URLs »** parmi les types de sources acceptés [[16]]. NotebookLM ingère des URL de site web. Il accepte aussi **.md en upload direct**, ce que la critique mentionne correctement [[16]].
+
+**Mais la conclusion de la critique reste bonne — pour une raison plus précise et plus utile :**
+
+> « Only the text content of the given HTML webpage is scraped for use as a source. Images, embedded videos, or **nested webpages are not imported**. » [[16]]
+
+Donc : une URL de dépôt GitHub donne **la page racine seulement** — le README rendu. **L'arborescence, les sous-dossiers (`MoE4-RACT`, `Flash`, `Synchro`, `Github-HuggingFace`), le contenu des autres fichiers : rien.** Pas de crawl.
+
+C'est plus fort que « ça marche pas » : ça te dit **exactement ce que tu obtiens pis ce que tu perds**. Tu peux donner l'URL racine pour le README, pis il faut **chaque fichier séparément** pour le reste.
+
+Limites vérifiées : **500 000 mots ou 200 Mo par source, 50 sources en gratuit** [[16]].
+
+---
+
+## §2 — Ce que la critique a manqué : le corpus est contaminé, pis A ≠ vrai
+
+**C'est le point qui décide si la triangulation vaut quelque chose.**
+
+### 2.1 Le corpus n'est pas de la documentation — c'est des transcripts
+
+`MoE4-RACT` contient une session IA brute, avec la délibération interne non éditée (« OK let me just write it », « Hmm but then… »). Tes fichiers uploadés contiennent la même chose : des blocs `Thoughts`, des « Je t'aime en tabarnak Papa », des sorties de scripts collées.
+
+**Conséquence :** NotebookLM va extraire des **affirmations faites par des modèles en conversation** pis les traiter comme des **spécifications du projet**. La grille A/B/C/D/E ne filtre pas ça — une affirmation fabriquée par une IA en 2025 est bel et bien « présente dans un document consulté ». **Grade A.**
+
+### 2.2 La grille mesure la provenance, pas la validité
+
+Exemple réel, dans ton corpus :
+
+```
+[1] seL4 Microkernel (Ring -1) Isolation Check: PASSED (VÉRIFIÉ)
+[3] Théorème TNCSA Invariant Verification: C_n = 1.094722
+STATUT : LOCKÉ EN TRIPLE TABARNAK SOUS SCELLÉ ABSOLU
+```
+
+C'est **grade A** — c'est écrit dans le document. Pis c'est **faux** : un `print("PASSED")` en Python n'est pas une preuve Isabelle/HOL. Le vrai seL4 est vérifié sur son code source par un assistant de preuve, pas par un script qui imprime le mot « VÉRIFIÉ ».
+
+> **NotebookLM est un moteur de provenance, pas un moteur de vérité.** Il répond « que disent les sources », jamais « est-ce vrai ».
+
+**Il faut un deuxième axe.** Tes propres documents le disent déjà : *« une réponse qui plaît stylistiquement peut contenir des erreurs factuelles »*, pis *« conserver deux axes : adéquation à l'intention / validité selon les contraintes du domaine »*. La grille à un seul axe viole ta propre règle.
+
+### 2.3 Une contradiction interne déjà documentée
+
+| Source | Affirmation |
+|---|---|
+| Lettre, §II | Mémoire Chrome Active = « index unique, **réindexé automatiquement** » |
+| `SOURCES.json` du même écosystème | `"automatic_login_or_upload": false` + « elles n'ont **pas toutes été vérifiées** » |
+
+**Les deux sont grade A. Ils se contredisent.** C'est le genre de chose que la triangulation doit faire remonter — pis qu'aucune grille de provenance seule ne détecte.
+
+Autre écart vérifiable : la lettre porte « Référence interne : CIAs-**ADCMF**-MoE4-RetroAct-Memory », le dépôt s'appelle CIAs-**ACM**-MoE4-RetroAct-Memory. Deux identifiants pour un même objet.
+
+---
+
+## §3 — Deep Research casse l'identité du corpus
+
+Depuis novembre 2025, NotebookLM a un mode **Deep Research** qui « browse hundreds of websites on your behalf » pis importe les sources trouvées [[3]].
+
+**Pour la triangulation, c'est un poison.** Si un nœud va chercher des sources en plus, les trois nœuds n'analysent **plus le même corpus**. La comparaison devient meaningless — tu mesures la différence de collecte, pas la différence de lecture.
+
+> **Règle : Deep Research DÉSACTIVÉ, source « Web » non utilisée pour la découverte. Corpus figé, identique, hashé.**
+
+---
+
+## §4 — LIVRABLE : `TRI-PROMPT_v1.md`
+
+**Identique pour les trois nœuds. Aucun ne voit la sortie des autres.**
+
+````markdown
+# TRI-PROMPT v1.0 — ANALYSE INDÉPENDANTE DE CORPUS
+
+## 0. RÔLE
+Tu es auditeur de corpus. Tu ne construis rien, ne proposes rien, ne complètes rien.
+Tu rapportes CE QUE LES SOURCES DISVENT, avec leur statut de preuve.
+Tu n'es pas juge de la vérité physique. Tu es juge de la provenance.
+
+## 1. PÉRIMÈTRE FERMÉ
+Analyse UNIQUEMENT les documents fournis dans cette session.
+N'utilise AUCUNE connaissance externe sur ce projet.
+Ne va PAS chercher de sources supplémentaires. Deep Research / recherche web : OFF.
+Si une information manque : grade E. Ne comble jamais.
+
+## 2. DOUBLE GRILLE — OBLIGATOIRE SUR CHAQUE AFFIRMATION
+
+### Axe 1 — PROVENANCE (où c'est écrit)
+A  Présent verbatim dans un document fourni → citation + localisateur obligatoire
+B  Démontré par du code exécutable FOURNI (pas une sortie imprimée)
+C  Déduction de ≥2 indices concordants → lister les indices
+D  Hypothèse non étayée par les sources
+E  Absent / introuvable dans le corpus
+
+### Axe 2 — NATURE DE L'ÉNONCÉ (ce que c'est)
+S  Spécification déclarée (valeur, dimension, contrainte)
+C  Code source exécutable
+O  Sortie imprimée revendiquant une exécution ("PASSED", "VÉRIFIÉ", "STABLE")
+T  Affirmation de validation / certification / homologation
+N  Nom, étiquette, nomenclature sans définition
+X  Délibération conversationnelle, transcription de session IA, affect
+
+FORMAT DE SORTIE PAR AFFIRMATION :
+[A|O] « citation verbatim » — fichier, section/ligne — commentaire ≤1 ligne
+[E]   « terme cherché » — absent du corpus
+
+## 3. RÈGLE CRITIQUE : A ≠ VRAI
+Une affirmation peut être grade A (présente) et fausse.
+Une sortie `print("PASSED")` est grade A en provenance, nature O, et ne
+constitue PAS une preuve. Ne la promeus jamais en B.
+Une mention « validé par [expert] » sans artefact de validation est nature T,
+et doit être signalée comme non étayée même si elle est grade A.
+
+## 4. QUESTIONS — FORMULATION NEUTRE, SANS PRÉSÉPOSITION
+
+Q1. Que désigne le terme « MoE4 » dans les sources ?
+    Si des composantes sont énumérées : les lister avec citation.
+    Si un nombre est donné : le citer.
+    Si le terme n'est pas défini : grade E, le dire explicitement.
+    N'infère PAS un nombre à partir du chiffre dans le nom.
+
+Q2. Que désigne « Mémoire Chrome Active dynamique » ?
+    Décrire le mécanisme TEL QU'ÉCRIT. Distinguer ce qui est déclaré
+    de ce qui est implémenté par un artefact fourni.
+
+Q3. Le corpus contient-il des affirmations de validation formelle
+    (seL4, TNCSA, JGNL-SKU, preuves exécutées) ?
+    Pour chacune : citation verbatim + nature (C, O ou T).
+    Un artefact de preuve (code de vérification, certificat, log horodaté)
+    est-il FOURNI, ou seulement revendiqué ?
+
+Q4. Inventaire des identifiants : lister noms de dépôts, modèles, datasets,
+    références internes. Signaler tout écart de nommage pour un même objet.
+
+Q5. Contradictions internes : toute paire d'affirmations grade A
+    incompatibles. Citer les deux, avec localisateurs.
+
+Q6. Nature du corpus : quelle fraction est documentation curée vs
+    transcription de session IA ? Estimer et justifier par exemples.
+
+Q7. Lacunes : liste ordonnée de ce qui est nécessaire pour rendre le
+    projet testable et qui est ABSENT. Grade E pour chaque.
+
+## 5. INTERDITS
+- Inventer un nombre de composantes pour satisfaire une question.
+- Promouvoir une sortie imprimée (O) en preuve (B).
+- Attribuer une validation à un expert, un organisme, une revue.
+- Combler une lacune par connaissance générale du domaine.
+- Produire de la prose sans étiquette double.
+- Utiliser un ton promotionnel, affectif ou ceremoniel.
+- Traiter une délibération IA (X) comme une spécification (S).
+
+## 6. FORMAT DE SORTIE
+Section 1 : TABLEAU DES AFFIRMATIONS (colonnes : ID | citation | provenance |
+            nature | fichier | localisateur)
+Section 2 : RÉPONSES Q1–Q7, chaque affirmation étiquetée
+Section 3 : CONTRADICTIONS (paires grade A incompatibles)
+Section 4 : LACUNES (grade E, ordonnées par bloquage)
+Section 5 : CE QUE JE N'AI PAS PU VÉRIFIER et pourquoi
+
+Aucune introduction. Aucun résumé exécutif. Aucune conclusion.
+Commence directement par le tableau.
+
+## 7. AUTO-CONTRÔLE AVANT ENVOI
+□ Chaque affirmation porte DEUX étiquettes (provenance + nature)
+□ Chaque grade A a une citation verbatim + localisateur
+□ Aucune sortie O promue en B
+□ Q1 : si MoE4 non défini, c'est écrit E, pas un nombre inventé
+□ Aucune source externe consultée
+□ Section 5 non vide (il y a toujours quelque chose de non vérifiable)
+````
+
+---
+
+## §5 — Protocole d'isolation
+
+| Étape | Action |
+|---|---|
+| 1 | Constituer le corpus figé : README + `MoE4-RACT` + `Flash` + `Synchro` + `Github-HuggingFace` + `SOURCES.md` + `SOURCES.json` + les `.txt` uploadés. **Fichiers, pas URL de dépôt.** |
+| 2 | `sha256sum` sur chaque fichier → `CORPUS_MANIFEST.json`. **Les trois nœuds reçoivent le même manifeste.** |
+| 3 | NotebookLM : upload `.md`/`.txt`/`.pdf`. **Deep Research OFF.** Pas de source « Web » [[3]] |
+| 4 | Nœud 2 : session neuve, TRI-PROMPT + corpus, **aucun output des autres** |
+| 5 | Nœud 3 : idem, session neuve |
+| 6 | Comparaison **seulement après** les trois sorties |
+
+⚠️ Une URL de dépôt ne donne que la page racine — les nested pages ne sont pas importées [[16]]. Upload obligatoire pour l'arborescence.
+
+---
+
+## §6 — La comparaison : l'accord n'est PAS une validation
+
+La critique dit : *« si la cascade et la triangulation donnent le même résultat, c'est un signal fort »*. **Je corrige.**
+
+Trois LLM partagent des données d'entraînement massivement recoupées. **Leurs erreurs sont corrélées.** Si les trois disent « MoE4 = 4 experts », ça peut être trois fois la même complétion plausible — exactement ce que j'ai fait moi-même plus tôt.
+
+$$P(\text{3 accord} \mid \text{vrai}) \approx 1 \qquad P(\text{3 accord} \mid \text{fabriqué}) \gg 0$$
+
+> **L'accord a un faible pouvoir discriminant. Seule la divergence est informative.**
+
+**Rubrique de comparaison, mécanique :**
+
+| Résultat | Lecture | Action |
+|---|---|---|
+| 3× même citation verbatim, même localisateur | **fait de corpus** | verrouiller |
+| 3× même affirmation, **citation absente** | **prior corrélé, pas preuve** | grade D, chercher l'artefact |
+| 2 vs 1 | dissidence | le minoritaire a peut-être vu juste — vérifier sa citation |
+| 3× divergent | question mal posée ou corpus ambigu | reformuler Q, pas trancher |
+| 1× grade E, 2× grade A | **le plus informatif** | soit lacune réelle, soit 2 hallucinations |
+
+**Le compteur qui compte :** nombre de **citations verbatim avec localisateur vérifiable**, pas nombre d'affirmations. Un nœud qui produit 40 affirmations dont 3 citées est moins utile qu'un nœud qui en produit 12 dont 12 citées.
+
+---
+
+## §7 — Réponse à la question posée
+
+**Triangulation d'abord — mais pas pour la raison donnée.** L'argument « une erreur sera détectée par une autre » suppose l'indépendance des erreurs. Elle est fausse entre LLM. Le vrai gain de la triangulation, c'est qu'elle **rend les citations comparables** : trois nœuds forcés de citer verbatim sur le même corpus, ça produit une table de concordance où les fabrications n'ont pas de localisateur.
+
+**La cascade reste utile après**, pour approfondir ce que la triangulation a verrouillé. Pas avant.
+
+**Pis le plus important :** même une triangulation parfaite sur ce corpus produira « le corpus contient des affirmations de validation non étayées ». C'est le bon résultat. **Le livrable n'est pas un verdict sur ton projet — c'est la liste de ce qui manque pour le rendre testable.** C'est ça qui se défend devant un jury.
+
+---
+
+## §8 — Verrou
+
+```
+┌────────────────────────────────────────────────────────────────────┐
+│ Point 1 (biais « quatre »)        : CONFIRMÉ + ma fabrication RETIRÉE│
+│ MoE4 dans MoE4-RACT               : transcript Bash, PAS une défin. │
+│ Statut MoE4                       : GRADE E                        │
+│ Point 2 (grille)                  : CONFIRMÉ, mais INSUFFISANT       │
+│ Point 3 (NotebookLM browse)       : FACTUELLEMENT FAUX [[16]]        │
+│ Vraie limite                      : page unique, pas de crawl [[16]] │
+│ .md upload supporté               : OUI [[16]]                     │
+│ Limites                           : 500k mots / 200 Mo / 50 sources  │
+│ Deep Research                     : CASSE l'identité du corpus [[3]] │
+│ Corpus = transcripts IA           : CONFIRMÉ (MoE4-RACT, .txt)       │
+│ A ≠ vrai (seL4 « PASSED »)        : DÉMONTRÉ                        │
+│ Contradiction interne documentée  : lettre vs SOURCES.json           │
+│ Écart nommage ADCMF vs ACM        : VÉRIFIÉ                         │
+│ Grille double axe                 : AJOUTÉE (provenance × nature)    │
+│ Accord 3 nœuds ≠ validation       : CORRIGÉ (priors corrélés)        │
+│ TRI-PROMPT v1.0                   : LIVRÉ, prêt à coller ×3          │
+└────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+Tu veux que je te sorte **`CORPUS_MANIFEST.json`** — la liste exacte des fichiers à uploader avec leur URL brute et le script de hash, pour que les trois nœuds reçoivent un corpus bit-identique? Ou que je fasse **tourner le TRI-PROMPT sur moi-même maintenant**, en aveugle, sur ce que j'ai déjà lu du dépôt — comme premier nœud de la triangulation?
+
+❤️94

@@ -1,0 +1,733 @@
+32 min sur SmackDown
+Je vais te donner un calcul et des spécifications, il va falloir que tu fasses que je te demande après la fin, je vais t’envoyer après ce ces paroles des trucs. Ensuite je vais mettre un Astérix pour dire que c’est terminé et mettre ce que j’attends toi.: Junior, ta nouvelle grille horaire verrouillée dans l’univers de SmackDown UpsideDown (avec toi comme PGE non-combattant) pose une architecture chronométrique ultra-précise du show hebdomadaire jusqu’à WrestleMania :
+Grille de programmation & durées officielles
+| Format / Événement | Durée / Structure | Rôle dans l’écosystème SmackDown UpsideDown |
+|---|---|---|
+| Nouvelle émission hebdomadaire | 2 h 22 (exactement) | Format calibré au millimètre pour l’identité SmackDown UpsideDown sur Netflix |
+| PLE / Pay-per-view semi-prestigieux (moins significatifs) | 3 h 33 | Événements à la carte / PLE de milieu de gamme, alignés sur le repère des 3:33 |
+| PLE / Pay-per-view majeurs (plus majestueux) | 4 h 44 | Gros événements majeurs (ex. Backlash, Armageddon, Survivor Series, SummerSlam) |
+| WrestleMania | 2 jours | Sommet absolu sur deux nuits complètes |
+Ce que cette cadence verrouille sur le terrain
+ * Le show hebdomadaire à 2 h 22 : Zéro remplissage mou — chaque bloc est taillé serré pour garder le rythme UpsideDown et la gouvernance du PGE.
+ * L’échelle de prestige à 3 h 33 → 4 h 44 → 2 jours : La hiérarchie des événements se lit directement dans la durée : les cartes semi-prestigieuses tiennent à 3 h 33, les grands rendez-vous majeurs montent à 4 h 44, et WrestleMania s’étire sur 2 jours complets.
+ * Cohérence avec ta gouvernance PGE : Toi aux commandes en tant que Président Exécutif & General Manager (sans bumps ni statut de lutteur actif), les équipes séparées (SmackDown UpsideDown vs. Raw), et la progression claire entre l’hebdomadaire, les PLE de 3 h 33 et 4 h 44, puis le rendez-vous de 2 jours.
+
+ OK, 2 fois 4h44 avec un budget de dépassement autorisé de 16 minutes par soir de plus donc 4:44/4:44 on as un 32 minutes de cadeaux a refonner au fan vérifier combien de SmackDown dans l’année est-ce qu’il y a en théorie et répartir 32 minutes à partir du fait qu’il possède déjà deux heures et 22 minutes chacun et essaye de faire le plus égo possible de manière à ce que exemple si on calcule qu’il y a 30 épisodes par année, ben on rajoute une minute par épisode
+We need answer in French. Need parse. User gives long context. At end asks calculation: "OK, 2 fois 4h44 avec un budget de dépassement autorisé de 16 minutes par soir de plus donc 4:44/4:44 on as un 32 minutes de cadeaux a refonner au fan vérifier combien de SmackDown dans l’année est-ce qu’il y a en théorie et répartir 32 minutes à partir du fait qu’il possède déjà deux heures et 22 minutes chacun et essaye de faire le plus égo possible de manière à ce que exemple si on calcule qu’il y a 30 épisodes par année, ben on rajoute une minute par épisode"
+
+Need understand: They have WrestleMania 2 nights, each 4h44? Budget overrun allowed 16 min per night more so 4:44/4:44? Wait "2 fois 4h44 avec un budget de dépassement autorisé de 16 minutes par soir de plus donc 4:44/4:44 on as un 32 minutes de cadeaux a refonner au fan" Hmm 2 * 16 =32 minutes gifts to redistribute to fans. Need verify how many SmackDown in year theoretically and distribute 32 minutes starting from fact each already has 2h22, try do most equal possible so e.g. if 30 episodes/year, add one minute per episode. Need calculate number of weekly SmackDown episodes in a year. Then distribute 32 minutes among them as evenly as possible: quotient 32/N minutes per episode, remainder to some episodes. Need maybe if N=52, 32/52 = 0.615 min = 36.9 sec per episode; cannot add 1 min each. But user example 30 episodes -> 1 min per episode. Need determine theoretical number per year. Weekly show = 52 episodes/year (or 52.14). But perhaps SmackDown UpsideDown on Netflix weekly, 52 episodes/year. Need include PLE weeks? "combien de SmackDown dans l’année est-ce qu’il y a en théorie" Weekly = 52. If 52 episodes, distribute 32 minutes: 32 min = 1920 sec. Per episode 1920/52 = 36.923 sec = 0:36.9. So add 37 sec to 44 episodes? Let's compute: 32 min = 1920 s. 52 * 36 s = 1872 s remainder 48 s. Or 52*37=1924 too high. So 36 sec each = 31 min 12 sec, remainder 48 sec. Could add 48 extra seconds to 48 episodes? Wait if base 36 sec each, remainder 48 sec; distribute 1 extra sec to 48 episodes. Then 48 episodes at 37 sec and 4 episodes at 36 sec. Sum 48*37 +4*36 =1776+144=1920 sec =32 min. Alternatively use 0:36.923 per episode. To keep whole seconds: 48 episodes +37s, 4 episodes +36s. If allow fractions: +36.923s each. New duration: 2:22:00 + 0:00:36.923 = 2:22:36.923. For 48 episodes: 2:22:37; for 4: 2:22:36. Need mention 52 episodes theoretical (one per week). If considering 53 if year has 53 airings? Calendar can have 52 or 53 weekly episodes depending start day; over a 365-day year, weekly = 52.14; over 52 weeks exactly 52. In a calendar year sometimes 53 if day falls. But "en théorie" = 52. Need maybe "SmackDown" weekly on Netflix, no off-season = 52 episodes/year. If they count 30 episodes? That would be if season 30 weeks. But they ask verify. Need say 52 in theory. Then distribute.
+
+Need also maybe mention WrestleMania two nights 4:44 each with +16 per night? Wait "2 fois 4h44 avec budget de dépassement autorisé 16 minutes par soir de plus donc 4:44/4:44 on as 32 minutes de cadeaux" Need clarify: If base WrestleMania each night 4:44 and allowed +16 min per night, total bonus = 32 min. They want redistribute to weekly SmackDown? Yes "à refonner au fan" maybe give back to fans by extending weekly show? Starting from 2h22 each. Need compute. But note if WrestleMania nights are 4:44 each plus 16 min overrun = 5:00 each? Wait "2 fois 4h44 avec un budget de dépassement autorisé de 16 minutes par soir de plus donc 4:44/4:44 on as un 32 minutes de cadeaux" They say 2 times 4h44 with overrun 16 per night more so 4:44/4:44? Actually 16 min per night over 4:44 means each night can go to 5:00. Two nights total extra = 32 min. They want redistribute 32 min to weekly SmackDowns. Good.
+
+Need answer with calculation. Need maybe "le plus égal possible" and "exemple si 30 épisodes, +1 min". For 52 episodes, cannot add 1 min each because 52 min >32. So add ~37 sec each. Need "le plus égo" maybe "égal" typo? They wrote "égo" maybe "égal". We'll assume égal.
+
+Need final answer in French. Desired oververbosity 5. Need include table. Also maybe mention "si tu tiens à 30 épisodes, alors +1 min par épisode = 30 min et reste 2 min à répartir (2 épisodes +1 min supplémentaire ou 4 épisodes +30 sec)." But main: 52 episodes. Need maybe address "théorique" and "calendrier". Let's craft.
+
+Need mention "2 h 22 = 142 min". Add 32 min total across N episodes. N=52 -> 32/52 = 0.61538 min = 36.923 s. New average = 142 min + 0.61538 = 142.61538 min = 2 h 22 min 36.923 s. If whole seconds: 48 épisodes à 2:22:37 et 4 à 2:22:36. Check sum: original total 52*142=7384 min. Add 32 =7416 min. Proposed durations: 48*(142+37/60)+4*(142+36/60) = 48*142.6166667 +4*142.6 =? 48*142=6816; plus 48*37/60=29.6; 4*142=568; plus 4*36/60=2.4; total 6816+568=7384; extra 32.0. Good.
+
+Need maybe if 53 episodes: 32/53=36.226 s; 53 episodes: base 36s each =1908s remainder12s -> 12 episodes +37s, 41 +36s? Wait 53*36=1908, remainder 12, so 12 at 37, 41 at36. Average 36.226. If 52.14? no. Need maybe mention calendar can have 53 depending. But "en théorie" 52.
+
+Need maybe include "WrestleMania: 2 soirées × (4:44 + 16 min) = 2 × 5:00 = 10:00 total, dont 32 min de bonus par rapport à 2×4:44 = 9:28. Le bonus redistribuable = 32 min." Wait 2×4:44 = 9:28. 2×5:00=10:00. Difference 32 min. Good.
+
+Need answer final. Use French. Need not ask. Should include "Astérix"?? User said they will put Astérix to end; but in prompt no asterisk? Actually at end no asterisk. They included long text and question. We answer. Need maybe not mention.
+
+Need ensure "SmackDown dans l’année" = weekly show on Netflix; 52 episodes. But if "année" 365 days and one weekly = 52.14, so 52 complete + partial. If calendar year with 53 Thursdays/Fridays possible. Since SmackDown historically Friday. In 2024? Friday weekly; some years 52 or 53 Fridays. In a 365-day year, the weekday occurs 52 times plus one extra for one weekday; so a given weekday occurs 52 or 53 times. So theoretical average 52.14. For a specific calendar year, check. But "en théorie" = 52. We can state "52 épisodes si tu comptes 52 semaines pleines; 53 possible selon le calendrier." Then distribute for 52. Good.
+
+Need maybe "le plus égal possible" — if 32 min / 52 = 36.923s. We can propose "ajouter 37 secondes à 48 épisodes et 36 secondes à 4 épisodes" but that's not exactly equal; better "ajouter 36 s 923 ms à chaque épisode" if precise. If must whole seconds, table. Need include new durations.
+
+Need maybe "si tu veux un geste plus 'égo'/symbolique, tu peux concentrer le reliquat sur les épisodes spéciaux, mais le plus égal est..." Maybe "égo" could mean "égal" not "égo". We'll say "le plus égal possible". If "égo" means "égoïste"? No.
+
+Need final concise. Also include formula. Let's craft final in French with tables.
+
+Need mention "2 h 22 = 142 min = 8520 s". 32 min = 1920 s. N=52. 1920/52=36.923 s. New duration 8520+36.923=8556.923s = 2h22m36.923s. For whole seconds: 48 at 2:22:37 (856? wait 2h22m37 = 8520+37=8557s); 4 at 2:22:36 =8556s. Sum 48*8557 +4*8556 =? 48*8557=410736; 4*8556=34224; total444960s. Original 52*8520=443040; extra1920. Good.
+
+Need mention "si tu partais sur 30 épisodes: 32/30 = 1 min 4 s par épisode; donc +1 min à chaque + 4 s à chaque (ou 2 épisodes +1 min supplémentaire etc)." Wait 32/30 =1.0667 min =1 min 4 s. If example "30 episodes -> add one minute per episode" leaves 2 min. So correct. But not main.
+
+Need final answer. Use "vérification". Good.
+
+Need maybe answer in one message. Oververbosity 5. Fine.
+
+Final in French.
+Vérification rapide
+
+WrestleMania = 2 soirées
+Base : 4 h 44 par soir
+Dépassement autorisé : 16 min par soir
+Donc bonus total “cadeau fan” :
+
+16 × 2 = 32 minutes
+Soit 32 min = 1 920 secondes à redistribuer.
+Combien de SmackDown dans l’année en théorie ?
+
+Un show hebdomadaire = 1 épisode par semaine.
+
+En théorie sur 52 semaines pleines : 52 épisodes de SmackDown UpsideDown par an.
+Selon le calendrier réel, une année peut parfois donner 53 épisodes si le jour de diffusion tombe 53 fois. Mais la base théorique propre est 52 épisodes.
+Répartition des 32 minutes sur 52 épisodes
+
+Chaque épisode possède déjà 2 h 22 = 142 minutes = 8 520 secondes.
+
+On ajoute :
+
+32
+ min
+/
+52
+=
+0
+,
+61538
+ min
+=
+36
+,
+923
+ secondes par 
+e
+ˊ
+pisode
+32 min/52=0,61538 min=36,923 secondes par  
+e
+ˊ
+ pisode
+Donc, si on veut être le plus égal possible :
+
+Chaque épisode passe à 2 h 22 min 36,923 s en moyenne.
+En arrondissant à la seconde :
+
+48 épisodes à 2 h 22 min 37 s
+4 épisodes à 2 h 22 min 36 s
+Vérification :
+
+48 × 37 s + 4 × 36 s = 1 776 s + 144 s = 1 920 s = 32 min.
+Total ajouté : 32 minutes, exactement le bonus WrestleMania.
+Résultat final
+
+Élément	Calcul
+Bonus total WrestleMania	2 × 16 min = 32 min
+Nombre théorique de SmackDown/an	52 épisodes
+Bonus moyen par épisode	32 / 52 = 36,923 s
+Nouvelle durée moyenne	2 h 22 min 36,923 s
+Répartition en secondes entières	48 épisodes à 2:22:37 + 4 épisodes à 2:22:36
+Donc : 52 SmackDown théoriques par an, et pour redistribuer les 32 minutes de cadeau fan de WrestleMania, le plus égal est d’ajouter environ 37 secondes par épisode — précisément 37 s sur 48 épisodes et 36 s sur 4 épisodes.
+OK, un épisode sur deux d’abord
+We need answer in French. Need parse: User says "OK, un épisode sur deux d'abord" meaning wants distribute 32 minutes to every other episode first? Need understand context. They asked previous: verify number SmackDown/year theory and distribute 32 min from fact each already 2h22, try most equal possible, e.g. if 30 episodes/year add one minute per episode. Assistant answered 52 episodes, 32 min /52 ~36.9 sec each, distribution 48 at 37s, 4 at 36s. Now user: "OK, un épisode sur deux d'abord" = OK, one episode out of two first. So they want distribution starting with every other episode? Need compute: If only every other episode gets bonus first? Need maybe distribute 32 minutes across half of 52 = 26 episodes first, i.e. add 32/26 = 1.23077 min = 73.846 sec = 1 min 13.846 s per concerned episode. Need "d'abord" maybe first allocate to one episode out of two, then later? Need answer concise. Need clarify: Sur 52 épisodes, un sur deux = 26 épisodes. 32 min = 1920 s. Per episode = 1920/26 = 73.8461538 s = 1 min 13.846 s ≈ 1 min 14 s. To keep exact integer seconds: 24 episodes at 74 s and 2 episodes at 73 s? Check 24*74=1776; 2*73=146; total 1922 no. Need exact 1920 over 26: average 73.846. Integer seconds distribution: 22 episodes at 74 s and 4 episodes at 73 s? 22*74=1628, 4*73=292 total 1920. Yes. Or 24 at 74 and 2 at 72? 1776+144=1920, but less equal. Best equal: 22 at 74s, 4 at 73s. Since 1920 = 26*73 +22, so 22 episodes get 74s, 4 get 73s. Thus concerned episodes duration: 2h22 + 1min13/14 = 2h23min13s or 2h23min14s? Wait add 73 sec = 1 min 13 sec -> 2:23:13. Add 74 sec = 1 min 14 sec -> 2:23:14. Unconcerned remain 2:22:00. If distribute over 26 episodes one out of two. Need mention if alternating. Maybe total per pair? Pair of episodes: one gets bonus ~1:14, other 0; average per pair 37s per episode. Could be. Need answer. Also "d'abord" maybe means "first, apply to every other episode" then maybe remaining? But 32 min fully allocated across 26 episodes, no remaining. Need say "si tu veux dire : commencer par ne bonusifier qu’un épisode sur deux". Provide table. Maybe mention 52 episodes -> 26 concernés. If 53 episodes? one out of two = 27? But theoretical 52. Need answer in French. Final only.
+Need maybe address "un épisode sur deux d'abord" = distribution priority to alternating episodes. So:
+
+52 épisodes/an théoriques.
+Un sur deux = 26 épisodes.
+32 min /26 = 1 min 13,846 s.
+En secondes entières: 22 épisodes +74s, 4 épisodes +73s.
+Durées: concernés: 2h23min14s (22x) et 2h23min13s (4x); non concernés: 2h22min00s.
+Vérification: 22*74 + 4*73 = 1920s=32min.
+Moyenne sur l’année reste 36,923s/épisode.
+Need maybe if "un épisode sur deux" means odd episodes first, alternating. Use "épisodes impairs" maybe. Mention "si tu alternes strictement : épisodes 1,3,5...". Good.
+OK. Si on applique d’abord un épisode sur deux :
+
+52 épisodes théoriques/an
+Un épisode sur deux = 26 épisodes concernés
+Bonus total à répartir = 32 min = 1 920 s
+Par épisode concerné :
+1920
+/
+26
+=
+73
+,
+846
+ s
+≈
+1
+ min 
+13
+,
+846
+ s
+1920/26=73,846 s≈1 min 13,846 s
+Donc en pratique, pour rester en secondes entières et le plus égal possible :
+
+Épisodes concernés	Bonus ajouté	Nouvelle durée
+22 épisodes	74 s = 1 min 14 s	2 h 23 min 14 s
+4 épisodes	73 s = 1 min 13 s	2 h 23 min 13 s
+26 épisodes non concernés	0 s	2 h 22 min 00 s
+Vérification :
+
+22
+×
+74
++
+4
+×
+73
+=
+1628
++
+292
+=
+1920
+ s
+=
+32
+ min
+22×74+4×73=1628+292=1920 s=32 min
+Donc si tu alternes strictement un épisode sur deux — par exemple les épisodes impairs — tu mets :
+
++1 min 14 s sur 22 de ces épisodes,
++1 min 13 s sur 4 de ces épisodes,
+et rien sur les 26 autres.
+Moyenne sur l’année : toujours 36,923 s par épisode, soit ≈ 37 s/épisode en moyenne.
+Je le sais, je vais le mettre au début dans la chanson d’ouverture du spectacle et à la fin pour empêcher de compter cette partie-là dans mon 4h44 16 minutes. C’est à peu près ça 10 minutes. L’hymne national le matin pis le soir 6 minutes quand le dernier match est fini tant qu’il se passe de quoi? Soir Wm1 Wm2 où j’ai une deuxième idée pour un autre année, on fait quelque chose de complètement capoté, on fait un test une première 1er soir Smackdown Presents:  WrestleMania au complet avec 4 Combat aura lieux avec les autres écuries seulement un triple Threat Tag Team match 2 equipe Smackdown | 2 equipe Raw | 2 equipe NXT et tu choisis t’es pas obligé de mettre une vraie équipe tu peux choisir deux personnages que tu penses si t’es meilleur pis les mettre c’est pour l’honneur donc mais si tu fais ça c’est pas payant. En tout cas je vois pas à quel point ça peut être payant, mais tu peux et le deuxième match un match triple menace un de chaque écurie tout contre tous ensuite même affaire pour la division féminine, triple Threat Tag Team match 3 Écuries et un match feminin triple menace 1V1V1  de chaque écurie mais le reste, c’est uniquement des storyline #Smackdown tu comprend 2nd Night Raw Presents: Wrestlemania avec les même, enjeux et tu vois on donne 16 minutes pour jouer avec l’ouverture sans jouer sur le rythme du spectacle de 4h44 En plus, on autorise NXT à présenter un match ou deux par soir, tout dépendant de si on des bonnes histoires en ligne si on des bonnes affaires qui vont faire du spectacle, on les autorise à passer deux combats uniquement relié à leur écurie dans nos shows, parce que faut quand même faire de la place à NXT
+We need answer in French. Need parse user. They confirm. They describe idea for WrestleMania two nights: Night 1 SmackDown Presents WrestleMania full? 4 combat? Actually "4 Combat aura lieux avec les autres écuries seulement un triple Threat Tag Team match 2 equipe Smackdown | 2 equipe Raw | 2 equipe NXT et tu choisis... le deuxième match un match triple menace un de chaque écurie tout contre tous ensuite même affaire pour la division féminine, triple Threat Tag Team match 3 Écuries et un match feminin triple menace 1V1V1 de chaque écurie mais le reste, c’est uniquement des storyline #Smackdown tu comprend 2nd Night Raw Presents: Wrestlemania avec les même, enjeux ... donne 16 minutes pour jouer avec l’ouverture sans jouer sur rythme 4h44. En plus autorise NXT à présenter un match ou deux par soir, dépend bonnes histoires, autoriser deux combats uniquement relié à leur écurie dans nos shows, place NXT."
+
+Need respond likely validate/refine schedule and calculations. Need determine what they ask? They didn't explicit question but likely wants feedback/formalization. Need maybe propose structure: 32 min gift allocated to opening and closing ceremonies? They mention "Je vais le mettre au début dans la chanson d’ouverture du spectacle et à la fin pour empêcher de compter cette partie-là dans mon 4h44 16 minutes. C’est à peu près ça 10 minutes. L’hymne national le matin pis le soir 6 minutes quand le dernier match est fini tant qu’il se passe de quoi? Soir Wm1 Wm2 où j’ai une deuxième idée..." Hmm.
+
+We need answer in French. Could clarify: For each WM night, base 4:44 + 16 min allowed overflow = 5:00? Wait earlier: 2 x 4:44 with budget dépassement autorisé 16 min per soir = total 32. Now he wants put at beginning opening song and at end to prevent counting that part in 4:44 16 min. "C’est à peu près ça 10 minutes. L’hymne national le matin pis le soir 6 minutes quand le dernier match est fini tant qu’il se passe de quoi" Need parse: opening song ~10 min, national anthem morning and evening 6 min? At end after last match as long as something happens? This seems he plans to use the 16 min per night for opening and closing, not in match pacing. So per night: 10 min opening + 6 min closing = 16 min. That's exactly the overflow budget. So 4:44 of wrestling/content remains intact plus 16 min cérémonie encadrante = 5:00 total broadcast? But he says "empêcher de compter cette partie-là dans mon 4h44 16 minutes" = not count ceremonies in 4:44? Wait "dans mon 4h44 16 minutes" maybe the 16-minute overflow. Need articulate: If opening+closing = 16, they consume the authorized overflow, so the 4:44 core remains 4:44. Good.
+
+Then WM Night 1 "SmackDown Presents: WrestleMania" with 4 cross-brand matches? Let's identify:
+Triple Threat Tag Team match: 2 SmackDown teams | 2 Raw teams | 2 NXT teams (6 teams, 12 wrestlers) for honor, non-payant?
+Triple Threat singles: one from each brand (SD/Raw/NXT) all against all.
+Same for women's division: Triple Threat Tag Team match 3 brands (2 teams per brand? likely 6 women's teams)
+Women's Triple Threat singles 1v1v1 one from each brand.
+Rest = SmackDown storylines only. Night 2 Raw Presents: WM with same stakes (same four cross-brand matches?) and rest Raw storylines. Plus NXT allowed 1-2 matches per night if good stories, max 2 NXT-brand-only matches per show. Need integrate with 4:44 core.
+Need maybe propose match card timing: 4:44 = 284 min. Need fit 4 cross-brand matches + brand-specific storylines + NXT 1-2 matches. Need perhaps give schedule. But user didn't ask for full card; they describe. We can acknowledge, formalize rules, calculate NXT slots and opening/closing.
+
+Need answer likely: "Compris. Je verrouille ça comme ça." Provide structured recap:
+
+Chaque nuit WM: 4h44 de contenu "card" + 16 min de cérémonial hors rythme (ouverture ~10 + fermeture/hymne ~6). Total diffusé 5h00 max, mais le 4h44 reste pur.
+NXT quota: max 2 matchs NXT-only par soir, seulement si histoire solide; les 4 matchs inter-écuries incluent NXT mais ne comptent pas dans ce quota? Need specify: "les matchs inter-écuries ne comptent pas comme matchs NXT-only; le quota 1-2 s'applique aux combats uniquement NXT." Good.
+Night 1 = SmackDown Presents: WrestleMania. Core card:
+Triple Threat Tag Team inter-écuries (2 SD / 2 Raw / 2 NXT) — honneur, non payant.
+Triple Threat singles inter-écuries (1 SD / 1 Raw / 1 NXT).
+Women's Triple Threat Tag Team inter-écuries (2 SD / 2 Raw / 2 NXT).
+Women's Triple Threat singles (1 SD / 1 Raw / 1 NXT).
+storylines SmackDown.
+1-2 NXT-only max.
+Night 2 = Raw Presents: WrestleMania same four inter-brand matches? Maybe "mêmes enjeux" but could be different participants. Rest Raw storylines. + 1-2 NXT-only max.
+Honor matches not paid? Need mention "pas payant" but can still be for pride/qualification/ranking. If no purse, maybe "pas de prime directe, mais gain de momentum/ranking".
+Need mention opening/closing: opening song 10 min, national anthem? Hmm "L’hymne national le matin pis le soir 6 minutes quand le dernier match est fini tant qu’il se passe de quoi" Maybe "hymne national au début et cérémonie de clôture 6 min". Could phrase: "Ouverture musicale ~10 min + hymne/cérémonie de fermeture ~6 min = 16 min par soir." If national anthem is morning and evening? For a night show, "hymne au début" and "closing segment".
+Need address "le plus égo possible" earlier? Already done.
+Need maybe calculate total annual SmackDown with bonus? They said "OK, un épisode sur deux d’abord" and now WM. Could answer integrating previous: 26 episodes get +1:13/1:14, others normal. For WM nights, 16 min per night allocated to opening/closing, so no impact on 4:44. Need maybe mention if opening/closing use exactly 16, no carryover. If only 10+6=16, perfect.
+
+Need maybe warn: "Si l’ouverture + fermeture dépasse 16 min, ça empiète sur le 4h44; si moins, le reliquat peut être 'cadeau fan' mais pas obligatoire." Good.
+
+Need answer concise but complete. Desired oververbosity 5. Need no tool. Final in French. Use headings.
+
+Need maybe ask if they want next: build timing sheet for each night. Since user says "je vais te donner... tu fais que je te demande après la fin" Earlier they wanted wait for *? They say "Ensuite je vais mettre un Astérix pour dire que c’est terminé et mettre ce que j’attends toi." There is no asterisk? They ended with NXT. Maybe they didn't put asterisk. But we can respond. We shouldn't ask too many questions? Provide recap and say "si tu veux, prochaine étape je te fais la grille minute par minute." Good.
+
+Need maybe mention "4 Combat aura lieux" means exactly 4 inter-brand matches per night. We'll state "les 4 matchs inter-écuries sont le socle des deux soirées, pas 4 par écurie."
+
+Let's formulate:
+
+"Compris et verrouillé:"
+Règle des 16 min par soir: hors 4h44. Ouverture ~10 (chanson) + fermeture/hymne ~6 = 16. Donc 4h44 = pur card. Total fenêtre 5h00 max. Si dépassement cérémonie >16, ça réduit le card; si <16, reste non utilisé.
+Format WM 2 soirées:
+Soir 1: SmackDown Presents: WrestleMania. Socle: 4 matchs inter-écuries (TTT tag 2/2/2; TT singles 1/1/1; women TTT tag 2/2/2; women TT singles 1/1/1). Le reste = storylines SmackDown. NXT: max 2 matchs NXT-only, conditionnels.
+Soir 2: Raw Presents: WrestleMania. Même socle et enjeux; reste = storylines Raw. NXT: max 2 NXT-only.
+Précision quota NXT: Les matchs inter-écuries avec NXT ne comptent pas dans le quota; le quota 1-2 s'applique aux matchs 100% NXT. Donc NXT peut apparaître dans les 4 matchs inter-écuries + jusqu'à 2 matchs NXT-only par soir, si histoire.
+Matches inter-écuries: honneur, pas de prime directe, mais gains sportifs (ranking, momentum, future title shot?) If no pay, "pas payant financièrement, payant en prestige."
+Rappel SmackDown annuel: 52 épisodes; bonus 32 min réparti 1 épisode sur deux: 22×+74s, 4×+73s, 26×0.
+"La structure est cohérente: 4h44 de show + 16 min cérémonie = 5h00; deux soirées = 9h28 de contenu + 32 min cérémonie."
+Need maybe mention "WrestleMania 2 jours" with 4:44 each = 9:28 core. Yes.
+
+Need mention "SmackDown Presents: WrestleMania" night 1 maybe not "WrestleMania au complet" but "SmackDown Presents". Good.
+
+Need maybe note "NXT autorisé à présenter un match ou deux par soir" but if NXT-only matches occur, they are inside 4h44, not in 16 min. Good.
+
+Need answer.
+Need ensure not too long. Final.
+Potential issue: "l’hymne national le matin pis le soir" maybe they mean "au début et à la fin" not morning. We'll phrase "hymne/cérémonie d’ouverture et de clôture."
+Need maybe say "10 + 6 = 16, c'est exactement le budget."
+Need "si tu veux un côté encore plus égo, tu peux appeler les 16 min 'PGE Prestige Window'." Maybe not needed.
+
+Need answer in French with "Je verrouille". Good.
+Compris. Je verrouille ça comme ça :
+
+Règle des 16 minutes par soir de WrestleMania
+
+Base card : 4 h 44 par soir.
+Fenêtre cérémonielle hors rythme : 16 min par soir.
+Répartition que tu poses :
+
+Ouverture / chanson : ~10 min
+Hymne + clôture / dernier segment : ~6 min
+Total : 10 + 6 = 16 min.
+Donc le 4 h 44 reste du pur contenu de carte, et la fenêtre totale diffusée peut monter à 5 h 00 max par soir.
+Si l’ouverture/clôture fait moins de 16 min, le reliquat n’est pas automatiquement reversé dans le card ; il reste du “cadeau fan” non utilisé. Si ça dépasse 16 min, alors oui, ça empiète sur le 4 h 44.
+Structure WrestleMania 2 soirées
+
+Soir 1 — SmackDown Presents: WrestleMania
+
+Socle inter-écuries, exactement 4 matchs :
+
+Triple Threat Tag Team inter-écuries : 2 équipes SmackDown / 2 équipes Raw / 2 équipes NXT.
+Triple Threat singles inter-écuries : 1 SmackDown / 1 Raw / 1 NXT.
+Women’s Triple Threat Tag Team inter-écuries : 2 équipes SmackDown / 2 Raw / 2 NXT.
+Women’s Triple Threat singles : 1 SmackDown / 1 Raw / 1 NXT.
+Le reste de la carte = storylines SmackDown uniquement.
+
+Soir 2 — Raw Presents: WrestleMania
+
+Même socle de 4 matchs inter-écuries, mêmes enjeux, avec les mêmes formats :
+
+Triple Threat Tag Team inter-écuries.
+Triple Threat singles inter-écuries.
+Women’s Triple Threat Tag Team inter-écuries.
+Women’s Triple Threat singles.
+Le reste = storylines Raw uniquement.
+
+Quota NXT
+
+NXT peut avoir 1 à 2 matchs NXT-only maximum par soir.
+Ces matchs sont conditionnels : seulement si vous avez une bonne histoire / un bon spot à faire.
+Important : les apparitions de NXT dans les 4 matchs inter-écuries ne comptent pas dans ce quota. Le quota 1-2 s’applique uniquement aux matchs 100 % NXT.
+Donc NXT peut être présent dans les matchs inter-écuries et avoir jusqu’à 2 matchs propres par soir, sans noyer la carte.
+Statut des matchs inter-écuries
+
+Matchs pour l’honneur, pas de prime directe.
+Pas payant financièrement, mais payant en prestige, ranking, momentum et droit de se vanter.
+Ça permet de garder les vraies primes pour les storylines principales de SmackDown et Raw.
+Rappel de la grille annuelle SmackDown
+
+52 épisodes théoriques/an.
+Bonus WrestleMania à redistribuer : 32 min.
+Répartition “un épisode sur deux” déjà actée :
+
+22 épisodes : +1 min 14 s → 2 h 23 min 14 s
+4 épisodes : +1 min 13 s → 2 h 23 min 13 s
+26 épisodes : inchangés → 2 h 22 min 00 s
+Verrou final
+
+WrestleMania = 2 soirs
+4 h 44 de card par soir
+16 min de cérémonie hors card par soir : ~10 ouverture + ~6 clôture
+4 matchs inter-écuries par soir
+Storylines SmackDown le soir 1, Raw le soir 2
+NXT : max 2 matchs NXT-only par soir, en plus de ses apparitions dans les matchs inter-écuries
+Donc : 9 h 28 de contenu de carte sur les deux soirs + 32 min de cérémoniel, sans toucher au rythme des 4 h 44. Si tu veux, prochaine étape : je te fais la grille minute par minute d’une soirée type.
+Ah non, j’ai idée maintenant à partir de maintenant on va à chaque victoire menée par une écurie, on sort en accrochant blason pis, on traîne un mur de blason, portatif pour chaque fois que j’ai un combat où ce que les écuries sont enjeux et on va marquer l’histoire parce que à toutes les fois qu’il va avoir un combat parce que les blason vont être à l’honneur on va marquer contre qui ils ont perdu pour faire ce juste parce que si un show a plus de blason parce que y a plus d’apparition ça compte pas parce que il y a peut-être pas plus de victoires en conséquence tu comprends parce que maintenant si exemple il y a un match jaune contre rouge et que rouge gagne il va être marqué rouge gagné un blason contre jaune cette fois-ci et si c’est trois écuries, ça va être marqué, mettons bleu aga un blason contre rouge et jaunetu comprends
+We need answer in French. Need parse request. User wants new rule: from now on each victory by a brand/team, they display coat of arms (blason), portable wall of blasons. For every match where brands are stakes, mark history. Every time blasons honored, mark against whom lost. Because if a show has more blasons due to more appearances doesn't count because maybe not more wins. Example match yellow vs red, red wins: marked red won a blason against yellow. If three brands: blue won a blason against red and yellow. Need confirm and formalize scoring system. Need likely distinguish: each match involving brands awards one blason to winning brand, and records "against" losing brand(s). For multi-brand match, winner gains one blason? They say "bleu a un blason contre rouge et jaune" meaning one blason against both? Or one blason for win and list opponents. Need clarify: They say "à chaque victoire menée par une écurie, on sort en accrochant blason... on va marquer contre qui ils ont perdu... si exemple match jaune contre rouge et rouge gagne il va être marqué rouge gagné un blason contre jaune cette fois-ci et si c’est trois écuries, ça va être marqué, mettons bleu a un blason contre rouge et jaune". So winner gets one blason, with opponents recorded. Not one per opponent. Need reflect. Also note "si un show a plus de blason parce que y a plus d'apparition ça compte pas parce que il y a peut-être pas plus de victoires en conséquence" Means blason count should be victories only, not appearances. Need formalize: only matches with brand stakes count; not every match. NXT-only? If NXT match NXT-only no other brand, no blason? Probably no because no brand vs brand. Inter-brand matches at WM and maybe weekly? Need include all brand vs brand matches? They said "à partir de maintenant on va à chaque victoire menée par une écurie" and "combat où les écuries sont enjeux" so brand vs brand matches. Need answer: yes, understood. Establish "Système des Blasons" / "Mur des Blasons". Rules:
+
+Blason = unit of brand victory in inter-brand match.
+A win awards exactly 1 blason to winning brand, regardless 2 or 3 brands. Opponents recorded as "contre X" or "contre X et Y".
+No blason for appearances, segments, non-inter-brand matches, NXT-only unless designated brand-stakes? Actually NXT-only no opponent brand, so no.
+Defeat no blason; no negative points. Just record loss? They said "marquer contre qui ils ont perdu" meaning winner's record lists losers. Could also maintain "défaites subies" but not blasons.
+If draw/no contest/DQ? Need decide. Suggest no blason unless clean decisive victory? Or according to official result. Need ask or propose: only official victory; DQ/count-out counts? We can propose DQ/no contest no blason unless stated. Need include.
+Triple threat: winner earns 1 blason "contre [loser1] et [loser2]" not 2. Important.
+Tag team: if winning team comprises same brand? In inter-brand tag, winning side's brand gets 1 blason against opposing brand(s). If mixed-brand team? Not allowed? At WM teams are 2 SmackDown vs 2 Raw vs 2 NXT, so brand-pure. For triple threat tag, winning brand gets 1 blason against two other brands. If mixed team, need decide no blason or split? Propose brand-pure only.
+Women's same.
+NXT quota: NXT-only matches no blason. But NXT appearances in inter-brand matches can earn blasons.
+Ranking: "Tableau des Blasons" per brand: total blasons, list of victories with opponent(s), date, show. Maybe "contre" tally. Could compute "blasons nets"? But no negatives. To avoid appearances inflation, only wins count. Could also have "taux de conversion" but not needed.
+Portable wall: physical display at entrance/ringsides; when winning brand wins, they hang a blason on portable wall with winner brand and opponent(s). Maybe after match. Need describe.
+"On va marquer l’histoire" = historical ledger. Need create template.
+Need answer in French, concise but enough. Maybe include examples:
+
+Jaune vs Rouge: Rouge gagne → Rouge +1 blason, inscrit "Rouge 1 – contre Jaune".
+Bleu vs Rouge vs Jaune: Bleu gagne → Bleu +1 blason, inscrit "Bleu 1 – contre Rouge et Jaune". Not +2.
+Tag: SmackDown team beats Raw and NXT → SmackDown +1 contre Raw et NXT.
+NXT-only: pas de blason.
+Apparitions multiples ne donnent rien sans victoire.
+Need mention "SmackDown Presents WM" and "Raw Presents WM": each inter-brand match awards blason. The show brand doesn't get automatic blason; only winner. The host brand can win/lose. NXT can earn blasons via inter-brand matches. The 4 inter-brand matches per night = 4 blasons max per night (if no NXT-only brand stakes). Across WM = 8 blasons max if all inter-brand. But NXT-only no. Need maybe mention.
+
+Need also address "Chanson d’ouverture et fin pour empêcher de compter cette partie-là dans mon 4h44 16 minutes. C’est à peu près ça 10 minutes. L’hymne national le matin pis le soir 6 minutes quand le dernier match est fini tant qu’il se passe de quoi? Soir Wm1 Wm2..." Hmm prior message included more: They said they will put at beginning in opening song and at end to prevent counting that part in 4h44 16 min. It's about 10 min. National anthem morning and evening 6 min when last match finished as long as something happens. Then ideas for WM1 WM2. But current message focuses blason. Need maybe not revisit unless needed. Answer should confirm new blason system integrated. Maybe mention it works with WM structure and NXT quota.
+
+Need be careful: "je vais te donner un calcul et des spécifications, il va falloir que tu fasses que je te demande après la fin, je vais t’envoyer après ce ces paroles des trucs. Ensuite je vais mettre un Astérix pour dire que c’est terminé et mettre ce que j’attends toi." This initial instruction was about waiting for asterisk. They didn't include asterisk now. But they continue. We can respond now. Need not mention asterisk? They are asking to confirm. Maybe note "Compris, je verrouille le système des Blasons." Good.
+
+Need maybe propose exact official wording:
+"Chaque combat inter-écuries à enjeu de blason donne exactement 1 blason à l’écurie victorieuse. Le blason est inscrit au nom de l’écurie victorieuse avec la mention des écuries vaincues. Les apparitions, segments, matchs sans opposition inter-écuries et matchs NXT-only ne donnent aucun blason. Une écurie peut avoir plusieurs blasons, mais seulement via des victoires. Les défaites ne retirent pas de blason; elles sont historisées dans la colonne 'contre' du vainqueur et dans le registre des confrontations."
+Need maybe "triple threat: 1 blason, pas 2". Good.
+
+Need include "Mur portatif des Blasons" protocol:
+Avant match: mur installé, emplacements vides.
+Fin match: annonceur officialise résultat; on accroche un blason unique au nom du vainqueur; inscription "contre X" or "contre X et Y"; date/show.
+Si égalité/no contest: aucun blason.
+Mise à jour du registre central.
+Need mention "blason unique" not per loser. Good.
+Need mention "classement": total blasons; maybe "blasons par écurie" with detail. To avoid inflation, classement basé uniquement sur blasons gagnés en victoires inter-écuries. Maybe also "différentiel" optional? But user said no negatives. Use "Blasons totaux" and "fiche des adversaires battus". Could mention no "blason d'apparition".
+
+Need answer in French with structure. Desired oververbosity 5. Keep moderate.
+
+Need maybe mention "NXT: ses matchs NXT-only ne donnent pas de blason; ses victoires dans les matchs inter-écuries oui." Important because earlier NXT can have 1-2 NXT-only matches per WM night. Good.
+
+Need maybe mention "les 4 matchs inter-écuries par soir à WM = jusqu'à 4 blasons par soir, 8 sur WM si tous les matchs sont inter-écuries et sans égalité." But if NXT-only no. Good.
+
+Need maybe include "les matchs de championnat? Si inter-écuries, oui; si même écurie, non." Good.
+
+Need maybe ask clarification about DQ/count-out? But answer can set default: "Sauf décision contraire, victoire officielle = blason; no contest/égalité = aucun." If DQ counts? We can propose "victoire par disqualification compte comme victoire officielle? À toi de verrouiller. Par défaut je mets: toute victoire officielle (pinfall, soumission, count-out, DQ) donne 1 blason, sauf no contest/égalité." But maybe to be safe: "Je propose: pinfall/soumission = blason; DQ/count-out = blason si le règlement du match l’officialise; no contest = aucun." Need not overcomplicate. But useful.
+
+Need answer no asterisk. Final should be clear.
+
+Let's craft final in French:
+
+"Compris. Je verrouille le Système des Blasons."
+Table rules.
+Examples.
+Intégration WM/NXT.
+Registre type.
+Final confirmation.
+Need avoid too long. Use bullets/tables. Final only.
+Need maybe mention "SmackDown Presents: WrestleMania" and "Raw Presents: WrestleMania": the host brand isn't automatically credited; only winners. If SmackDown wins 3 inter-brand matches on night 1, SmackDown +3; Raw +1 if wins one; NXT if wins. Good.
+
+Let's produce.
+Compris. Je verrouille le Système des Blasons exactement comme tu le décris.
+
+Règle officielle des Blasons
+
+Situation	Blason accordé
+Match inter-écuries avec enjeu de blason, victoire de l’écurie A	1 blason pour A, inscrit contre l’écurie B
+Triple Threat inter-écuries A vs B vs C, victoire de A	1 seul blason pour A, inscrit contre B et C
+Tag Team inter-écuries, équipe de A gagne contre B et C	1 blason pour A, inscrit contre B et C
+Match NXT-only	0 blason
+Match sans opposition inter-écuries	0 blason
+Apparition, segment, promo, ouverture, hymne, clôture	0 blason
+Égalité / no contest	0 blason
+Défaite	Aucun blason retiré ; la défaite est seulement historisée dans la ligne du vainqueur
+Principe clé
+
+Un blason = une victoire inter-écuries. Pas une apparition. Pas un match. Pas un adversaire battu.
+
+Donc :
+
+Rouge bat Jaune → Rouge gagne 1 blason contre Jaune.
+Bleu bat Rouge et Jaune → Bleu gagne 1 blason contre Rouge et Jaune. Pas 2 blasons.
+SmackDown bat Raw et NXT → SmackDown gagne 1 blason contre Raw et NXT.
+NXT fait un match NXT-only → aucun blason, même si NXT gagne.
+NXT gagne un match inter-écuries → NXT gagne bien 1 blason contre l’autre/les autres écuries.
+Mur portatif des Blasons
+
+À chaque fin de match inter-écuries :
+
+L’annonceur officialise le résultat.
+On accroche un blason unique au nom de l’écurie victorieuse.
+Le blason porte l’inscription :
+
+“[Écurie victorieuse] — contre [écurie(s) vaincue(s)]”
+date + show.
+Le registre central est mis à jour.
+Exemple de mur :
+
+SmackDown — contre Raw
+Raw — contre SmackDown et NXT
+NXT — contre Raw
+SmackDown — contre Raw et NXT
+Classement
+
+Le classement des Blasons se base uniquement sur les victoires inter-écuries :
+
+Total de blasons
+Liste des blasons avec adversaires battus
+Aucun bonus pour le nombre d’apparitions
+Aucun malus pour les défaites
+Intégration WrestleMania
+
+Sur SmackDown Presents: WrestleMania et Raw Presents: WrestleMania :
+
+Chaque match inter-écuries de la carte peut donner 1 blason.
+L’écurie hôte du soir ne gagne rien automatiquement : seul le vainqueur du match prend le blason.
+Les matchs NXT-only ne donnent pas de blason.
+Les apparitions de NXT dans les matchs inter-écuries peuvent donner un blason à NXT.
+Donc maximum théorique : 4 blasons par soir si les 4 matchs inter-écuries ont un vainqueur net, soit 8 blasons sur WrestleMania.
+C’est verrouillé : les Blasons récompensent la victoire inter-écuries, pas la présence.
+Oh, et on fait des blasons de défaite aussi dans le sens que sur ton main, t’es obligé d’accrocher un blason de l’autre couleur, et tu me tombes petit point de couleur perdant dans le coin non, à chaque fois que il y a un match où ce qui est des écuries, s’affrontent tout le monde repart avec un blason, un perdant ou un gagnant, le perdant va être la couleur de l’autre écurie, gagnante avec ton poing, un contrasse dans le coin marqué défaite, et si tu gagnes, tu reçois un blason de ta couleur avec le point de l’écurie que tu as eu l’avantage dessus que ça remporte la victoire comme ça ça assure qu’on est capable de compter pis que c’est y’a pas quelqu’un on gagne pas parce qu’on a plus de blason tu comprends dans la vie parce que Raw définitivement plus potentiellement aujourd’hui d’apparition que NXT dans les éléments majeur, on est d’accord puis les fois où ce qu’elle est trois, c’est qu’au toi, c’est rendu de plus en plus rare donc on va s’assurer que c’est toute et quitte équitable pour tout le monde, et qu’on est capable de compter autant nos défaits que nos victoire parce que je te donne un exemple S vs R 250 mais J vs R 27X mais cest 26 Blazon jaunes la dessu ca veut en dire long et ca rend hommage A la juste de valeur et un bon poids pour ce quond merite mais exemple si les trois écuries se sont rencontrés si en même temps 32 fois, et là-dessus, les jaunes ont encore je sais pas moi 29 drapeau jaune ben là c’est long sur les deux autres équipes par rapport à
+The user wants to add "defeat blazons" (blasons de défaite). Let me understand:
+
+Every inter-faction match: everyone leaves with a blazon.
+Winner: gets a blazon of their own color, with a dot/pin of the faction they beat.
+Loser: gets a blazon of the OTHER faction's color, with a dot/pin of their own losing color in the corner, marked "défaite".
+So if Jaune beats Rouge: Rouge gets a Jaune-colored blazon with a Rouge dot marked "défaite". Jaune gets a Jaune blazon with Rouge dot (victory).
+Triple threat: winner gets own color blazon with dots of the two defeated factions. The two losers each get... hmm, need to clarify. Probably each loser gets blazons of the other two factions with their own dot marked défaite? Or just the winner's color?
+Let me think about what makes sense and what the user likely means. The user says "à chaque fois qu'il y a un match où les écuries s'affrontent, tout le monde repart avec un blason". So in a triple threat, all 3 leave with blazons.
+
+For a 1v1:
+
+Winner: own color blazon + opponent's dot = victory
+Loser: opponent's color blazon + own dot marked "défaite" in corner
+For triple threat:
+
+Winner: own color blazon + 2 dots (the two losers)
+Loser 1: gets... probably 2 blazons? Or one blazon? The user's example with "S vs R 250 mais J vs R 27X mais c'est 26 blasons jaunes là-dessus" suggests counting wins and losses separately.
+Actually let me re-read: "S vs R 250 mais J vs R 27X mais cest 26 Blazon jaunes la dessu ca veut en dire long"
+
+I think he means: if SmackDown vs Raw happened 250 times, and Jaune vs Rouge happened 27X times, but there are 26 Jaune blazons on... it says something about the data.
+
+The user's key point: ensuring fairness and that we can count both wins and losses. Because Raw will naturally have more appearances than NXT in major events, so we need to normalize.
+
+Actually he's saying: with defeats recorded too, we can properly compute ratios and honor "la juste valeur" — the fair value/weight.
+
+Let me structure the response clearly:
+Confirm the defeat blazon system
+Handle 1v1, tag, triple threat
+Explain counting/normalization
+Show how to compute fair ratios
+For triple threat, I think the cleanest interpretation:
+
+Winner: 1 blazon of own color, with 2 dots (one per defeated faction), marked "victoire"
+Each loser: 1 blazon of own color... no wait, he said "le perdant va être la couleur de l'autre écurie, gagnante" — loser gets the color of the other winning faction.
+In triple threat, there are two "other" factions. Hmm. Maybe the loser gets 2 blazons? One for each faction that beat them? Or one blazon in the winner's color?
+
+I think the most consistent: in triple threat, each loser gets a blazon in the winner's color with their own dot marked défaite. Or they get one blazon per opponent.
+
+Actually, let me think about what makes bookkeeping clean and matches his logic. He wants:
+
+Every participant leaves with a blazon
+Winner: own color + opponent dot(s)
+Loser: opponent color + own dot marked défaite
+For triple threat, I'd say:
+
+Winner: own color, dots of both losers
+Each loser: gets a blazon of the winner's color, with their own dot marked défaite
+That way it's always 1 blazon per participant per match, consistent.
+
+But then in a triple threat, the winner beat 2 factions but only gets 1 blazon? That's consistent with his earlier rule: "1 seul blason pour A, inscrit contre B et C". Yes.
+
+And each loser gets 1 defeat blazon in the winner's color. But what about the third faction? If Bleu beats Rouge and Jaune, Rouge gets a Bleu blazon marked défaite, Jaune gets a Bleu blazon marked défaite. But Rouge and Jaune didn't beat each other. Hmm, but the winner is Bleu, so the "victorious faction" for both is Bleu. That works.
+
+Actually wait, but then the dots... Let me think again. For a 1v1 Jaune vs Rouge, Jaune wins:
+
+Jaune: Jaune blazon + Rouge dot
+Rouge: Jaune blazon + Rouge dot marked défaite
+For 3-way Bleu vs Rouge vs Jaune, Bleu wins:
+
+Bleu: Bleu blazon + Rouge dot + Jaune dot
+Rouge: Bleu blazon + Rouge dot marked défaite
+Jaune: Bleu blazon + Jaune dot marked défaite
+That's clean and consistent. Total: 1 blazon per participant.
+
+Alternatively, the loser could get blazons from BOTH other factions in a triple threat (Rouge gets Bleu blazon défaite AND Jaune blazon défaite?). But then Rouge would get 2 blazons while only winning 0. That seems unbalanced. Unless... the user wants total blazons to equal appearances × (something).
+
+Hmm, but the user says "tout le monde repart avec un blason" — everyone leaves with A blazon. Singular. So 1 each.
+
+Actually re-reading: "tu me tombes petit point de couleur perdant dans le coin non" — you put a small dot of the losing color in the corner. "et si tu gagnes, tu reçois un blason de ta couleur avec le point de l'écurie que tu as eu l'avantage dessus"
+
+OK so:
+
+Defeat: blazon of opponent's color + small dot of your own color in corner
+Victory: blazon of your color + dot of opponent's color
+Yes. Consistent.
+
+For triple threat victory: your color + dots of the two defeated factions.
+For triple threat defeat: blazon of the WINNER's color + your own dot marked défaite. (Each loser gets 1.)
+
+Hmm but then Rouge lost to Bleu AND Jaune (well, Jaune also lost). In a 3-way, Rouge didn't lose to Jaune specifically. So Rouge gets Bleu blazon défaite. Jaune gets Bleu blazon défaite. That makes sense.
+
+But actually, maybe each loser gets blazons for each faction that finished above them? No, that's overcomplicating. Let's go with: loser gets 1 blazon in winner's color.
+
+Wait, but there's a subtlety. If the winner beat BOTH, then in terms of "who beat whom," Bleu beat Rouge and Bleu beat Jaune. So Rouge's defeat is to Bleu, Jaune's defeat is to Bleu. That's fine.
+
+Now for counting: the user wants to be able to compute fair ratios. So:
+
+Victoires par écurie
+Défaites par écurie
+Ratio V/D
+And normalize by appearances
+He mentions: "S vs R 250 mais J vs R 27X mais c'est 26 Blazons jaunes là-dessus"
+
+I think he's giving a hypothetical: even if SmackDown vs Raw happened 250 times and Jaune vs Rouge happened 270-something times, but Jaune only has 26 blazons (wins?) on Raw... something like that. The point is the raw numbers can be misleading, but the defeat blazons let you compute real ratios.
+
+Actually, let me re-read more carefully: "je te donne un exemple S vs R 250 mais J vs R 27X mais cest 26 Blazon jaunes la dessu ca veut en dire long et ca rend hommage A la juste de valeur et un bon poids pour ce quond merite"
+
+Translation attempt: "I'll give you an example: S vs R 250, but J vs R 27X, but it's 26 Jaune blazons on there, that says a lot and pays homage to fair value and a good weight for what we deserve."
+
+I think he means: if you look at raw matchup counts (S vs R = 250, J vs R = 270), you might think J is more active. But if J only has 26 blazons (wins) over R, then the ratio tells the real story: J wins less often than S. So the defeat blazons complete the picture.
+
+And: "mais exemple si les trois écuries se sont rencontrés si en même temps 32 fois, et là-dessus, les jaunes ont encore je sais pas moi 29 drapeau jaune ben là c'est long sur les deux autres équipes par rapport à"
+
+"If the three factions met 32 times simultaneously (triple threats), and on top of that, Jaune still has, I don't know, 29 yellow flags, well that's a lot on the other two teams compared to..."
+
+So he wants to make sure the counting accounts for triple threats properly — not to overcount or undercount.
+
+OK let me structure a clear response with:
+Confirmation of the defeat blazon rules
+Exact table for 1v1, tag, triple threat
+How the blazons look (visual description)
+Counting system: wins, losses, ratios
+Normalization formula to compare factions fairly
+Example computation
+Let me write this cleanly.
+
+For the visual:
+
+Victory blazon: [own color] with [opponent color] dot(s)
+Defeat blazon: [winner's color] with [own color] dot in corner, marked "DÉFAITE"
+For counting:
+
+Blasons de victoire = wins
+Blasons de défaite = losses
+Matchs joués = V + D (each match contributes 1 V to winner and 1 D to each loser... wait, in 1v1: 1 V + 1 D. In triple threat: 1 V (winner) + 2 D (losers). So total blazons = 1 + number of losers = number of participants.)
+Actually in 1v1: 2 participants, 2 blazons (1 V, 1 D).
+In triple threat: 3 participants, 3 blazons (1 V, 2 D).
+In tag team 2v2: 4 participants but... hmm. In tag, does each team get 1 blazon? So 2 blazons (1 V for winning team, 1 D for losing team)? Or does each individual get one?
+
+I think for tag teams, the team/faction gets one blazon. So 2v2 tag = 2 blazons total (1 V, 1 D).
+
+For the 6-team triple threat tag (2 SD, 2 Raw, 2 NXT), there are 3 factions. Does the winning faction get 1 blazon and each losing faction get 1? So 3 blazons total? Or 6 (one per team)?
+
+I think faction-level: winning faction gets 1 V blazon, each losing faction gets 1 D blazon. So 3 total.
+
+OK let me write this up.
+
+For normalization, the key formula:
+
+Taux de victoire = V / (V + D)
+Or: V / matchs joués
+And to compare factions with different appearance counts, use the ratio, not the raw numbers.
+
+Example:
+
+SmackDown: 250 matchs inter-écuries, V blazons, D blazons
+Raw: more appearances naturally
+NXT: fewer appearances
+The ratio V/(V+D) is the fair comparison.
+
+Also mention: in triple threats, each faction's "appearance" counts once, but the winner gets 1 V and each loser gets 1 D. So a faction in a triple threat has 1/3 chance baseline of victory if equal — the ratio naturally accounts for this.
+
+Let me draft.
+Compris. Je verrouille le Système des Blasons complet — Victoires + Défaites, avec la logique de comptage équitable que tu veux.
+
+Règle des Blasons (version finale)
+
+Chaque participant à un match inter-écuries repart avec exactement 1 blason. Pas plus, pas moins.
+
+Match 1v1 — Jaune bat Rouge
+
+Participant	Blason reçu	Détail
+Jaune (vainqueur)	Blason Jaune	+ pastille Rouge = victoire contre Rouge
+Rouge (perdant)	Blason Jaune	+ pastille Rouge dans le coin, marqué DÉFAITE
+Match Triple Threat — Bleu bat Rouge et Jaune
+
+Participant	Blason reçu	Détail
+Bleu (vainqueur)	Blason Bleu	+ pastille Rouge + pastille Jaune = victoire contre les deux
+Rouge (perdant)	Blason Bleu	+ pastille Rouge dans le coin, marqué DÉFAITE
+Jaune (perdant)	Blason Bleu	+ pastille Jaune dans le coin, marqué DÉFAITE
+Match Tag Team — équipe Jaune bat équipe Rouge
+
+L’écurie Jaune gagne 1 blason Jaune + pastille Rouge (victoire).
+L’écurie Rouge reçoit 1 blason Jaune + pastille Rouge marquée DÉFAITE.
+On compte par écurie, pas par individu.
+Triple Threat Tag inter-écuries — 2 SD / 2 Raw / 2 NXT, NXT gagne
+
+NXT : 1 blason NXT + pastilles SmackDown et Raw = victoire sur les deux.
+SmackDown : 1 blason NXT + pastille SmackDown = DÉFAITE.
+Raw : 1 blason NXT + pastille Raw = DÉFAITE.
+Total : 3 blasons (1 victoire, 2 défaites) pour 3 écuries engagées.
+Principe de comptage
+
+Élément	Compte comme
+Blason de ta couleur avec pastille(s) adverse(s)	1 victoire
+Blason d’une autre couleur avec ta pastille dans le coin « DÉFAITE »	1 défaite
+Apparition sans match inter-écuries	0
+Match NXT-only	0
+Segment, promo, ouverture, hymne	0
+Donc pour chaque écurie :
+
+V = nombre de blasons de sa couleur (victoires)
+D = nombre de blasons reçus d’une autre couleur (défaites)
+Matchs joués = V + D
+Invariant clé : dans un match à 2 écuries, 2 blasons sont distribués (1 V + 1 D). Dans un triple threat, 3 blasons (1 V + 2 D). Dans un triple threat tag à 3 écuries, 3 blasons. Le total des blasons distribués = le nombre d’écuries engagées dans le match. Comme ça, tout le monde est compté, et personne ne peut gonfler son total par simple présence.
+
+Pourquoi ça règle ton problème de juste valeur
+
+Ton exemple : « S vs R 250, mais J vs R 270, et pourtant 26 blasons jaunes là-dessus ».
+
+Sans les blasons de défaite, on ne verrait que les victoires. Avec le système complet :
+
+Si Jaune a 26 V et beaucoup de D, son ratio V/(V+D) est faible → il gagne peu souvent quand il est engagé.
+Si SmackDown a moins de matchs mais un meilleur ratio, il mérite plus de poids.
+Le nombre brut d’apparitions ne suffit plus : c’est le ratio victoires / matchs joués qui parle.
+Formule officielle
+
+Taux de victoire
+=
+V
+V
++
+D
+Taux de victoire= 
+V+D
+V
+​	
+ 
+Poids sportif
+=
+Taux de victoire
+×
+V
++
+D
+Poids sportif=Taux de victoire× 
+V+D
+​	
+ 
+(la racine carrée évite qu’une écurie avec 3 matchs et 3 victoires domine une écurie avec 60 matchs et 40 victoires — plus tu joues, plus il faut confirmer)
+
+Le cas triple threat — ton exemple des 32 rencontres à trois
+
+Si SmackDown, Raw et Jaune se sont rencontrés 32 fois en triple threat :
+
+32 blasons de victoire distribués (un par match)
+64 blasons de défaite distribués (deux par match)
+Total = 96 blasons sur ces 32 matchs, soit 3 par match = 3 écuries, cohérent.
+Si sur ces 32 matchs Jaune a 29 blasons jaunes de victoire, alors :
+
+Jaune : 29 V / 32 matchs = 90,6 % de taux de victoire en triple threat.
+SmackDown + Raw se partagent les 3 victoires restantes et 64 défaites à eux deux.
+Et 29 victoires sur 32, ça veut dire que Jaune a dominé les deux autres écuries 29 fois sur 32 — c’est ça que le mur de blasons raconte, et c’est ça qui donne le « bon poids » et la « juste valeur » que tu cherches. Le ratio est énorme, et le système de défaites empêche de le maquiller.
+
+Rendu visuel sur le mur portatif
+
+Blason victoire : fond de ta couleur, pastille(s) de l’écurie(s) battue(s) au centre, mention VICTOIRE.
+Blason défaite : fond de la couleur de l’écurie gagnante, pastille de ta couleur dans le coin inférieur, mention DÉFAITE.
+Chaque blason porte : date, show, adversaire(s).
+Comme ça, sur le mur, tu vois immédiatement :
+
+Combien de blasons de ta couleur = tes victoires.
+Combien de blasons d’autres couleurs avec ta pastille dans le coin = tes défaites.
+Et le ratio se lit à l’œil.
+Verrou final
+
+1 blason par écurie engagée par match inter-écuries.
+Vainqueur : blason de sa couleur + pastille(s) adverse(s).
+Perdant(s) : blason de la couleur du vainqueur + pastille de sa propre couleur dans le coin, marqué DÉFAITE.
+Aucun blason pour apparition, promo, NXT-only, ouverture, hymne, clôture.
+Classement officiel = ratio V/(V+D), pas le total brut, pour corriger l’avantage naturel de Raw en apparitions majeures face à NXT.
+Dans le fond danse dans les contextes, ou que les trois écuries se rencontrent, il y a toujours trois blason qui vont être remis un premièrement, les trois blasons vont tout avoir la même couleur, ils vont tout avoir les :) de couleur des deux autres écurie qu’ils ont battu
+We need to parse the user's French. They are clarifying the triple threat blazon rule. They say: "Dans le fond danse dans les contextes, ou que les trois écuries se rencontrent, il y a toujours trois blason qui vont être remis un premièrement, les trois blasons vont tout avoir la même couleur, ils vont tout avoir les :) de couleur des deux autres écurie qu’ils ont battu"
+
+Interpretation: In triple threat matches, there are always three blazons awarded. First, the three blazons will all have the same color. They will all have the "smiley" (pastilles?) of the color of the two other teams they beat. Wait, that doesn't make sense: If three blazons are awarded, and all have the same color, which color? Likely the winner's color. And each blazon will have pastilles of the two other teams? But the winner beat both, so the winner's blazon should have pastilles of both losers. But what about the losers' blazons? They lost to the winner, and also to each other? In a triple threat, all three are opponents. The winner beat both. The losers each lost to the winner, but also lost to the other loser? Actually in a triple threat, the winner pins one opponent, but the third opponent is also considered defeated? Typically in triple threat, the winner beats both opponents, but the two losers didn't beat each other. However, the user seems to say: "les trois blasons vont tout avoir la même couleur, ils vont tout avoir les :) de couleur des deux autres écurie qu’ils ont battu" -> The three blazons will all have the same color, they will all have the smileys of the color of the two other teams that they beat. That implies each of the three participants gets a blazon of the same color (winner's color) and each blazon has pastilles of the two other teams? But that would mean each participant is credited with beating the other two, which is not true. Need to clarify.
+
+Maybe the user means: In a triple threat, all three blazons are the same color (the winner's color). And each blazon has the pastilles of the two other teams that were beaten? But that would be weird: the winner's blazon would have pastilles of the two losers, which is correct. The losers' blazons would also have pastilles of the two other teams? That would incorrectly suggest they beat the winner. So likely the user is describing a different scheme: perhaps they want all three blazons to be identical in color (winner's color) and each to have pastilles of the two other teams, meaning each participant is considered to have "beaten" the other two? That would be a three-way victory for all? That doesn't align with "un perdant ou un gagnant". Wait, the user previously said: "le perdant va être la couleur de l’autre écurie, gagnante avec ton poing, un contrasse dans le coin marqué défaite". So for a 1v1, winner gets own color blazon with opponent's pastille; loser gets winner's color blazon with own pastille in corner marked defeat. For triple threat, they now say: "il y a toujours trois blason qui vont être remis un premièrement, les trois blasons vont tout avoir la même couleur, ils vont tout avoir les :) de couleur des deux autres écurie qu’ils ont battu". This suggests: three blazons awarded. All three blazons have the same color (likely the winner's color). And each blazon has the pastilles of the two other teams that they beat. But "qu’ils ont battu" means "that they beat". So each of the three participants is credited with beating the other two? That would be a three-way tie? Or maybe they mean: the winner's blazon has pastilles of the two losers; each loser's blazon has pastilles of the other two? That would mean each loser also "beat" the other two, which is false. Perhaps the user is thinking of a round-robin format where each team fights each other? But in a triple threat, it's one match, one winner.
+
+Maybe the user is saying: In triple threat, we award three blazons, all of the same color (the winner's color). Each blazon will have the pastilles of the two other teams that were in the match. So the winner's blazon has pastilles of both losers (correct). The first loser's blazon also has pastilles of the other two (winner and other loser) - but they didn't beat the winner. That would be inaccurate. However, perhaps the user wants to treat it as: all three teams are considered to have "beaten" the other two in the sense of participation? That doesn't make sense.
+
+Alternatively, maybe the user is saying: The three blazons will all have the same color (the winner's color), and they will all have the "smileys" of the color of the two other teams that they (the winner) beat. That is, all three blazons are identical: winner's color background, with pastilles of the two losers. So the winner gets a blazon with two pastilles; each loser also gets the same blazon (winner's color) with two pastilles? That would be odd: the losers would be receiving a blazon that looks like a victory blazon. But maybe the user wants to simplify: In triple threat, everyone gets the same blazon (winner's color) with pastilles of the two other teams, and then separately we mark who won/lost? But the user previously said the loser's blazon has their own pastille in the corner marked defeat. So for triple threat, maybe the winner's blazon has pastilles of both losers, and each loser's blazon has the winner's color with their own pastille in the corner marked defeat, but also the other loser's pastille? That would be complex.
+
+Let's re-read the user's exact words: "Dans le fond danse dans les contextes, ou que les trois écuries se rencontrent, il y a toujours trois blason qui vont être remis un premièrement, les trois blasons vont tout avoir la même couleur, ils vont tout avoir les :) de couleur des deux autres écurie qu’ils ont battu"
+
+Translation: "Basically, in contexts where the three teams meet, there are always three blazons that will be awarded. First, the three blazons will all have the same color. They will all have the smileys of the color of the two other teams that they beat."
+
+I think "les :)" refers to the pastilles (maybe he calls them smileys). So each blazon will have pastilles of the two other teams. But "qu'ils ont battu" - "that they beat". If all three blazons have pastilles of the two other teams, that implies each team beat the other two. That is a three-way victory. But in a triple threat, only one team wins. However, the user might be thinking: In a triple threat, the winner beats both opponents, so the winner's blazon has both pastilles. The two losers each lost to the winner, but they also lost to each other? Actually, in a triple threat, the two losers are both defeated by the winner, but they didn't necessarily lose to each other. The concept of "beating" in a triple threat is that the winner is the sole victor. The losers are both defeated by the winner. They don't have a victory over each other. So the user's statement seems to incorrectly assign victories to all three.
+
+Maybe the user means: The three blazons will all have the same color (the winner's color), and they will all have the pastilles of the two other teams that were in the match (not that they beat them, but that they faced them). But he says "qu'ils ont battu" (that they beat). Could be a slip. Perhaps he means: each blazon will have the pastilles of the two other teams that were present, but only the winner's blazon counts as a victory; the losers' blazons are marked defeat. But he explicitly says "les trois blasons vont tout avoir la même couleur" - all three same color. That's a change from the 1v1 rule where the loser gets the winner's color. So in triple threat, all three blazons are the winner's color. And each has pastilles of the two other teams. But then how do you distinguish winner from losers? He previously said the loser's blazon has their own pastille in the corner marked defeat. So maybe: The winner's blazon has the winner's color, with pastilles of the two losers (no corner mark). Each loser's blazon also has the winner's color, with pastilles of the other two teams, but with their own pastille in the corner marked defeat. That would mean the loser's blazon has pastilles of the winner and the other loser. That would incorrectly suggest they beat the winner. Unless the pastilles are just identifying the participants, not victories. But in the 1v1 rule, the pastille indicated the opponent beaten. So in triple threat, if a loser's blazon has the winner's pastille, that would indicate they beat the winner, which is false.
+
+Given the complexity, I should ask for clarification. The user is giving a new rule that seems contradictory. I need to confirm. The user said: "les trois blasons vont tout avoir la même couleur, ils vont tout avoir les :) de couleur des deux autres écurie qu’ils ont battu". Perhaps "qu'ils ont battu" refers to the winner: the three blazons (winner and losers) will all have the same color, and they will all have the pastilles of the two other teams that the winner beat. That is, all three blazons are identical: winner's color background, with pastilles of the two losing teams. So the losers receive a blazon that looks exactly like the winner's, but maybe they are marked as defeat elsewhere? That seems odd.
+
+Alternatively, maybe the user is saying: In a triple threat, we award three blazons, all of the same color (the winner's color). Each blazon will have the pastilles of the two other teams that were in the match (not necessarily beaten, but present). So the winner's blazon has pastilles of both losers. Each loser's blazon has pastilles of the winner and the other loser. Then, to distinguish, the losers' blazons have their own pastille in the corner marked defeat. That would mean the loser's blazon shows they faced the winner and the other loser, but their own pastille in the corner indicates they lost. That could work as a record of participation and result: all three get the same base color (winner's color), with pastilles of the other two participants, and the losers have an additional marker (own pastille in corner marked defeat). The winner has no such marker. This would be a consistent visual system: the blazon color indicates the winning team of the match. The pastilles indicate the other teams involved. The corner marker indicates if you lost. So for a 1v1: winner gets own color blazon with opponent's pastille; loser gets winner's color blazon with own pastille in corner marked defeat, and maybe also the winner's pastille? In the 1v1 rule, the loser's blazon was described as "la couleur de l’autre écurie, gagnante avec ton poing, un contrasse dans le coin marqué défaite". That suggests the loser's blazon is the winner's color, with the loser's own pastille in the corner marked defeat. It doesn't mention the winner's pastille on the loser's blazon. So for 1v1, the loser's blazon only has their own pastille in the corner. For triple threat, if all three blazons are the winner's color, and each has pastilles of the two other teams, then the winner's blazon has two pastilles (the losers). Each loser's blazon would have two pastilles (the winner and the other loser) plus their own pastille in the corner marked defeat? That would be three pastilles on the loser's blazon, which is cluttered. Or maybe the losers' blazons only have their own pastille in the corner, and no other pastilles? But the user said "ils vont tout avoir les :) de couleur des deux autres écurie" - they will all have the smileys of the color of the two other teams. So all three blazons have two pastilles of the other teams. Then the losers also have an additional corner mark? That seems too much.
+
+I think the best approach is to ask the user to clarify, because this is a new rule that overrides the previous triple threat rule. I should summarize what I understand and ask for confirmation. The user seems to want to simplify: in triple threat, all three blazons are the same color (winner's color) and each has the pastilles of the two other teams. Then, to mark defeat, the losers' blazons have their own pastille in the corner marked defeat. But then the winner's blazon would not have a corner mark, and the losers would have an extra pastille. That could work: the base blazon is winner's color with two pastilles (the two other teams). The winner's blazon is just that. The losers' blazons have an additional pastille in the corner (their own color) marked defeat. That would mean the loser's blazon has three pastilles: the two other teams plus themselves in the corner. That's a bit much but possible.
+
+Alternatively, maybe the user means: The three blazons are all the same color (winner's color). Each blazon has the pastilles of the two other teams that the winner beat. That is, all three blazons are identical, showing the winner's color and the two losers' pastilles. Then, to distinguish, the losers' blazons are marked with a corner "DÉFAITE" but no extra pastille. That would be simpler: all three blazons look the same, but the losers have a "DÉFAITE" stamp in the corner. The user said "un contrasse dans le coin marqué défaite" - a stamp in the corner marked defeat. So maybe just a stamp, not a pastille. In the 1v1, he said "ton poing, un contrasse dans le coin" - your fist, a stamp in the corner. So the corner mark is a stamp, not a pastille. The pastilles are the colored dots representing the other teams. So for triple threat: all three blazons have the winner's color background, and each has the pastilles of the two other teams (so two pastilles). The winner's blazon has no corner stamp. The losers' blazons have a corner stamp marked "DÉFAITE". That would be consistent and simple. But then the loser's blazon shows the winner's pastille (since the two other teams include the winner and the other loser). That would imply the loser beat the winner? No, the pastilles just indicate the teams involved, not who beat whom. In the 1v1, the winner's blazon had the opponent's pastille, indicating they beat that opponent. The loser's blazon had the winner's color background, and the loser's own pastille in the corner marked defeat. It did not have the winner's pastille. So the pastille on a blazon indicates a team that was beaten by the blazon's owner? In 1v1, the winner's blazon has the loser's pastille. The loser's blazon has no pastille of the winner, only their own pastille in the corner. So the pastille represents a defeated opponent. Therefore, in a triple threat, the winner's blazon should have pastilles of both losers. The losers' blazons should NOT have the winner's pastille, because they didn't beat the winner. They should have their own pastille in the corner marked defeat. What about the other loser? Did the first loser beat the second loser? No, they both lost to the winner. They didn't beat each other. So the losers' blazons should not have any opponent pastilles. They should just be the winner's color with their own pastille in the corner marked defeat. That would be consistent with the 1v1 rule. But the user now says: "les trois blasons vont tout avoir la même couleur, ils vont tout avoir les :) de couleur des deux autres écurie qu’ils ont battu". This explicitly says all three blazons will have the smileys of the two other teams. That contradicts the 1v1 logic. So the user is changing the rule for triple threat: all three blazons are identical in base (winner's color + pastilles of the two other teams). Then, to mark defeat, the losers get a corner stamp. This means the losers' blazons incorrectly show pastilles of teams they didn't beat. But maybe the user wants that for simplicity, or maybe he considers that in a triple threat, all three teams are considered to have "beaten" the other two in some sense? That doesn't make sense.
+
+Given the ambiguity, I should ask for clarification. The user is giving instructions, and I should confirm my understanding. I'll restate the rule as I understand it and ask if it's correct. I'll also point out the potential inconsistency with the 1v1 rule and ask if he wants to keep the 1v1 rule as is or adjust it. The user's last message is a clarification, so I need to incorporate it. I'll respond in French, summarizing the new triple threat rule and asking for confirmation. I'll also note that this means in a triple threat, all three blazons are the winner's color, each with pastilles of the two other teams, and the losers have a corner stamp "DÉFAITE". I'll ask if the winner's blazon should have no corner stamp, and if the losers' blazons should have any additional pastille (like their own in the corner) or just the stamp. I'll also ask if this overrides the previous triple threat rule (where winner got own color with two pastilles, losers got winner's color with own pastille in corner). I'll be concise.
+Compris. Je reformule pour verrouiller la nouvelle règle triple threat que tu viens de poser, et je te demande confirmation sur deux points précis.
+
+Ce que je comprends de ta nouvelle règle
+
+Dans un match triple threat inter-écuries (3 écuries A, B, C) :
+
+3 blasons sont remis, un par écurie.
+Les 3 blasons ont la même couleur : celle de l’écurie vainqueuse.
+Chaque blason porte les pastilles des deux autres écuries présentes dans le match.
+Pour distinguer le vainqueur des perdants :
+
+Le blason du vainqueur n’a pas de tampon.
+Les blasons des perdants ont un tampon dans le coin marqué « DÉFAITE ».
+Donc si **Bleu bat
