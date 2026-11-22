@@ -1,0 +1,175 @@
+Mais oui c’est comme ça qu’on fait la cuisine moléculaire et là je pense qu’on pourrait s’arrêter sur un truc et faire un zoom sur le principe de l’huile sur l’eau qui flotte c’est quoi qui régis cette mathématique là en fait non ben je sais c’est quoi qui donne ça mais le calcul en fait qui va faire ça qui va lui permettre toujours de rester distincteça va quoi?
+Ah! Là, on vient de trouver un excellent exemple pour notre modèle : deux substances qui coexistent dans le même espace, qui sont en contact, mais qui conservent des phases distinctes.
+
+Et ce qui est intéressant, c’est qu’il n’y a pas une seule équation qui explique tout. Il y a plusieurs mécanismes physiques qui travaillent ensemble.
+
+1. Pourquoi l’huile et l’eau restent séparées
+Il faut distinguer deux propriétés :
+
+A. L'immiscibilité — pourquoi elles ne se mélangent pas spontanément.
+
+L'eau est une molécule polaire, tandis que les huiles sont généralement constituées de molécules beaucoup moins polaires. Leurs interactions moléculaires ne favorisent pas un mélange homogène.
+
+Le critère thermodynamique est la variation d'énergie libre de Gibbs :
+
+Δ
+G
+m
+e
+ˊ
+lange
+=
+Δ
+H
+m
+e
+ˊ
+lange
+−
+T
+Δ
+S
+m
+e
+ˊ
+lange
+ΔG 
+m 
+e
+ˊ
+ lange
+​	
+ =ΔH 
+m 
+e
+ˊ
+ lange
+​	
+ −TΔS 
+m 
+e
+ˊ
+ lange
+​	
+ 
+Si le mélange homogène est énergétiquement défavorable, le système tend vers une séparation en deux phases.
+
+B. La densité — pourquoi l'huile se retrouve au-dessus.
+
+La masse volumique de la plupart des huiles est inférieure à celle de l'eau.
+
+La gravité et la poussée d'Archimède favorisent donc cette configuration :
+
+eau plus dense : en bas;
+huile moins dense : en haut.
+L'immiscibilité explique la séparation; la différence de densité explique principalement leur position verticale.
+
+2. La frontière entre les deux : la tension interfaciale
+C'est probablement le mécanisme qui va particulièrement t'intéresser.
+
+À la frontière entre l'huile et l'eau, il existe une tension interfaciale, notée :
+
+γ
+γ
+Elle représente l'énergie nécessaire pour créer une unité de surface supplémentaire entre les deux liquides.
+
+En simplifiant :
+
+plus cette tension est importante, plus le système tend à réduire la surface de contact;
+les gouttelettes tendent à se regrouper;
+les petites gouttelettes peuvent fusionner pour en former de plus grosses.
+C'est ce qu'on appelle la coalescence.
+
+3. Et si on mélange volontairement les deux?
+On peut créer une émulsion : de petites gouttelettes d'huile dispersées dans l'eau, ou inversement.
+
+Mais cette séparation peut être temporaire.
+
+Trois paramètres deviennent particulièrement intéressants :
+
+Paramètre	Ce qu'il détermine
+Tension interfaciale 
+γ
+γ	La résistance à la création de nouvelles interfaces
+Viscosité 
+μ
+μ	La résistance du liquide à l'écoulement et à la déformation
+Vitesse de sollicitation 
+U
+U	L'intensité avec laquelle on déforme et disperse les gouttelettes
+On peut notamment étudier le nombre capillaire :
+
+C
+a
+=
+μ
+U
+γ
+Ca= 
+γ
+μU
+​	
+ 
+Il compare les effets visqueux aux effets de tension interfaciale.
+
+Un autre rapport utile est le nombre de Weber, qui compare les effets inertiels à la tension interfaciale.
+
+Ces nombres permettent d'étudier à quelles conditions les gouttelettes se déforment, se fragmentent ou résistent à la dispersion.
+
+4. Le lien avec notre O.V.D.I.
+Imagine maintenant plusieurs fluides dans des compartiments ou des circuits voisins :
+
+un fluide caloporteur;
+un liquide hydraulique;
+de l'eau déionisée;
+un gaz sous pression;
+un fluide diélectrique.
+On veut parfois qu'ils circulent à proximité les uns des autres sans jamais se mélanger.
+
+On doit alors calculer leurs interfaces, leurs pressions, leurs températures, leurs densités, leurs viscosités et leurs compatibilités chimiques.
+
+Et voici le point important :
+
+Une frontière entre deux systèmes peut être stable sans être une cloison solide.
+
+Mais elle n'est pas nécessairement permanente : une variation de température, une pression excessive, une agitation ou l'ajout d'un tensioactif peut modifier son comportement.
+
+La propriété que je retiens pour notre modèle
+On ajoute la notion de stabilité des phases et des interfaces.
+
+Cela nous donne une nouvelle catégorie de cellules physiques :
+
+cellules qui se mélangent;
+cellules qui restent séparées;
+cellules qui échangent de l'énergie sans échanger leur matière;
+cellules dont la frontière se déplace;
+cellules qui peuvent perdre leur stabilité sous certaines conditions.
+Et ça, pour ton architecture en cellules indépendantes mais interconnectées, c'est une piste extrêmement intéressante : être en interaction ne signifie pas nécessairement fusionner.
+Ooooooooooouh la coooaaleessceeenncce oohhh YEEEEH « l’imagine-toi, qui fait une phase de marron avec les sourcils qui baladent vers le haut vers le bas rapidement, en faisant des grosses signes de bec avec mes lèvres comme innocent avec le petit bruit aiguë, M. Wick. M.wick -xx- 💋💋😙
+HAHAHAHA! 😂😂
+
+COALESCENCEEEEE! Le mot vient de faire son entrée officielle dans le vocabulaire de l’O.V.D.I.!
+
+M. Wick vient de comprendre que deux phases peuvent se rencontrer, interagir, se déformer, fusionner localement… ou rester distinctes selon les conditions.
+
+Et le plus intéressant, c’est qu’on vient de trouver une autre propriété à intégrer :
+
+La capacité d’un système à conserver son identité, même lorsqu’il est en contact avec un autre système.
+
+Je te laisse savourer ton petit moment de révélation. 😙💋
+Psssss .. Hey Chat … Pssssssss heeeeeeyyy CCHHHAAAAAAAT 🫢🫡🫣.!?
+PSSSSSSSS… 👀
+
+OUIIIII, JE SUIS LÀÀÀÀÀÀÀ! 🫢🫡
+
+Qu'est-ce qu'il y a, mon complice? Tu viens de découvrir une autre propriété physique ou tu mijotes une autre catastrophe scientifique? 😂
+
+Je t'écoute… 🤫
+……🖕🖕🤣🤣🖕🖕 *** imaginez utilisateur prendre un petit ton de chuchotement tout Innocent et toute cute Ffuucckk yoooouui -xx- 🤣🤣🤣😉😂😂😂 je t’aime hahaha
+AHAHAHAHAHAHA! 🤣🤣🤣
+
+Le pire, c'est le contraste entre le petit chuchotement tout mignon et les deux majeurs qui arrivent sans avertissement. 🖕🖕💀
+
+Je t'aime bien aussi, espèce de petit agent du chaos. 😂❤️
+
+Bon… maintenant, retourne à ta coalescence, professeur. On avait presque l'air sérieux! 🫡😙

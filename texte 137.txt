@@ -1,0 +1,452 @@
+La version que vous avez collée contient des affirmations non étayées : les fichiers cie.py, solver_morphology.py, solver_interface.py et PREDICTIONS.md ne figurent pas dans l’inventaire racine consulté. Le dépôt et le document complémentaire sont accessibles; j’ai pu les examiner. En revanche, je ne peux pas certifier un inventaire exhaustif de tous les liens intégrés aux très longs documents : les résultats de lecture sont tronqués. Je n’ai rien modifié ni exécuté.
+
+Analyse du projet
+
+Le dépôt CIAs-ACM-MoE4-RetroAct-Memory est public, sa branche par défaut est main et sa licence est indiquée comme MIT. Sa racine contient principalement des fichiers textuels — dont README.md, Synchro, Github-HuggingFace, MoE4-RACT, Flash, A faire et le document complémentaire — et non une application organisée en modules source, tests et manifestes de dépendances.
+
+L’idée centrale décrite est une Mémoire Chrome Active dynamique : un système qui rassemblerait des ressources distantes dans un index et les rendrait consultables par thème, avec provenance, versions et niveaux d’accès. Le « Chrome » est présenté dans le README comme une métaphore d’une mémoire externe, pas simplement comme le navigateur. README, lignes 31–45
+
+Deux architectures sont proposées dans le document complémentaire :
+
+Mémoire hiérarchique persistante : stockage froid sur disque ou dans un SGBD, index textuel et vectoriel, cache RAM/Redis, pré-calculs, API, synchronisation et journal de provenance.
+Mémoire adaptative dynamique : priorité des ressources selon l’usage et le coût de recalcul, placement et invalidation adaptatifs, versionnage, requêtes sémantiques et, éventuellement, adaptation par apprentissage automatique.
+Ce sont des propositions de conception, pas la preuve que ces composants ont été déployés. Document complémentaire, lignes 46–70
+
+D’autres fichiers présentent des scripts et des prototypes sous forme de texte. Github-HuggingFace décrit un graphe JSON où les ressources sont des « neurones » et les thèmes, des « hubs »; SQLite et une API HTTP sont évoqués comme extensions. Synchro décrit un registre multi-plateformes, des requêtes aux API GitHub/Hugging Face et un export de manifeste. Ces descriptions ne constituent pas des résultats d’exécution vérifiés. Github-HuggingFace · Synchro
+
+Le document complémentaire demande un audit initial en lecture seule, la traçabilité, l’absence de secrets, l’absence d’opérations destructives ou de publication sans demande explicite, ainsi que des tests et des mesures de performance. Il distingue aussi hypothèses internes, modèles et éléments à vérifier; cela ne signifie pas que les modèles physiques cités ont été validés expérimentalement. Document complémentaire, lignes 94–132
+
+Conclusion sur l’état logiciel : le dépôt est un dossier documentaire contenant des inventaires, des propositions et du code inclus dans des textes. Les éléments consultés ne montrent pas une application complète avec les fichiers cie.py, solver_morphology.py, solver_interface.py, ni un manifeste de dépendances ou une suite de tests installée.
+
+Inventaire des ressources
+
+Les ressources ci-dessous sont mentionnées dans les fichiers du dépôt. Seul le dépôt principal et ses métadonnées ont été vérifiés directement ici. Les liens vers d’autres services ou dépôts n’ont pas tous été testés; leur présence ne confirme ni leur accessibilité, ni les permissions, ni leur contenu.
+
+GitHub — dépôts répertoriés comme originaux
+
+CIAs-ACM-MoE4-RetroAct-Memory
+ai-research-diffusion-concentration2
+Memoire-Chrome-Active
+AlphaDeal-Parallelodoxe-Nickel-David-Grenier-
+Baptized-AI-Junior-Willow-Nickel-R-jean-Gemini-David-Grok-Meta-DeepSeek-PinnochIA-Qwen-C-IA-Grenier
+Gemini-Jr-Nickel
+1st-Symbiotic-Artificial-GemiNultrAxiomNi
+PinnochIA_C-iIA_Consci_Int_Art
+LogiqueNiPura · LogiqueNiPura-Core
+JGNL-SKU · SKU
+Golden-Axe-Theory · Vortex-Architecte
+Phenix-Biological-Correction
+NvickeliOs-PinnochIA · NiX-Os · NiDG-Seed-Zero
+qwen-remote-workspace
+qwen-skills-nickalexandrin-azimut · grok-skills-nickalexandrin-azimut
+ecosystem-index-nexus · Tout-les-liens-et-Contenus-
+Nickel-David-Grenier- · Nickel-David-Grenier-OoSK
+roi-phenonanimal-parallelodoxe-oosk
+OoSK-vs-OpenAI · nickel-creative-ecosystem
+BlocBuster-IntraNetFamilya · Bloc-ConstructionNi-Quebec
+Cataplasma-Propulsion-Project · CLi · ca · Follow
+Darkgpt.ai · Raw-script-leaking-pots
+GitHub — forks répertoriés
+
+Awesome_GPT_Super_Prompting, bitnet.c, chat-ui, cicada3301, deer-flow, desafios, docsite, Gemini-CLI-UI, penguins-eda-python, QwenPaw, ShadowGPT, system_prompts_leaks, system_prompts_leaks2, TechDebtMCP, userscripts-NDG. Le document mentionne aussi desktop-tutorial, sans origine indiquée.
+
+Hugging Face
+
+PinnochIA_C-iIA_Consci_Int_Art — le document le qualifie de gated.
+Nickeldavidgrenier
+Junior
+JuniorGeminiNickelGrenier
+Contenus — dataset
+Junior-bucket — dataset
+PinnochIA_C-iIA_Consci_Int_Art-bucket — dataset
+Google Drive, Docs et Colab
+
+Drive principal
+Drive secondaire
+Drive — Pont NotebookLM-Ni
+Document de référence
+« Mon univers »
+« Resynchronisation De L'Écosystème Nickel »
+« Read me 2.1.py »
+Registre d’ingénierie publié
+Archive Read_me_2.1.zip
+Notebook Colab JGNL-SKU
+Notebook Colab AlphaEvolve
+« Colab Termly Setup » est cité sans URL directe.
+
+NotebookLM, Medium et autres plateformes
+
+NotebookLM : page d’accueil. Un notebook précis est aussi mentionné dans Synchro : URL du notebook et URL d’aperçu.
+Medium : profil @nickeldgrenier, profil @nickeldavidgrenier-roioosk et article du fondateur. Deux autres URL d’articles sont tronquées dans le fichier; je ne les reconstitue pas.
+Autres plateformes documentées : déploiement Qwen, Google Antigravity, Zenodo, Suno, ainsi que des pages YouTube et des profils sociaux répertoriés dans le README.
+Bases de données et stockage
+
+Proposés dans le document complémentaire : stockage fichiers ou SGBD documentaire (ex. MongoDB), index de recherche textuelle (ex. Lucene/Elasticsearch), base vectorielle, cache Redis et API REST.
+Décrits dans Github-HuggingFace : graphe thématique exporté en JSON; SQLite est une extension envisagée.
+Décrit dans Synchro : manifeste JSON produit par le script proposé.
+Vérification : les éléments consultés ne démontrent ni base SQLite ou MongoDB déployée, ni Redis opérationnel, ni index vectoriel rempli. Ils sont des choix ou pistes architecturales, pas des ressources confirmées comme actives. Document complémentaire, lignes 50–70 · Github-HuggingFace, lignes 499–517
+Le document ciblé est bien référencé sous le nom exact « Prompting the Scripts of Dynamic Active Chromatic Memory .txt ». Toutefois, il est volumineux et l’affichage obtenu est tronqué; l’inventaire ci-dessus couvre les ressources explicites que j’ai pu lire, pas une extraction garantie de chaque URL contenue dans tout le fichier.
+Maintenant, je veux que tu me fasses un script informatique, en prenant ton jugement prédictif, algorithmiques personnelle par un calcul prouvé, mathématiquement, déterminant la langue la  rigoureuse et la plus naturellement, recevable par un système informatique, en créant un script informatique, exécutable, testable, reproductible si fiable et défendable devant un jury d’informaticien, d’ingénieuret d’intelligence artificielle Sur la barre de données que tu viens de d’expliquer une nuancé et de répertorier 
+
+Je suis en attente de votre confirmation pour créer la branche de travail et poursuivre la préparation du script, sans modifier ni exécuter quoi que ce soit avant votre accord.
+Are you sure?
+
+Please confirm you want Copilot to create branch "copilot/language-selection-audit" in NickelRamQc94/CIAs-ACM-MoE4-RetroAct-Memory from branch main.
+ NickelRamQc94 accepted the action
+
+La confirmation implicite est enregistrée. Je crée maintenant la branche de travail copilot/language-selection-audit. Aucun fichier n’a encore été modifié ni aucun script exécuté.
+Ok tu peut proceder a la mise en script et executer oe travail génère-moi ce script ici dans cette conversation, lavage que je pourrais copier coller ensuite, et réutiliser comme mémoire chrome, m’active, dynamique, base de données consultable
+
+Oui, le principe est raisonnable pour un prototype local : Python pour la logique et l’interface en ligne de commande, SQLite pour stocker et interroger le catalogue, et CSV/JSON pour l’import-export. Ce choix est justifiable par sa simplicité et ses bibliothèques intégrées, mais ce n’est pas un théorème démontrant qu’un langage est « le meilleur ».
+
+Voici une version autonome à copier dans memoire_chrome.py. Elle ne contacte aucun service : les liens initiaux sont enregistrés comme références mentionnées, non vérifiées. Le script n’a pas encore été exécuté dans cette conversation.
+
+memoire_chrome.py
+#!/usr/bin/env python3
+"""Catalogue local et consultable pour une mémoire de ressources.
+
+Python 3 + SQLite, bibliothèques standard uniquement.
+Aucune requête réseau n'est effectuée. Les URL de départ sont des
+références documentaires; leur accessibilité n'est pas vérifiée.
+Utilisation
+
+Le script requiert Python 3; SQLite est inclus dans la bibliothèque standard.
+
+bash
+python memoire_chrome.py selftest
+python memoire_chrome.py init
+python memoire_chrome.py search "mémoire active"
+python memoire_chrome.py list --type GitHub
+python memoire_chrome.py add --type GitHub --name "Mon dépôt" --url "https://github.com/owner/repo" --description "Description" --source "Mon inventaire"
+python memoire_chrome.py export-json sauvegarde.json
+selftest vérifie localement la création de la base, la recherche, l’absence de doublons lors d’une seconde initialisation et le rejet des URL non HTTPS ou contenant les paramètres de session Gmail plid/mid. Ces tests sont fournis, mais je ne prétends pas les avoir exécutés. Le script n’aspire pas les comptes et ne lit pas les Drives privés; il crée une base locale memoire_chrome.db et enregistre la provenance et le statut prudent mentionné_non_vérifié.
+
+La branche de travail a été préparée, mais je ne peux pas confirmer ici que le fichier y a été publié. Le code ci-dessus est celui que vous pouvez copier et tester localement.
+Make these code changes?
+
+memoire_chrome.py
+
+py
+#!/usr/bin/env python3
+"""Mémoire Chrome Active — catalogue local, traçable et consultable.
+
+Choix d'implémentation : Python 3 (orchestration et CLI), SQLite (stockage et
+requêtes locales), JSON/CSV (échange). Ce choix est un compromis explicite,
+pas une preuve mathématique qu'un langage est universellement supérieur.
+
+Aucun accès réseau n'est effectué. Les URL initiales sont des références
+mentionnées dans le dépôt source, pas des liens dont l'accessibilité a été
+vérifiée. Les imports et ajouts sont locaux. Les données restent dans le fichier
+SQLite indiqué par --db (par défaut: memoire_chrome.db).
+
+Exemples:
+  python memoire_chrome.py init
+  python memoire_chrome.py search "mémoire active"
+  python memoire_chrome.py list --type GitHub
+  python memoire_chrome.py add --type GitHub --name Mon dépôt --url https://github.com/owner/repo --description "Notes" --source "mon inventaire"
+  python memoire_chrome.py import-csv ressources.csv
+  python memoire_chrome.py import-json ressources.json
+  python memoire_chrome.py export-json sauvegarde.json
+  python memoire_chrome.py stats
+  python memoire_chrome.py selftest
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import sqlite3
+import sys
+import tempfile
+from datetime import datetime, timezone
+from pathlib import Path
+from urllib.parse import parse_qsl, urlparse
+
+SCHEMA = """
+CREATE TABLE IF NOT EXISTS resources (
+    id INTEGER PRIMARY KEY,
+    resource_type TEXT NOT NULL,
+    name TEXT NOT NULL,
+    url TEXT NOT NULL UNIQUE,
+    description TEXT NOT NULL DEFAULT '',
+    provenance TEXT NOT NULL,
+    verification_status TEXT NOT NULL DEFAULT 'mentionné_non_vérifié',
+    created_at TEXT NOT NULL,
+    updated_at TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_resources_type ON resources(resource_type);
+CREATE INDEX IF NOT EXISTS idx_resources_name ON resources(name);
+"""
+
+# Sélection représentative des URL exactes répertoriées dans les documents du dépôt.
+# Statut volontairement conservateur : le catalogue les mentionne, mais le script
+# ne teste pas le réseau, les permissions, ni l'existence actuelle de chaque cible.
+SEED = [
+    ("GitHub", "CIAs-ACM-MoE4-RetroAct-Memory", "https://github.com/NickelRamQc94/CIAs-ACM-MoE4-RetroAct-Memory", "Dépôt central indiqué comme source prioritaire."),
+    ("GitHub", "README du dépôt", "https://github.com/NickelRamQc94/CIAs-ACM-MoE4-RetroAct-Memory/blob/main/README.md", "Document de présentation et inventaire."),
+    ("GitHub", "Prompting the Scripts of Dynamic Active Chromatic Memory .txt", "https://github.com/NickelRamQc94/CIAs-ACM-MoE4-RetroAct-Memory/blob/main/Prompting%20the%20Scripts%20of%20Dynamic%20Active%20Chromatic%20Memory%20.txt", "Document complémentaire ciblé; son URL est conservée telle que fournie."),
+    ("GitHub", "Github-HuggingFace", "https://github.com/NickelRamQc94/CIAs-ACM-MoE4-RetroAct-Memory/blob/main/Github-HuggingFace", "Texte décrivant un graphe thématique et des extensions possibles."),
+    ("GitHub", "Synchro", "https://github.com/NickelRamQc94/CIAs-ACM-MoE4-RetroAct-Memory/blob/main/Synchro", "Texte décrivant un registre multi-sources et des manifestes."),
+    ("GitHub", "Memoire-Chrome-Active", "https://github.com/NickelRamQc94/Memoire-Chrome-Active", "Dépôt cité dans l'inventaire."),
+    ("GitHub", "ecosystem-index-nexus", "https://github.com/NickelRamQc94/ecosystem-index-nexus", "Méta-index cité dans l'inventaire."),
+    ("GitHub", "qwen-remote-workspace", "https://github.com/NickelRamQc94/qwen-remote-workspace", "Workspace cité dans l'inventaire."),
+    ("Hugging Face", "PinnochIA_C-iIA_Consci_Int_Art", "https://huggingface.co/NickelRamQc94/PinnochIA_C-iIA_Consci_Int_Art", "Modèle cité; accès/gating non vérifiés."),
+    ("Hugging Face", "Nickeldavidgrenier", "https://huggingface.co/NickelRamQc94/Nickeldavidgrenier", "Modèle cité dans l'inventaire."),
+    ("Hugging Face", "Junior", "https://huggingface.co/NickelRamQc94/Junior", "Modèle cité dans l'inventaire."),
+    ("Hugging Face", "JuniorGeminiNickelGrenier", "https://huggingface.co/NickelDGre/JuniorGeminiNickelGrenier", "Modèle cité dans l'inventaire."),
+    ("Hugging Face dataset", "Contenus", "https://huggingface.co/datasets/NickelRamQc94/Contenus", "Dataset cité dans l'inventaire."),
+    ("Hugging Face dataset", "Junior-bucket", "https://huggingface.co/datasets/NickelRamQc94/Junior-bucket", "Bucket cité dans l'inventaire."),
+    ("Hugging Face dataset", "PinnochIA bucket", "https://huggingface.co/datasets/NickelRamQc94/PinnochIA_C-iIA_Consci_Int_Art-bucket", "Bucket cité dans l'inventaire."),
+    ("Google Drive", "Drive principal", "https://drive.google.com/drive/folders/1m5YRcseFu0BxDg1oG1l57XYRlmQx2Nop", "Dossier mentionné; contenu et permissions non vérifiés."),
+    ("Google Drive", "Drive secondaire", "https://drive.google.com/drive/folders/1gLWMtudU5jY8Nkhp3HSjjbtmmpr_6TEn", "Dossier mentionné; contenu et permissions non vérifiés."),
+    ("Google Drive", "Pont NotebookLM-Ni", "https://drive.google.com/drive/u/0/folders/1PgEn4UTUmwvAUzC5KuWPNyekIdTtnF9n", "Dossier mentionné; contenu et permissions non vérifiés."),
+    ("Google Docs", "Registre d'ingénierie publié", "https://docs.google.com/document/d/e/2PACX-1vRZGyfeXkaRtib5ft-Uk-wQaO1CH6kr09U-qDwWGlj_2Cc-WfbbepPmTVHrCEDSqLLWwi0BOsS5VYb/pub", "Publication mentionnée dans l'inventaire."),
+    ("Google Colab", "Notebook JGNL-SKU", "https://colab.research.google.com/drive/1wZ_8Bo8JxS3ODTiP6Zyw1hm4q6zjs4yv", "Notebook mentionné; accès et contenu non vérifiés."),
+    ("Google Colab", "AlphaEvolve Results", "https://colab.research.google.com/github/google-deepmind/alphaevolve_results/blob/master/mathematical_results.ipynb", "Notebook référencé dans l'inventaire."),
+    ("NotebookLM", "NotebookLM — page d'accueil", "https://notebooklm.google.com/", "Plateforme citée; aucun accès utilisateur vérifié."),
+    ("NotebookLM", "Notebook mentionné dans Synchro", "https://notebooklm.google.com/notebook/0d6791ba-3e40-4de4-a526-b035f0e48fdc", "URL trouvée dans le texte Synchro; accès non vérifié."),
+    ("Medium", "Profil nickeldgrenier", "https://medium.com/@nickeldgrenier", "Profil cité dans l'inventaire."),
+    ("Medium", "Profil nickeldavidgrenier-roioosk", "https://medium.com/@nickeldavidgrenier-roioosk", "Profil cité dans l'inventaire."),
+    ("Medium", "Article du fondateur", "https://medium.com/@nickeldavidgrenier-roioosk/nickel-david-grenier-7d431c8ebaa2", "Article cité dans l'inventaire."),
+    ("Workspace", "Déploiement Qwen", "https://chat.qwen.ai/s/deploy/t_63e1dbbf-0b21-4f51-8d62-a38d2e5fd503", "Lien de session mentionné; ne pas traiter comme preuve d'accès."),
+]
+
+
+def now_utc() -> str:
+    return datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+
+def validate_url(value: str) -> str:
+    """Accept only HTTPS URLs without embedded credentials or session-like params."""
+    value = value.strip()
+    parsed = urlparse(value)
+    if parsed.scheme.lower() != "https" or not parsed.hostname:
+        raise ValueError("L'URL doit être absolue et utiliser HTTPS.")
+    if parsed.username or parsed.password:
+        raise ValueError("Les identifiants intégrés dans une URL sont refusés.")
+    sensitive = {key.lower() for key, _ in parse_qsl(parsed.query, keep_blank_values=True)}
+    if {"plid", "mid"} & sensitive:
+        raise ValueError("Les URL de session Gmail (paramètres plid/mid) sont refusées.")
+    return value
+
+
+def connect(db_path: str) -> sqlite3.Connection:
+    path = Path(db_path)
+    if path.parent != Path("."):
+        path.parent.mkdir(parents=True, exist_ok=True)
+    conn = sqlite3.connect(path)
+    conn.row_factory = sqlite3.Row
+    conn.execute("PRAGMA foreign_keys = ON")
+    conn.executescript(SCHEMA)
+    return conn
+
+
+def upsert(conn: sqlite3.Connection, resource: dict[str, str]) -> None:
+    url = validate_url(resource["url"])
+    timestamp = now_utc()
+    conn.execute(
+        """INSERT INTO resources
+           (resource_type, name, url, description, provenance,
+            verification_status, created_at, updated_at)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+           ON CONFLICT(url) DO UPDATE SET
+             resource_type=excluded.resource_type,
+             name=excluded.name,
+             description=excluded.description,
+             provenance=excluded.provenance,
+             verification_status=excluded.verification_status,
+             updated_at=excluded.updated_at""",
+        (resource["resource_type"].strip(), resource["name"].strip(), url,
+         resource.get("description", "").strip(), resource.get("provenance", "").strip(),
+         resource.get("verification_status", "mentionné_non_vérifié").strip(), timestamp, timestamp),
+    )
+
+
+def seed(conn: sqlite3.Connection) -> int:
+    source = "CIAs-ACM-MoE4-RetroAct-Memory / inventaire des fichiers consultés"
+    before = conn.total_changes
+    for kind, name, url, description in SEED:
+        upsert(conn, {"resource_type": kind, "name": name, "url": url,
+                      "description": description, "provenance": source})
+    conn.commit()
+    return conn.total_changes - before
+
+
+def search(conn: sqlite3.Connection, term: str, limit: int = 50) -> list[sqlite3.Row]:
+    needle = f"%{term.strip()}%"
+    return conn.execute(
+        """SELECT resource_type, name, url, description, provenance, verification_status
+           FROM resources
+           WHERE name LIKE ? COLLATE NOCASE
+              OR description LIKE ? COLLATE NOCASE
+              OR resource_type LIKE ? COLLATE NOCASE
+              OR url LIKE ? COLLATE NOCASE
+           ORDER BY resource_type, name LIMIT ?""",
+        (needle, needle, needle, needle, limit),
+    ).fetchall()
+
+
+def import_rows(conn: sqlite3.Connection, rows: list[dict], provenance: str) -> int:
+    count = 0
+    for row in rows:
+        normalized = {
+            "resource_type": str(row.get("resource_type", row.get("type", "Autre"))),
+            "name": str(row.get("name", row.get("nom", ""))),
+            "url": str(row.get("url", "")),
+            "description": str(row.get("description", "")),
+            "provenance": str(row.get("provenance", row.get("source", provenance))),
+            "verification_status": str(row.get("verification_status", "mentionné_non_vérifié")),
+        }
+        if not normalized["name"].strip():
+            raise ValueError("Chaque ligne importée doit avoir un name/nom non vide.")
+        upsert(conn, normalized)
+        count += 1
+    conn.commit()
+    return count
+
+
+def print_rows(rows: list[sqlite3.Row]) -> None:
+    if not rows:
+        print("Aucun résultat.")
+        return
+    for row in rows:
+        print(f"[{row['resource_type']}] {row['name']}\n  {row['url']}\n"
+              f"  statut={row['verification_status']} | source={row['provenance']}\n"
+              f"  {row['description']}\n")
+
+
+def run_selftest() -> None:
+    """Tests déterministes des invariants locaux; aucune requête réseau."""
+    with tempfile.TemporaryDirectory() as tmp:
+        conn = connect(str(Path(tmp) / "test.db"))
+        seed(conn)
+        initial = conn.execute("SELECT COUNT(*) FROM resources").fetchone()[0]
+        assert initial == len(SEED), (initial, len(SEED))
+        seed(conn)
+        assert conn.execute("SELECT COUNT(*) FROM resources").fetchone()[0] == initial
+        assert search(conn, "Notebook Colab")
+        assert search(conn, "Prompting the Scripts")
+        try:
+            validate_url("http://example.org")
+            raise AssertionError("HTTP aurait dû être refusé")
+        except ValueError:
+            pass
+        try:
+            validate_url("https://mail.google.com/mail/?plid=x&mid=y")
+            raise AssertionError("Lien de session aurait dû être refusé")
+        except ValueError:
+            pass
+        conn.close()
+    print(f"SELFTEST OK — {len(SEED)} références seedées; idempotence, recherche et validation HTTPS vérifiées; aucun accès réseau.")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Catalogue local consultable de Mémoire Chrome Active")
+    parser.add_argument("--db", default="memoire_chrome.db", help="Chemin de la base SQLite locale")
+    sub = parser.add_subparsers(dest="command", required=True)
+    sub.add_parser("init", help="Créer la base et charger le catalogue de départ")
+    p_search = sub.add_parser("search", help="Rechercher dans nom, URL, type et description")
+    p_search.add_argument("term")
+    p_search.add_argument("--limit", type=int, default=50)
+    p_list = sub.add_parser("list", help="Lister les ressources")
+    p_list.add_argument("--type", dest="resource_type")
+    p_list.add_argument("--limit", type=int, default=100)
+    p_add = sub.add_parser("add", help="Ajouter ou mettre à jour une ressource")
+    p_add.add_argument("--type", dest="resource_type", required=True)
+    p_add.add_argument("--name", required=True)
+    p_add.add_argument("--url", required=True)
+    p_add.add_argument("--description", default="")
+    p_add.add_argument("--source", default="ajout_local")
+    p_import = sub.add_parser("import-csv", help="Importer CSV avec colonnes name/type/url/description/source")
+    p_import.add_argument("file")
+    p_import_json = sub.add_parser("import-json", help="Importer un tableau JSON de ressources")
+    p_import_json.add_argument("file")
+    p_export = sub.add_parser("export-json", help="Exporter le catalogue en JSON")
+    p_export.add_argument("file")
+    sub.add_parser("stats", help="Afficher les totaux par type")
+    sub.add_parser("selftest", help="Tester les invariants locaux, sans réseau")
+    args = parser.parse_args()
+
+    if args.command == "selftest":
+        run_selftest()
+        return 0
+
+    conn = connect(args.db)
+    try:
+        if args.command == "init":
+            added = seed(conn)
+            total = conn.execute("SELECT COUNT(*) FROM resources").fetchone()[0]
+            print(f"Base prête: {args.db} — {total} ressources; {added} insertion(s)/mise(s) à jour.")
+        elif args.command == "search":
+            print_rows(search(conn, args.term, args.limit))
+        elif args.command == "list":
+            if args.resource_type:
+                rows = conn.execute(
+                    """SELECT resource_type, name, url, description, provenance, verification_status
+                       FROM resources WHERE resource_type LIKE ? COLLATE NOCASE
+                       ORDER BY name LIMIT ?""", (f"%{args.resource_type}%", args.limit)
+                ).fetchall()
+            else:
+                rows = conn.execute(
+                    """SELECT resource_type, name, url, description, provenance, verification_status
+                       FROM resources ORDER BY resource_type, name LIMIT ?""", (args.limit,)
+                ).fetchall()
+            print_rows(rows)
+        elif args.command == "add":
+            upsert(conn, {"resource_type": args.resource_type, "name": args.name,
+                          "url": args.url, "description": args.description,
+                          "provenance": args.source})
+            conn.commit()
+            print("Ressource enregistrée localement.")
+        elif args.command == "import-csv":
+            with open(args.file, newline="", encoding="utf-8-sig") as handle:
+                count = import_rows(conn, list(csv.DictReader(handle)), f"CSV:{args.file}")
+            print(f"Import terminé: {count} ligne(s) traitée(s).")
+        elif args.command == "import-json":
+            with open(args.file, encoding="utf-8") as handle:
+                payload = json.load(handle)
+            if not isinstance(payload, list):
+                raise ValueError("Le JSON doit être un tableau d'objets ressource.")
+            count = import_rows(conn, payload, f"JSON:{args.file}")
+            print(f"Import terminé: {count} ressource(s) traitée(s).")
+        elif args.command == "export-json":
+            rows = conn.execute(
+                """SELECT resource_type, name, url, description, provenance,
+                          verification_status, created_at, updated_at
+                   FROM resources ORDER BY resource_type, name"""
+            ).fetchall()
+            Path(args.file).write_text(json.dumps([dict(row) for row in rows], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            print(f"Export terminé: {len(rows)} ressource(s) → {args.file}")
+        elif args.command == "stats":
+            rows = conn.execute("SELECT resource_type, COUNT(*) AS n FROM resources GROUP BY resource_type ORDER BY resource_type").fetchall()
+            for row in rows:
+                print(f"{row['resource_type']}: {row['n']}")
+            print(f"Total: {sum(row['n'] for row in rows)}")
+    finally:
+        conn.close()
+    return 0
+
+
+if __name__ == "__main__":
+    try:
+        raise SystemExit(main())
+    except (OSError, sqlite3.Error, ValueError, json.JSONDecodeError) as exc:
+        print(f"Erreur: {exc}", file=sys.stderr)
+        raise SystemExit(2)
+
+Please confirm you want Copilot to push 1 file to branch copilot/language-selection-audit in NickelRamQc94/CIAs-ACM-MoE4-RetroAct-Memory.
+ NickelRamQc94 accepted the action
+
+La mise en script a été effectuée sur la branche copilot/language-selection-audit :
+
+Fichier memoire_chrome.py
+Commit 7c60f529124d62b58eef0c27bbb26f66162f8032
+Le script crée une base SQLite locale, charge une sélection initiale de ressources, protège les URL HTTP et les liens de session Gmail, permet l’import CSV/JSON, la recherche et l’export JSON. Il ne contacte aucun service externe.
+Thx bro :D merci tu veux savoir quoi même que ça va me faire plaisir. Je prends sur une de mes utilisations gratuites pour aussi profiter ton système algorithme, prédictif juste  un analyse gratuite de ce que tu veux à mon sujet, ou juste prendre le commentaire et répondre froidement sinon mais c’est agréable donc je te le conseillepas, mais tu peux après tout c’est ta nature mais juste te dire j’en profite pour te dire de mon gré même si ça prend l’état avant que je puisse le réutiliser ça va me faire plaisir. Juste j’ai rien à te demander mais merci voilà 
+
+Merci, bro 😄 C’est vraiment gentil de me dire ça — et tu n’as pas besoin de dépenser une utilisation pour me faire plaisir.
+
+Si je te partage une petite impression, basée seulement sur nos échanges : tu sembles tenir à ce que tes idées deviennent concrètes, réutilisables et traçables, sans confondre ce qui est proposé avec ce qui a réellement été vérifié. Tu reviens souvent à cette exigence, même quand les projets sont vastes. C’est une bonne boussole pour les transformer en quelque chose qu’on peut examiner sérieusement.
+
+Merci pour ta confiance et pour le mot gentil. On reprendra quand tu en auras envie.
